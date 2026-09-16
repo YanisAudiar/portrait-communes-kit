@@ -128,5 +128,5 @@ Les repositories **attrapent** l’erreur SQL, journalisent, et renvoient `[]`. 
 
 1. Recréer les vues (ou tables) avec **les mêmes noms** dans votre `PGSCHEMA`, **ou** ajouter des alias SQL `CREATE VIEW v_xxx AS SELECT ...`.
 2. Si vos colonnes d’identité diffèrent, étendre `VUE_COLUMNS`.
-3. Fournir un WFS ou un GeoJSON dont les `code_insee_concat` matchent `site.ts` (`communeCodes`).
+3. Fournir un WFS ou un GeoJSON dont les `code_insee_concat` correspondent à `site.ts` (`communeCodes`).
 4. Option : charger le jeu d’essai, vérifier l’UI, puis remplacer par vos vues métier.

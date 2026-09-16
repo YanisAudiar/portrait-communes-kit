@@ -7,7 +7,7 @@ Décisions ouvertes pour le partage aux agences. Rien ici ne transfère le dép�
 | Rôle | Aujourd’hui |
 |------|-------------|
 | Mainteneur | [Audiar](https://www.audiar.org) |
-| Instance de référence | Pays de Rennes / Rennes Métropole |
+| Instance de référence | Aire rennaise |
 | Forks | Chaque agence sur son territoire (`site.ts` + vues SQL) |
 
 Ce n’est **pas** une plateforme multi-agences. Un fork = une instance.

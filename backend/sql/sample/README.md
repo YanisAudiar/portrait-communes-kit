@@ -30,7 +30,7 @@ Dans `frontend/.env` :
 VITE_USE_SAMPLE_TERRITORY=true
 ```
 
-Docker Compose pose déjà cette variable. En prod Audiar, la laisser vide (défaut = Rennes Métropole).
+Docker Compose pose déjà cette variable. En prod Audiar, la laisser vide (défaut = instance aire rennaise).
 
 Nordville (99101) a des données sur tous les thèmes. Sudville et Estville n’ont que les ménages (carte + fiche partielle).
 

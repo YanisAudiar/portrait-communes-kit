@@ -1,8 +1,8 @@
 # Contribuer
 
-Portrait Communes est un outil d’agences d’urbanisme. Audiar maintient l’instance de référence (Pays de Rennes). Une autre agence **fork** et adapte `site.ts` + ses vues SQL — elle n’a pas besoin d’une PR pour déployer son territoire.
+Portrait Communes est un outil d’agences d’urbanisme. Audiar, agence d’urbanisme de l’aire rennaise, maintient l’instance de référence. Une autre agence **fork** et adapte `site.ts` + ses vues SQL — elle n’a pas besoin d’une PR pour déployer son territoire.
 
-Les PR vers ce dépôt concernent le **code générique** (UI, API, contrat de données, Docker), pas les données Rennes.
+Les PR vers ce dépôt concernent le **code générique** (UI, API, contrat de données, Docker), pas les données de Rennes.
 
 ## Démarrage
 

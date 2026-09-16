@@ -1,5 +1,5 @@
 name: Anomalie
-description: Un comportement incorrect de l’application (pas une donnée Rennes).
+description: Un comportement incorrect de l’application (pas une donnée de Rennes).
 title: "fix: "
 labels: ["bug"]
 body:

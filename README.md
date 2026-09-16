@@ -2,9 +2,9 @@
 
 Application web pour **lire un territoire commune par commune** : carte, fiche, indicateurs et graphiques.
 
-Elle s’adresse aux **agences d’urbanisme** (et observatoires qui travaillent comme elles). L’idée n’est pas un portail national, ni un export figé : chaque agence installe **sa** instance sur **son** territoire d’études, avec **ses** données.
+Elle s’adresse aux **agences d’urbanisme** (et observatoires qui travaillent comme elles). L’idée n’est pas un portail national, ni un export figé : chaque agence installe **son** instance sur **son** territoire d’études, avec **ses** données.
 
-Instance de référence : Pays de Rennes, maintenue par [Audiar](https://www.audiar.org). Licence [MIT](LICENSE).
+Instance de référence : l’aire rennaise, maintenue par [Audiar](https://www.audiar.org). Licence [MIT](LICENSE).
 
 ## Dépôts
 
@@ -13,10 +13,10 @@ Portrait Communes n’est **pas** un dépôt unique. Trois dépôts, trois rôle
 | Dépôt | Rôle | Public |
 |-------|------|--------|
 | **[portrait-communes-kit](https://github.com/YanisAudiar/portrait-communes-kit)** | **Celui-ci.** Kit pour les agences : Docker, `site.ts`, contrat SQL. À forker pour un autre territoire. | Oui |
-| [portrait-commune](https://github.com/YanisAudiar/portrait-commune) | Instance Audiar **en production** (serveur Perceval). Ne pas s’en servir comme base d’un fork agence. | Selon le compte |
+| [portrait-commune](https://github.com/YanisAudiar/portrait-commune) | Instance Audiar **en production** (serveur Perceval). Ne pas l’utiliser comme base d’un fork d’agence. | Selon le compte |
 | GitLab interne (`portrait-commune-v2`) | Développement et CI Audiar. Pas le dépôt à cloner pour une autre agence. | Non |
 
-Un fork = une instance. Les PR vers le kit concernent le **code générique**, pas les données Rennes.
+Un fork = une instance. Les PR vers le kit concernent le **code générique**, pas les données de Rennes.
 
 ## Pourquoi cet outil
 
@@ -26,7 +26,7 @@ Sans outil partagé, chaque agence reconstruit la même chose (PDF, tableur, car
 
 Ce n’est **pas** :
 
-- un dump des données Rennes à republier ailleurs
+- un dump des données de Rennes à republier ailleurs
 - une plateforme multi-agences (un fork = une instance)
 - un entrepôt INSEE : l’app lit des **vues** déjà préparées, pas les tables brutes
 
@@ -76,7 +76,7 @@ Guide pas à pas : [`docs/INSTALL_AGENCE.md`](docs/INSTALL_AGENCE.md).
 1. Éditer [`site.ts`](frontend/src/config/site.ts) : nom, codes INSEE, centre carte, mentions. Liste `communeCodes` vide = la couche geo est déjà filtrée.
 2. Remplacer `frontend/src/assets/images/logo-Audiar.svg` (et `frontend/src/assets/icons/audiar-logo.svg`).
 3. Recréer les vues selon le [contrat](docs/CONTRAT_DONNEES.md).
-4. Pointer `GEOSERVER_URL` **ou** `COMMUNES_GEOJSON_PATH` (les `code_insee_concat` doivent matcher `site.ts`).
+4. Pointer `GEOSERVER_URL` **ou** `COMMUNES_GEOJSON_PATH` (les `code_insee_concat` doivent correspondre à `site.ts`).
 5. Rebuild front **sans** `VITE_USE_SAMPLE_TERRITORY`.
 
 Minimum pour une carte « avec données » : la vue `v_demo_indicateurs_menages_par_com` + un WFS ou GeoJSON.
@@ -99,7 +99,7 @@ Frontend : souvent `http://localhost:5173`. API : port `PORT` du `.env` (ex. 500
 | Jeu d’essai | `VITE_USE_SAMPLE_TERRITORY=true` — ne pas éditer `site.ts` | SQL [`backend/sql/sample/`](backend/sql/sample/README.md) + `COMMUNES_GEOJSON_PATH` |
 | Territoire réel | flag vide, éditer `site.ts` | vos vues + `GEOSERVER_URL` **ou** `COMMUNES_GEOJSON_PATH` |
 
-Tuiles CARTO et Matomo sont optionnels (`frontend/env.example`). Absents : fond OpenStreetMap, pas de suivi.
+Les tuiles CARTO et Matomo sont optionnels (`frontend/env.example`). Sans ces variables : fond OpenStreetMap, pas de suivi.
 
 Production : `yarn build`, puis PM2 (`ecosystem.config.js`). Copier la SPA dans `backend/dist/public` (voir `scripts/deploy.sh`). Variables : `backend/.env`, ou un `deployment-env.json` local (non versionné, modèle `deployment-env.example.json`).
 
@@ -126,4 +126,4 @@ CI GitHub : tests backend + sous-ensemble « kit » frontend. La suite frontend 
 
 MIT — voir [LICENSE](LICENSE). Un passage éventuel à l’EUPL est une décision juridique, pas un changement de code.
 
-Développé par [Audiar](https://www.audiar.org), agence d’urbanisme de Rennes Métropole.
+Développé par [Audiar](https://www.audiar.org), agence d’urbanisme de l’aire rennaise.
