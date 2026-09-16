@@ -1,0 +1,46 @@
+/**
+ * Boutons modernes - design system
+ */
+
+.btn-modern-primary {
+  background: linear-gradient(135deg, #f17e08 0%, #e36411 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow:
+    0 2px 8px rgba(241, 126, 8, 0.2),
+    0 4px 16px rgba(241, 126, 8, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-modern-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-modern-primary:hover::before {
+  left: 100%;
+}
+
+.btn-modern-primary:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 4px 12px rgba(241, 126, 8, 0.3),
+    0 8px 24px rgba(241, 126, 8, 0.2);
+}
+
+.btn-modern-primary:active {
+  transform: translateY(0);
+}

@@ -1,0 +1,33 @@
+/* ============================================
+   UTILITAIRES ET ANIMATIONS
+   ============================================ */
+
+/* Animations fluides */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modern-fade-in-up {
+  animation: fadeInUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Classes utilitaires d'espacement */
+.modern-spacing-large {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.modern-spacing-medium {
+  margin-bottom: var(--spacing-lg);
+}
+
+.modern-spacing-small {
+  margin-bottom: var(--spacing-md);
+}
+

@@ -1,0 +1,147 @@
+/**
+ * Système responsive Audiar — Mobile-first
+ * Base = mobile (1 colonne, padding réduit). min-width pour tablette/desktop.
+ * Breakpoints : Mobile <768px, Tablet 768–1023px, Desktop 1024px+
+ */
+
+:root {
+  --mobile-padding: 16px;
+  --tablet-padding: 24px;
+  --desktop-padding: 32px;
+
+  --mobile-font-size: 14px;
+  --tablet-font-size: 16px;
+  --desktop-font-size: 18px;
+}
+
+.responsive-grid,
+.responsive-grid-2,
+.responsive-grid-3,
+.responsive-grid-4 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--mobile-padding);
+}
+
+.layout-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.layout-desktop {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.hide-mobile {
+  display: block;
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--tablet-padding);
+  }
+
+  .responsive-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .responsive-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .responsive-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .layout-mobile {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 var(--desktop-padding);
+  }
+
+  .responsive-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .responsive-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .layout-desktop {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+
+  .show-mobile {
+    display: block !important;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .main-content {
+    padding: var(--mobile-padding);
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .title-b {
+    font-size: 16px;
+  }
+
+  .title-c {
+    font-size: 14px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+
+  .card {
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+  }
+}

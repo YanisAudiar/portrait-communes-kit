@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 85 85" style="enable-background:new 0 0 85 85;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#4FAD37;fill-opacity:0.3;}
+	.st1{fill:none;stroke:#4FAD37;stroke-width:1.9843;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:9.2471;}
+	.st2{opacity:0.7;fill:#4FAD37;enable-background:new    ;}
+	.st3{opacity:0.7;enable-background:new    ;}
+	.st4{display:none;}
+	.st5{display:inline;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:1.984;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{display:inline;fill:none;stroke:#FFFFFF;stroke-width:1.984;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:1.5872;stroke-miterlimit:10;}
+	.st9{fill:#FFFFFF;}
+</style>
+<g id="Calque_2">
+	<circle id="path107309" class="st0" cx="48.3" cy="29.8" r="29.4"/>
+</g>
+<g id="Calque_1">
+	<g id="Calque_1_00000146460047264115702690000007577108286988921495_">
+	</g>
+	<path class="st1" d="M18.4,12.1c0-5.4,4.5-9.7,10.1-9.7s10.1,4.4,10.1,9.7s-4.5,9.7-10.1,9.7H2.9"/>
+	<path class="st1" d="M50.3,21.4c0-5.4,4.5-9.7,10.1-9.7s10.1,4.4,10.1,9.7s-4.5,9.7-10.1,9.7H-5.8"/>
+	<path class="st1" d="M18.4,49.4c0,5.4,4.5,9.7,10.1,9.7s10.1-4.4,10.1-9.7s-4.5-9.7-10.1-9.7H2.9"/>
+	<circle id="circle18295_00000043419201327252706920000013236743850380895653_" class="st2" cx="62.3" cy="62.1" r="22.7"/>
+	<g id="Calque_3" class="st3">
+		<circle id="circle18295_00000042011128416758003780000004355406600199850930_" class="st2" cx="62.3" cy="62.1" r="22.7"/>
+	</g>
+	<g id="Calque_2_00000083802065455521178560000015235835607526941066_" class="st4">
+		<g class="st5">
+			<polyline class="st6" points="51.2,49.6 58.3,54.8 51.2,60.3 			"/>
+			<polyline class="st6" points="73.4,49.6 66.3,54.8 73.4,60.3 			"/>
+		</g>
+		<polyline class="st7" points="49.1,72.5 52.6,68.9 56,72.5 59,68.9 62.5,72.5 65.6,68.9 68.7,72.5 72.1,68.9 75.5,72.5 		"/>
+	</g>
+	<g id="Calque_2_00000063617903060791962390000015322827091358109885_">
+		<g>
+			<line class="st8" x1="49.2" y1="48.6" x2="60.5" y2="54.2"/>
+			<line class="st8" x1="75.5" y1="48.6" x2="64.3" y2="54.2"/>
+		</g>
+		<g>
+			<circle class="st9" cx="53.4" cy="58.3" r="2.7"/>
+			<circle class="st9" cx="71.4" cy="58.3" r="2.7"/>
+		</g>
+		<path class="st8" d="M73.9,76c0,0-2.5-7.2-11.5-7.2S50.8,76,50.8,76"/>
+	</g>
+	<path class="st1" d="M157.9-38.1H91.7"/>
+</g>
+</svg>

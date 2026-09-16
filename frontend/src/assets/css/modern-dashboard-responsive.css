@@ -1,0 +1,465 @@
+/* ============================================
+   MODERN DASHBOARD - RESPONSIVE SYSTEM
+   Mobile-First Approach with Tailwind-like breakpoints
+   ============================================ */
+
+/* ============================================
+   CSS VARIABLES RESPONSIVE
+   ============================================ */
+
+:root {
+  /* Spacing responsive */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+
+  /* Font sizes responsive */
+  --text-xs: 10px;
+  --text-sm: 12px;
+  --text-base: 14px;
+  --text-lg: 16px;
+  --text-xl: 18px;
+  --text-2xl: 22px;
+  --text-3xl: 28px;
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Z-index layers */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 500;
+  --z-modal: 1000;
+  --z-toast: 5000;
+  --z-tooltip: 10000;
+  --z-nav: 9999;
+
+  /* Safe area insets */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+/* ============================================
+   MOBILE BASE (< 480px)
+   ============================================ */
+
+@media (max-width: 479px) {
+  :root {
+    --spacing-md: 12px;
+    --spacing-lg: 16px;
+    --spacing-xl: 24px;
+    --text-base: 13px;
+    --text-lg: 15px;
+    --text-xl: 17px;
+    --text-2xl: 20px;
+    --text-3xl: 24px;
+  }
+
+  .modern-header-container {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .modern-content-area {
+    padding: var(--spacing-sm);
+  }
+
+  .modern-theme-tabs {
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs);
+  }
+  
+  .modern-theme-tab {
+    padding: 8px 12px;
+    font-size: var(--text-xs);
+    min-width: 70px;
+  }
+  
+  .modern-indicator-card {
+    padding: var(--spacing-sm);
+  }
+
+  .modern-indicators-panel {
+    height: auto;
+    max-height: 280px;
+  }
+
+  /* Utilitaires mobile */
+  .hide-mobile-xs {
+    display: none !important;
+  }
+
+  .show-mobile-xs {
+    display: block !important;
+  }
+}
+
+/* ============================================
+   MOBILE STANDARD (480px - 767px)
+   ============================================ */
+
+@media (min-width: 480px) and (max-width: 767px) {
+  :root {
+    --spacing-md: 14px;
+    --spacing-lg: 20px;
+  }
+
+  .modern-header-container {
+    padding: 0 var(--spacing-md);
+  }
+  
+  .modern-content-area {
+    padding: var(--spacing-md);
+  }
+
+  .modern-theme-tabs {
+    gap: var(--spacing-xs);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: var(--spacing-xs);
+  }
+
+  .modern-theme-tabs::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .modern-theme-tab {
+    padding: 10px 14px;
+    font-size: var(--text-sm);
+    flex-shrink: 0;
+  }
+  
+  .modern-indicator-card {
+    padding: var(--spacing-md);
+  }
+
+  .modern-indicators-panel {
+    height: auto;
+    max-height: 350px;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
+
+  .show-mobile {
+    display: block !important;
+  }
+}
+
+/* ============================================
+   TABLETTES (768px - 1023px)
+   ============================================ */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .modern-header {
+    padding: var(--spacing-md);
+  }
+  
+  .modern-header-container {
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+    padding: 0 var(--spacing-lg);
+  }
+  
+  .modern-search {
+    max-width: 100%;
+    order: 3;
+    width: 100%;
+  }
+  
+  .modern-indicators-panel {
+    height: auto;
+    max-height: 450px;
+  }
+
+  .modern-theme-tabs {
+    gap: var(--spacing-sm);
+  }
+  
+  .modern-theme-tab {
+    padding: 10px 16px;
+    font-size: var(--text-sm);
+  }
+  
+  .modern-indicator-card {
+    padding: var(--spacing-md);
+  }
+  
+  .modern-content-area {
+    padding: var(--spacing-md);
+  }
+
+  .hide-tablet {
+    display: none !important;
+  }
+
+  .show-tablet {
+    display: block !important;
+  }
+}
+
+/* ============================================
+   DESKTOP SMALL (1024px - 1279px)
+   ============================================ */
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .modern-header-container {
+    padding: 0 var(--spacing-lg);
+  }
+  
+  .modern-content-area {
+    padding: var(--spacing-lg);
+  }
+
+  .modern-indicators-panel {
+    height: auto;
+    max-height: 550px;
+  }
+}
+
+/* ============================================
+   DESKTOP MEDIUM (1280px - 1399px)
+   ============================================ */
+
+@media (min-width: 1280px) and (max-width: 1399px) {
+  .modern-header-container {
+    padding: 0 var(--spacing-xl);
+  }
+  
+  .modern-content-area {
+    padding: var(--spacing-xl);
+  }
+}
+
+/* ============================================
+   DESKTOP LARGE (>= 1400px)
+   ============================================ */
+
+@media (min-width: 1400px) {
+  .modern-header-container {
+    padding: 0 var(--spacing-2xl);
+  }
+  
+  .modern-content-area {
+    padding: var(--spacing-2xl);
+  }
+}
+
+/* ============================================
+   ORIENTATION PAYSAGE MOBILE
+   ============================================ */
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .modern-header {
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  .modern-header-container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .modern-theme-tabs {
+    gap: var(--spacing-xs);
+  }
+  
+  .modern-theme-tab {
+    padding: 8px 14px;
+    font-size: var(--text-xs);
+  }
+
+  .modern-indicators-panel {
+    max-height: 60vh;
+  }
+}
+
+/* ============================================
+   UTILITAIRES RESPONSIVE
+   ============================================ */
+
+/* Visibilité responsive */
+.hide-mobile {
+  display: block;
+}
+
+.show-mobile {
+  display: none;
+}
+
+.hide-desktop {
+  display: block;
+}
+
+.show-desktop {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+  
+  .show-mobile {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-desktop {
+    display: none !important;
+  }
+  
+  .show-desktop {
+    display: block !important;
+  }
+}
+
+/* Grilles responsive */
+.grid-responsive {
+  display: grid;
+  gap: var(--spacing-md);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 480px) {
+  .grid-responsive-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-responsive {
+    gap: var(--spacing-lg);
+  }
+  
+  .grid-responsive-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-responsive-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Container responsive */
+.container-responsive {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+  .container-responsive {
+    padding: 0 var(--spacing-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-responsive {
+    max-width: 1280px;
+    padding: 0 var(--spacing-xl);
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-responsive {
+    max-width: 1400px;
+  }
+}
+
+/* Stack responsive (vertical sur mobile, horizontal sur desktop) */
+.stack-responsive {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+  .stack-responsive {
+    flex-direction: row;
+    gap: var(--spacing-lg);
+  }
+}
+
+/* Padding responsive */
+.p-responsive {
+  padding: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+  .p-responsive {
+    padding: var(--spacing-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .p-responsive {
+    padding: var(--spacing-xl);
+  }
+}
+
+/* ============================================
+   TOUCH FRIENDLY STYLES
+   ============================================ */
+
+@media (hover: none) and (pointer: coarse) {
+  /* Augmenter la taille des cibles tactiles */
+  button,
+  a,
+  .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Désactiver les effets hover sur tactile */
+  .hover-effect:hover {
+    transform: none;
+    box-shadow: inherit;
+  }
+}
+
+/* ============================================
+   PRÉFÉRENCES UTILISATEUR
+   ============================================ */
+
+/* Mode sombre (préparation) */
+@media (prefers-color-scheme: dark) {
+  /* Les styles dark mode seront ajoutés ici si nécessaire */
+}
+
+/* Mouvement réduit */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Contraste élevé */
+@media (prefers-contrast: high) {
+  :root {
+    --border-color: #000;
+  }
+  
+  button,
+  a {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}
+

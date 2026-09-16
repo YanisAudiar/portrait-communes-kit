@@ -1,0 +1,92 @@
+/**
+ * Footer commune-detail : même style que la page Landing
+ * Bandeau bleu eucalyptus, 2 colonnes
+ */
+
+.commune-detail-footer {
+  flex-shrink: 0;
+  padding: 1.25rem 2.5rem;
+  background: #ebf5f6;
+  color: var(--bleu-eucalyptus, #316D7B);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  margin-top: auto;
+}
+
+.commune-detail-footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.commune-detail-footer .footer-left {
+  min-width: 0;
+  text-align: left;
+}
+
+.commune-detail-footer .footer-right {
+  min-width: 0;
+  text-align: left;
+}
+
+.commune-detail-footer .footer-dev {
+  margin: 0 0 0.4rem;
+  font-size: 0.8125rem;
+  color: var(--bleu-eucalyptus, #316D7B);
+}
+
+.commune-detail-footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.commune-detail-footer .footer-links a {
+  color: var(--bleu-eucalyptus, #316D7B);
+  text-decoration: none;
+  font-size: 0.8125rem;
+  transition: color 0.2s;
+}
+
+.commune-detail-footer .footer-links a:hover {
+  color: #1e2972;
+  text-decoration: underline;
+}
+
+.commune-detail-footer .footer-audiar-title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin: 0 0 0.2rem;
+  color: var(--bleu-eucalyptus, #316D7B);
+}
+
+.commune-detail-footer .footer-right p {
+  margin: 0;
+  color: var(--bleu-eucalyptus, #316D7B);
+  font-size: 0.8125rem;
+}
+
+.commune-detail-footer .footer-right a {
+  color: var(--bleu-eucalyptus, #316D7B);
+  text-decoration: none;
+  font-size: 0.8125rem;
+  transition: color 0.2s;
+}
+
+.commune-detail-footer .footer-right a:hover {
+  color: #1e2972;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .commune-detail-footer {
+    padding: 1rem 1.5rem;
+  }
+
+  .commune-detail-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

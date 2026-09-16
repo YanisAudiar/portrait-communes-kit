@@ -1,0 +1,64 @@
+/* ============================================
+   THÈME SELECTOR - Onglets horizontaux arrondis
+   ============================================ */
+
+.modern-theme-selector {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-sm);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--grey-200);
+  margin-bottom: var(--spacing-xl);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.modern-theme-selector::-webkit-scrollbar {
+  display: none;
+}
+
+.modern-theme-tabs {
+  display: flex;
+  gap: var(--spacing-sm);
+  min-width: fit-content;
+}
+
+.modern-theme-tab {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: 12px 20px;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  color: var(--grey-600);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  white-space: nowrap;
+  position: relative;
+}
+
+.modern-theme-tab:hover {
+  background: var(--grey-50);
+  color: var(--grey-900);
+}
+
+.modern-theme-tab.active {
+  background: var(--primary-blue);
+  color: white;
+  box-shadow: var(--shadow-sm);
+}
+
+.modern-theme-tab-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: opacity var(--transition-fast);
+}
+
+.modern-theme-tab.active .modern-theme-tab-icon {
+  opacity: 1;
+}
+

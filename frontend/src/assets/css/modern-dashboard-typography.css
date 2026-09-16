@@ -1,0 +1,52 @@
+/* ============================================
+   TYPOGRAPHIE MODERNE
+   ============================================ */
+
+.modern-title-large {
+  font-size: 32px;
+  font-weight: var(--font-weight-bold);
+  color: var(--grey-900);
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.modern-title-medium {
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  color: var(--grey-900);
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.modern-title-small {
+  font-size: 18px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--grey-900);
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.modern-text-body {
+  font-size: 15px;
+  font-weight: var(--font-weight-regular);
+  color: var(--grey-700);
+  line-height: 1.6;
+}
+
+.modern-text-light {
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  color: var(--grey-600);
+  line-height: 1.5;
+}
+
+.modern-text-small {
+  font-size: 13px;
+  font-weight: var(--font-weight-regular);
+  color: var(--grey-500);
+  line-height: 1.4;
+}
+

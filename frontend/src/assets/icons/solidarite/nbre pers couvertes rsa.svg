@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #316d7b;
+      }
+
+      .cls-2 {
+        fill: #556490;
+        font-family: MyriadPro-Semibold, 'Myriad Pro';
+        font-size: 34px;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+        stroke-width: 1.6px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: none;
+        stroke: #316d7b;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        stroke-width: 1.6px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="Calque_1-2" data-name="Calque_1">
+        <g>
+          <path class="cls-4" d="M52.5,33.1l10.4,1.3c2.6,2.8,4.7,5,7.4,4.9,2.8-.2,4.2-1.1,4.7-2.4-2.3-2.6-9-8.2-10.4-9.1s-15.4-6.1-16.9-5.6l-19.6,5.9c-1.7.5-2.5-.2-3.2-.5"/>
+          <path class="cls-4" d="M17.1,42s4.1,1.1,6.9,2.5c1.7.9,4.5,1.4,6.4,1.1,1.2-.2,4.5-.9,7-2.1,1.7-.9,3.5-2.6,4.7-3l7.4-2.2c5.6-1.7,3.5-8.7-2.1-7l-11.2,3.4"/>
+          <rect class="cls-4" x="4" y="27.1" width="24.8" height="10.3" transform="translate(-19.8 31.5) rotate(-61.8)"/>
+        </g>
+        <g id="text18297" class="cls-1">
+          <g class="cls-1">
+            <g class="cls-1">
+              <text class="cls-2" transform="translate(100.7 36)"><tspan x="0" y="0">rsa</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="text18297-2" data-name="text18297" class="cls-1">
+          <g class="cls-1">
+            <g class="cls-1">
+              <g class="cls-1">
+                <path class="cls-3" d="M23,6.4c0-2.2,0-3.8-.1-5.3h3.6v3.2h.3c.8-2.3,2.8-3.5,4.5-3.5s.6,0,1,.1v3.9c-.3,0-.7-.1-1.2-.1-2,0-3.4,1.3-3.7,3.2,0,.4-.1.8-.1,1.3v8.6h-4.2V6.4Z"/>
+                <path class="cls-3" d="M34.9,13.8c1,.6,2.8,1.2,4.2,1.2s2.7-.7,2.7-1.8-.7-1.7-2.7-2.4c-3.2-1.1-4.6-2.9-4.6-4.8,0-2.9,2.4-5.2,6.3-5.2s3.4.5,4.4,1l-.8,3c-.7-.4-2-1-3.5-1s-2.3.7-2.3,1.7.8,1.6,2.9,2.3c3,1.1,4.4,2.6,4.4,5.1,0,3-2.3,5.2-6.7,5.2s-3.8-.5-5-1.2l.8-3Z"/>
+                <path class="cls-3" d="M58.6,17.6l-.3-1.8h-.1c-1,1.3-2.8,2.2-4.9,2.2-3.3,0-5.2-2.4-5.2-4.9,0-4.2,3.7-6.3,9.8-6.3v-.3c0-1.1-.4-2.9-3.4-2.9s-3.3.5-4.5,1.2l-.8-2.7c1.2-.7,3.4-1.5,6-1.5,5.3,0,6.8,3.4,6.8,7v6c0,1.5,0,3,.2,4h-3.8ZM58,9.5c-3,0-5.8.6-5.8,3.1s1.1,2.4,2.4,2.4,2.9-1.1,3.3-2.3c.1-.3.1-.6.1-.9v-2.3Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Calque_1-2">
+          <g id="Calque_1-2-2" data-name="Calque_1-2">
+            <g id="Calque_2">
+              <g id="personnages">
+                <g>
+                  <g>
+                    <ellipse class="cls-5" cx="49.9" cy="53" rx="3" ry="3.1"/>
+                    <line class="cls-5" x1="49.7" y1="85" x2="49.7" y2="71.6"/>
+                    <line class="cls-5" x1="46.2" y1="85" x2="46.2" y2="65.9"/>
+                  </g>
+                  <path class="cls-5" d="M42.6,71.1l2-10c1.2-3,3.3-3,3.3-3h4s2,0,3.3,3l2.6,9.9"/>
+                  <line class="cls-5" x1="53.3" y1="85" x2="53.3" y2="65.9"/>
+                </g>
+                <g>
+                  <path class="cls-5" d="M57.7,58.6"/>
+                  <path class="cls-5" d="M42.6,58.7"/>
+                </g>
+                <g>
+                  <g>
+                    <ellipse class="cls-5" cx="36.7" cy="50.2" rx="3" ry="3.1"/>
+                    <line class="cls-5" x1="36.6" y1="82.2" x2="36.6" y2="68.7"/>
+                    <line class="cls-5" x1="33" y1="82.2" x2="33" y2="63"/>
+                  </g>
+                  <path class="cls-5" d="M44.5,68.1"/>
+                  <path class="cls-5" d="M29.4,68.2l2-10c1.2-3,3.3-3,3.3-3h4s2,0,3.3,3c0,0,0,.5.3,1.2"/>
+                  <line class="cls-5" x1="40.1" y1="82.2" x2="40.1" y2="63"/>
+                </g>
+                <g>
+                  <g>
+                    <ellipse class="cls-5" cx="62.9" cy="49.7" rx="3" ry="3.1"/>
+                    <line class="cls-5" x1="62.9" y1="81.6" x2="62.9" y2="68.1"/>
+                    <line class="cls-5" x1="59.4" y1="81.6" x2="59.4" y2="62.5"/>
+                  </g>
+                  <path class="cls-5" d="M57.3,59.3c.2-.9.3-1.6.3-1.6,1.2-3,3.3-3,3.3-3h4s2,0,3.3,3l2.6,9.9"/>
+                  <path class="cls-5" d="M55.7,67.7"/>
+                  <line class="cls-5" x1="66.4" y1="81.6" x2="66.4" y2="62.5"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Calque_1-3">
+          <g id="Calque_1-2-2">
+            <g id="Calque_2-2">
+              <g id="personnages-2">
+                <g>
+                  <path class="cls-5" d="M27.5,58.6"/>
+                  <path class="cls-5" d="M28.4,61.7"/>
+                </g>
+                <g>
+                  <g>
+                    <ellipse class="cls-5" cx="22.5" cy="53.2" rx="3" ry="3.1"/>
+                    <line class="cls-5" x1="22.4" y1="85.2" x2="22.4" y2="71.7"/>
+                    <line class="cls-5" x1="18.8" y1="85.2" x2="18.8" y2="66"/>
+                  </g>
+                  <path class="cls-5" d="M30.3,71.1"/>
+                  <path class="cls-5" d="M15.2,71.2l2-10c1.2-3,3.3-3,3.3-3h4s2,0,3.3,3c0,0,.1.5.3,1.2"/>
+                  <line class="cls-5" x1="26" y1="85.2" x2="26" y2="66"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

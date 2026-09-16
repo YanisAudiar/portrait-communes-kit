@@ -1,0 +1,27 @@
+/**
+ * Boutons et actions du header (retour, contexte)
+ */
+
+.btn-retour {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  border-radius: 8px;
+  color: #0A3D62;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-retour:hover {
+  background: #0A3D62;
+  color: white;
+  border-color: #0A3D62;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(10, 61, 98, 0.2);
+}

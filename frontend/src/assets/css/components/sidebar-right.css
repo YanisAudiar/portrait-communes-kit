@@ -1,0 +1,77 @@
+/**
+ * Styles pour le composant SidebarRight
+ * Styles extraits du composant pour améliorer la maintenabilité
+ */
+
+.sidebar {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  border: none;
+  animation: slideInRight 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar-right {
+  width: 340px;
+  border-left: 1px solid rgba(229, 231, 235, 0.6);
+  flex-shrink: 0;
+}
+
+.sidebar-content {
+  padding: 28px;
+}
+
+/* État collapsé de la légende */
+.sidebar-collapsed .legend-section {
+  display: none;
+}
+
+.sidebar-collapsed .sidebar-header {
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sidebar-right {
+    width: 300px;
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    max-height: none;
+    position: relative;
+    flex-shrink: 0;
+  }
+  
+  .sidebar-right {
+    order: 3;
+    border-left: none;
+    border-top: 1px solid #e0e0e0;
+    max-height: 30vh;
+    overflow-y: auto;
+  }
+  
+  .sidebar-collapsed {
+    max-height: 60px !important;
+    overflow: hidden;
+  }
+  
+  .sidebar-content {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar-content {
+    padding: 12px;
+  }
+}

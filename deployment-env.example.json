@@ -1,0 +1,5 @@
+{
+  "local": "./backend/.env",
+  "pre-prod": "./backend/.env",
+  "prod": "./backend/.env"
+}

@@ -1,0 +1,15 @@
+/**
+ * Fichier principal commune-detail : importe les partials par zone.
+ * Ordre : layout → header → theme → kpis → charts → states → responsive.
+ */
+@import '@/assets/css/modern-dashboard.css';
+
+@import './commune-detail/layout.css';
+@import './commune-detail/header-actions.css';
+@import './commune-detail/theme-subthemes.css';
+@import './commune-detail/kpis.css';
+@import './commune-detail/charts.css';
+@import './commune-detail/states.css';
+@import './commune-detail/footer.css';
+@import './commune-detail/responsive.css';
+@import '@/assets/css/components/pour-en-savoir-plus-section.css';

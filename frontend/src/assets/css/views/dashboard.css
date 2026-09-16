@@ -1,0 +1,257 @@
+@import '@/assets/css/components/pour-en-savoir-plus-section.css';
+
+/* ============================================
+   DASHBOARD - Layout Mobile-First
+   ============================================ */
+
+.dashboard {
+  min-height: 100vh;
+  min-height: 100dvh; /* Dynamic viewport height pour mobile */
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.dashboard-main {
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Permet au flex child de rétrécir et évite overflow */
+  overflow-x: hidden;
+}
+
+/* ============================================
+   LAYOUT MOBILE-FIRST
+   ============================================ */
+
+.dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0; /* Important pour flex children */
+  min-width: 0; /* Évite débordement horizontal sur mobile */
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Zone carte - prend tout l'espace disponible par défaut */
+.map-area {
+  flex: 1;
+  position: relative;
+  background: #ffffff;
+  min-height: 300px;
+  overflow: hidden;
+  order: 2;
+}
+
+/* ============================================
+   MODE MOBILE : Carte plein écran avec overlay
+   ============================================ */
+
+/* État par défaut mobile : sidebar visible en bas */
+@media (max-width: 767px) {
+  .dashboard-layout {
+    height: calc(100vh - 64px);
+    height: calc(100dvh - 64px);
+  }
+
+  .map-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: auto;
+    height: 100%;
+    z-index: 1;
+  }
+
+  /* La sidebar flotte en bas de l'écran */
+  .dashboard-layout > .sidebar-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    max-height: 40vh;
+    border-radius: 24px 24px 0 0;
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(0);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* État réduit de la sidebar mobile */
+  .dashboard-layout > .sidebar-left.sidebar-collapsed {
+    max-height: 80px;
+    transform: translateY(calc(100% - 80px));
+  }
+
+  /* Handle pour swipe */
+  .sidebar-left::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin: 12px auto 8px;
+    cursor: grab;
+  }
+}
+
+/* ============================================
+   PETITS MOBILES (< 480px)
+   ============================================ */
+
+@media (max-width: 479px) {
+  .dashboard-layout {
+    height: calc(100vh - 56px);
+    height: calc(100dvh - 56px);
+  }
+
+  .dashboard-layout > .sidebar-left {
+    max-height: 45vh;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .dashboard-layout > .sidebar-left.sidebar-collapsed {
+    max-height: 72px;
+    transform: translateY(calc(100% - 72px));
+  }
+}
+
+/* ============================================
+   TABLETTES (768px - 1023px)
+   ============================================ */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .dashboard-layout {
+    flex-direction: row;
+    height: calc(100vh - 72px);
+  }
+
+  .map-area {
+    order: 2;
+    flex: 1;
+    min-height: auto;
+    height: auto;
+  }
+
+  .dashboard-layout > .sidebar-left {
+    width: 320px;
+    max-height: none;
+    border-radius: 0;
+    position: relative;
+    order: 1;
+  }
+
+  .sidebar-left::before {
+    display: none;
+  }
+}
+
+/* ============================================
+   DESKTOP (>= 1024px)
+   ============================================ */
+
+@media (min-width: 1024px) {
+  .dashboard-layout {
+    flex-direction: row;
+    min-height: calc(100vh - 80px);
+    height: calc(100vh - 80px);
+  }
+
+  .map-area {
+    order: 2;
+    flex: 1;
+    position: relative;
+    min-height: 600px;
+    height: auto;
+  }
+
+  .dashboard-layout > .sidebar-left {
+    width: 400px;
+    position: relative;
+    max-height: none;
+    border-radius: 0;
+    order: 1;
+  }
+
+  .sidebar-left::before {
+    display: none;
+  }
+}
+
+/* ============================================
+   MODE PAYSAGE MOBILE
+   ============================================ */
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .dashboard-layout {
+    flex-direction: row;
+    height: calc(100vh - 56px);
+    height: calc(100dvh - 56px);
+  }
+
+  .map-area {
+    position: relative;
+    flex: 1;
+    order: 2;
+  }
+
+  .dashboard-layout > .sidebar-left {
+    position: relative;
+    width: 280px;
+    max-height: none;
+    bottom: auto;
+    border-radius: 0;
+    transform: none;
+    order: 1;
+  }
+
+  .sidebar-left::before {
+    display: none;
+  }
+}
+
+/* ============================================
+   ANIMATIONS ET TRANSITIONS
+   ============================================ */
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .dashboard-layout > .sidebar-left {
+    animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+/* ============================================
+   SAFE AREAS (iPhone X+, etc.)
+   ============================================ */
+
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  @media (max-width: 767px) {
+    .dashboard-layout > .sidebar-left {
+      padding-bottom: calc(16px + env(safe-area-inset-bottom));
+    }
+  }
+}

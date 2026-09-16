@@ -1,0 +1,33 @@
+/* ============================================
+   DESIGN MODERNE ET ERGONOMIQUE - TABLEAU DE BORD TERRITORIAL
+   Style premium Apple / Data Studio
+   
+   Ce fichier importe tous les modules CSS modulaires
+   ============================================ */
+
+/* Variables CSS (doit être importé en premier) */
+@import './modern-dashboard-variables.css';
+
+/* Layout de base */
+@import './modern-dashboard-base.css';
+
+/* Header et navigation */
+@import './modern-dashboard-header.css';
+
+/* Sélecteur de thème */
+@import './modern-dashboard-theme-selector.css';
+
+/* Panneau d'indicateurs */
+@import './modern-dashboard-indicators.css';
+
+/* Graphiques et contenu principal */
+@import './modern-dashboard-charts.css';
+
+/* Typographie */
+@import './modern-dashboard-typography.css';
+
+/* Media queries responsive : chargé une seule fois par main.css (éviter doublon) */
+
+/* Utilitaires et animations */
+@import './modern-dashboard-utilities.css';
+

@@ -1,0 +1,39 @@
+.glass-panel {
+  --glass-bg-rgb: 255, 255, 255;
+  --glass-bg-alpha: 0.85;
+  --glass-blur: 12px;
+  --glass-radius: 16px;
+  --glass-border-color: rgba(229, 231, 235, 0.6);
+  background: rgba(var(--glass-bg-rgb), var(--glass-bg-alpha));
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border-radius: var(--glass-radius);
+  border: 1px solid var(--glass-border-color);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.06),
+    0 8px 32px rgba(0, 0, 0, 0.04);
+}
+
+.glass-panel--compact {
+  --glass-radius: 12px;
+  --glass-bg-alpha: 0.8;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+.glass-panel--interactive {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel--muted {
+  --glass-bg-alpha: 0.9;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.scroll-thumb-gradient {
+  background: linear-gradient(180deg, #f17e08 0%, #e36411 100%);
+  box-shadow: 0 2px 4px rgba(241, 126, 8, 0.3);
+}
+
+

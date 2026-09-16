@@ -1,0 +1,115 @@
+/**
+ * Variables CSS - Charte Observatoire + Audiar
+ * Utilisé par main.css et composants globaux
+ */
+
+:root {
+  /* Observatoire - Couleurs principales */
+  --primary-blue: #1e2972;
+  --primary-blue-dark: #09124e;
+  --secondary-blue: #316d7b;
+  --accent-orange: #e36411;
+  --accent-red: #fd1d1d;
+
+  /* Observatoire - Couleurs de fond */
+  --bg-light: #f5f5f7;
+  --bg-white: #ffffff;
+  --bg-light-blue: #f9f9ff;
+  --bg-modal: #f3f2ff;
+
+  /* Typographie Observatoire */
+  --font-title: 'Source Serif 4', 'Museo Slab', Georgia, serif;
+  --font-body: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Charte Audiar – Bleu eucalyptus + déclinaisons */
+  --bleu-eucalyptus: #316D7B;
+  --audiar-bleu-moyen: #638C97;
+  --audiar-bleu-clair: #94B1B8;
+  --audiar-bleu-tres-clair: #C6DADC;
+  /* Nuancier Audiar */
+  --p1-1: #B9A486;
+  --p1-2: #80B288;
+  --p1-3: #796E5B;
+  --p1-4: #A5665A;
+  --p1-5: #DAB300;
+  --p1-6: #D1654C;
+  --p1-7: #9A9E80;
+  --p1-8: #749586;
+  --p1-9: #A9CCD7;
+  --p2-1: #638C97;
+  --p2-2: #CAB9A3;
+  --p2-3: #A3C5A4;
+  --p2-4: #9A907F;
+  --p2-5: #BC8A80;
+  --p2-6: #E3C55D;
+  --p2-7: #DC8A74;
+  --p2-8: #B0B396;
+  --p2-9: #94AFA1;
+  --p2-10: #BCD8E0;
+  --p3-1: #94B1B8;
+  --p3-2: #DCD0C1;
+  --p3-3: #C3DAC2;
+  --p3-4: #BEB6AA;
+  --p3-5: #D4B2AB;
+  --p3-6: #ECD99D;
+  --p3-7: #E7AFA0;
+  --p3-8: #C7CAAD;
+  --p3-9: #B4CBBF;
+  --p3-10: #CEE4EB;
+  --p4-1: #C6DADC;
+  --p4-2: #EFE8E1;
+  --p4-3: #E0EEE1;
+  --p4-4: #E5E1DA;
+  --p4-5: #EFDCDC;
+  --p4-6: #F4EDD8;
+  --p4-7: #F3D3CF;
+  --p4-8: #DFE2C7;
+  --p4-9: #D4EAE0;
+  --p4-10: #DFF0F5;
+
+  /* Couleurs principales des thèmes */
+  --theme-demographie: #5D4F9C;
+  --theme-habitat: #D15C16;
+  --theme-economie: #0077AB;
+  --theme-emploi: #D35399;
+  --theme-formation: #CD105B;
+  --theme-solidarite: #3A4467;
+  --theme-fiscalite: #C27C70;
+  --theme-mobilite: #8F235E;
+  --theme-tourisme: #0082C6;
+  --theme-ressources: #008E7B;
+
+  /* Couleurs métier (alias vers thèmes) */
+  --demographie: var(--theme-demographie);
+  --habitat: var(--theme-habitat);
+  --foncier: var(--p1-1);
+  --economie-emploi: var(--theme-economie);
+  --enseignement: var(--theme-formation);
+  --solidarite: var(--theme-solidarite);
+  --energie-environnement: var(--p1-2);
+  --agriculture: var(--p1-8);
+  --mobilites: var(--theme-mobilite);
+  --equipement-services: var(--p1-9);
+  --fiscalite: var(--theme-fiscalite);
+  --ressources: var(--theme-ressources);
+  --tourisme: var(--theme-tourisme);
+
+  /* Boutons et interactions */
+  --button-primary: #f17e08;
+  --button-secondary: #243186;
+  --button-danger: #fd1d1d;
+  --button-outline: #ffffff;
+
+  /* États et feedback */
+  --success: #80b187;
+  --warning: #d9b200;
+  --error: #fd1d1d;
+  --info: #a8cbd6;
+
+  /* Texte et liens */
+  --text-primary: #316d7b;
+  --text-secondary: #616161;
+  --text-muted: #868686;
+  --link-color: #1e2972;
+  --link-hover: #e36411;
+}

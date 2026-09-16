@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #346e7c;
+        isolation: isolate;
+        opacity: .7;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: #316d7b;
+        stroke-linejoin: round;
+        stroke-width: 1.6px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="Calque_1-2" data-name="Calque_1">
+        <path class="cls-3" d="M37.4,20h.8c2.3,0,4.2,1.9,4.2,4.2s-1.9,4.2-4.2,4.2h-.5c-1.6,6.2-7.2,10.8-13.9,10.8s-12.3-4.6-13.9-10.8h-.5c-2.3,0-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2h.8"/>
+        <path class="cls-3" d="M28.6,11.2c5,1.8,8.8,6.3,9.5,11.8"/>
+        <path class="cls-3" d="M22.6,7.2c-1-.5-1.5-2-.4-3.2.4-.4,1-.7,1.7-.7,1.6,0,2.9,1.3,2.9,2.9s-1,2.7-2.1,3.4c-.7.6-1.6.9-2.5,1-6.6.8-11.8,5.9-12.6,12.5"/>
+        <path class="cls-3" d="M27.5,20.6c.2-1,1.2-1.8,2.3-1.8s2.1.7,2.3,1.8"/>
+        <path class="cls-3" d="M15.5,20.6c.2-1,1.2-1.8,2.3-1.8s2.1.7,2.3,1.8"/>
+        <path class="cls-3" d="M18,26c-.7,0-1.3.7-1.2,1.4.6,3,2.9,5.8,7,5.8s6.5-2.8,7-5.8c.1-.7-.4-1.4-1.2-1.4h-11.8s.2,0,.2,0Z"/>
+        <path class="cls-3" d="M37.4,62.3h.8c2.3,0,4.2,1.9,4.2,4.2s-1.9,4.2-4.2,4.2h-.5c-1.6,6.2-7.2,10.8-13.9,10.8s-12.3-4.6-13.9-10.8h-.5c-2.3,0-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2h.8"/>
+        <path class="cls-3" d="M9.6,65.3"/>
+        <path class="cls-3" d="M28,64.7c.2-.8,1-1.4,1.8-1.4s1.7.6,1.8,1.4"/>
+        <path class="cls-3" d="M16,64.7c.2-.8,1-1.4,1.8-1.4s1.7.6,1.8,1.4"/>
+        <path class="cls-3" d="M20.7,73.4c-.3,0-.6.3-.5.6.3,1.3,1.4,2.5,3.3,2.5s3-1.2,3.3-2.5c0-.3-.2-.6-.5-.6,0,0-5.6,0-5.6,0Z"/>
+        <path class="cls-3" d="M14.9,55.8c-.8-1.2-2.1-2.1-3.7-2.1-2.4,0-4.4,1.9-4.4,4.4s1.4,3.8,3.4,4.2"/>
+        <path class="cls-3" d="M19.8,53.2c.4-1.4.2-3-.8-4.2-1.6-1.8-4.3-2-6.1-.5s-1.9,3.6-1,5.3"/>
+        <path class="cls-3" d="M33,55.8c.8-1.2,2.1-2.1,3.7-2.1,2.4,0,4.4,1.9,4.4,4.4s-1.4,3.8-3.4,4.2"/>
+        <path class="cls-3" d="M28,53.2c-.4-1.4-.2-3,.8-4.2,1.6-1.8,4.3-2,6.1-.5s1.9,3.6,1,5.3"/>
+        <path class="cls-3" d="M28.4,49.3c-.2-.4-.4-.8-.7-1.2-1.7-2.1-4.7-2.4-6.8-.7s-1.2,1.3-1.5,2.2"/>
+        <path class="cls-3" d="M9.3,66c.1-1.3.6-2.5.6-2.5,1.6-6.2,7.2-10.8,13.9-10.8s12.3,4.6,13.9,10.8c0,0,.3,1.5.3,2.5"/>
+        <g>
+          <circle class="cls-3" cx="17.8" cy="64" r="4.4"/>
+          <circle class="cls-3" cx="29.8" cy="64" r="4.4"/>
+          <line class="cls-3" x1="22.2" y1="63.7" x2="25.4" y2="63.7"/>
+        </g>
+      </g>
+      <g>
+        <g id="Calque_1-2-2">
+          <g id="svg8">
+            <g id="layer1">
+              <g id="layer1-5">
+                <g id="g20380">
+                  <g id="g12436">
+                    <g id="layer1-3">
+                      <g id="Calque_2-9">
+                        <g id="Calque_1-2-2-2" data-name="Calque_1-2-2">
+                          <g id="g18299">
+                            <circle id="circle18295" class="cls-1" cx="61.6" cy="42" r="22.7"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <polyline class="cls-4" points="48.4 54.7 56.6 38.9 64.4 49.4 71.1 35.6"/>
+        <polygon class="cls-2" points="73.2 39.7 66.5 36.5 73.6 30.2 73.2 39.7"/>
+      </g>
+    </g>
+  </g>
+</svg>

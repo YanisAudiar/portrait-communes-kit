@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+        stroke-width: 1.6px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #316d7b;
+      }
+
+      .cls-3 {
+        fill: #316d7b;
+        font-family: MyriadPro-It, 'Myriad Pro';
+        font-size: 33px;
+        font-style: italic;
+      }
+
+      .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.4px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="Calque_1-2" data-name="Calque_1">
+        <polygon class="cls-2" points="76.6 39.4 31.7 39.4 33.4 49.5 23.2 39.4 8.5 39.4 8.5 2.5 76.6 2.5 76.6 39.4"/>
+        <g class="cls-4">
+          <text class="cls-3" transform="translate(18.3 30.9)"><tspan x="0" y="0">abc</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Calque_2">
+      <rect class="cls-1" x="52.1" y="65.2" width="22.9" height="17.9"/>
+      <polyline class="cls-1" points="50.1 55.9 69.7 55.9 75 64.9"/>
+      <rect class="cls-1" x="57.9" y="70.7" width="10.5" height="8.1"/>
+      <rect class="cls-1" x="9.7" y="65.2" width="22.9" height="17.9"/>
+      <polyline class="cls-1" points="34.6 55.9 14.9 55.9 9.7 64.9"/>
+      <rect class="cls-1" x="16.3" y="70.7" width="10.5" height="8.1"/>
+      <rect class="cls-1" x="32.6" y="58.9" width="19.4" height="24.2"/>
+      <polyline class="cls-1" points="32.5 58.7 42.3 45.5 52 58.7"/>
+      <rect class="cls-1" x="36.8" y="70.5" width="11" height="12.6"/>
+      <circle class="cls-1" cx="42.3" cy="64.4" r="3.2"/>
+    </g>
+  </g>
+</svg>

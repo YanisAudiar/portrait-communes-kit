@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id_com": 1,
+        "code_insee_concat": "99101",
+        "lib_com": "Nordville"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-1.72, 48.13], [-1.68, 48.13], [-1.68, 48.16], [-1.72, 48.16], [-1.72, 48.13]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_com": 2,
+        "code_insee_concat": "99102",
+        "lib_com": "Sudville"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-1.72, 48.07], [-1.68, 48.07], [-1.68, 48.10], [-1.72, 48.10], [-1.72, 48.07]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_com": 3,
+        "code_insee_concat": "99103",
+        "lib_com": "Estville"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-1.64, 48.10], [-1.60, 48.10], [-1.60, 48.13], [-1.64, 48.13], [-1.64, 48.10]]]
+      }
+    }
+  ]
+}

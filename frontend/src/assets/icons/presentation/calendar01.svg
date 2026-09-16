@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 41 40.3">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #646363;
+        stroke-width: 1.3px;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 11.3;
+      }
+
+      .cls-3 {
+        fill: #646363;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="layer1">
+        <rect id="rect3527" class="cls-2" x=".6" y="5" width="39.7" height="34.6" rx="1.7" ry="1.7"/>
+        <path id="path3531" class="cls-1" d="M8.8.6v7"/>
+        <path id="path3531-7" class="cls-1" d="M31.7.6v7"/>
+        <path id="path3548" class="cls-2" d="M1.1,12.8h38.9"/>
+        <circle id="path3550" class="cls-3" cx="13.5" cy="21.1" r="1.3"/>
+        <circle id="path3550-4" class="cls-3" cx="20.2" cy="21.1" r="1.3"/>
+        <circle id="path3550-2" class="cls-3" cx="26.8" cy="21.1" r="1.3"/>
+        <circle id="path3550-7" class="cls-3" cx="33.8" cy="21.1" r="1.3"/>
+        <circle id="path3550-3" class="cls-3" cx="33.8" cy="27.2" r="1.3"/>
+        <circle id="path3550-6" class="cls-3" cx="26.8" cy="27.2" r="1.3"/>
+        <circle id="path3550-9" class="cls-3" cx="20.2" cy="27.2" r="1.3"/>
+        <circle id="path3550-31" class="cls-3" cx="13.5" cy="27.2" r="1.3"/>
+        <circle id="path3550-40" class="cls-3" cx="7" cy="27.2" r="1.3"/>
+        <circle id="path3550-70" class="cls-3" cx="7" cy="33" r="1.3"/>
+        <circle id="path3550-1" class="cls-3" cx="13.5" cy="33" r="1.3"/>
+        <circle id="path3550-319" class="cls-3" cx="20.2" cy="33" r="1.3"/>
+        <circle id="path3550-65" class="cls-3" cx="26.8" cy="33" r="1.3"/>
+        <circle id="path3550-98" class="cls-3" cx="33.8" cy="33" r="1.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

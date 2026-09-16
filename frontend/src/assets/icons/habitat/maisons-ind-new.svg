@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #316d7b;
+        stroke-linejoin: round;
+        stroke-width: 1.6px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="svg8">
+      <sodipodi:namedview id="base" bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" inkscape:current-layer="Calque_1" inkscape:cx="175.04483" inkscape:cy="45.168348" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="1148" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="1.3559251" pagecolor="#ffffff" showgrid="false"/>
+      <g id="layer1" inkscape:groupmode="layer" inkscape:label="Calque 1">
+        <g id="g20380">
+          <g id="g12436">
+            <g id="Calque_1-9">
+              <g id="layer1-5" inkscape:label="Calque 1">
+                <g id="Calque_1">
+                  <g id="g25421">
+                    <g id="g25413">
+                      <polyline id="polyline25409" class="cls-1" points="9.5 82.6 9.5 43.5 34.8 26 59.5 43.5 59.5 82.6"/>
+                      <rect id="rect25411" class="cls-1" x="24.8" y="50.8" width="19.4" height="19.4"/>
+                    </g>
+                    <line id="line25415" class="cls-1" x1="3.5" y1="82.6" x2="82.3" y2="82.6"/>
+                    <circle id="circle25417" class="cls-1" cx="73.6" cy="61.8" r="9.3"/>
+                    <line id="line25419" class="cls-1" x1="73.6" y1="71.1" x2="73.6" y2="82.4"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

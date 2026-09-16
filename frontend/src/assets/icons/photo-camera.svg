@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 512 512"
+   enable-background="new 0 0 512 512"
+   id="svg4574"
+   sodipodi:docname="photo-camera.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata4580">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4578" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     id="namedview4576"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4574" />
+  <g
+     id="g4572"
+     style="fill:#9f9f9f;fill-opacity:1">
+    <g
+       id="g4570"
+       style="fill:#9f9f9f;fill-opacity:1">
+      <path
+         d="m434.2,109.1h-89.7l-23.4-57.8c-3.1-7.7-10.6-12.8-18.9-12.8h-92.3c-8.3,0-15.8,5-18.9,12.8l-23.4,57.8h-89.8c-36.9,0-66.8,30-66.8,66.8v230.7c0,36.9 30,66.8 66.8,66.8h356.3c36.9,0 66.8-30 66.8-66.8v-230.7c0.1-36.8-29.9-66.8-66.7-66.8zm-210.6-29.8h64.8l12,29.7h-88.9l12.1-29.7zm236.6,327.3c0,14.3-11.7,26-26,26h-356.4c-14.3,0-26-11.7-26-26v-230.7c0-14.3 11.7-26 26-26h356.3c14.3,0 26,11.7 26,26v230.7z"
+         id="path4566"
+         style="fill:#9f9f9f;fill-opacity:1" />
+      <path
+         d="m256,179.7c-61.5,0-111.6,50.1-111.6,111.6 0,61.6 50.1,111.6 111.6,111.6s111.6-50.1 111.6-111.6c0-61.6-50.1-111.6-111.6-111.6zm0,182.4c-39,0-70.8-31.8-70.8-70.8 0-39 31.8-70.8 70.8-70.8 39,0 70.8,31.8 70.8,70.8 0,39-31.8,70.8-70.8,70.8z"
+         id="path4568"
+         style="fill:#9f9f9f;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+/**
+ * Layout principal : page commune, zone principale, grille, séparateur
+ * Utilisé par CommuneDetail et vues dérivées
+ */
+
+.commune-detail {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #F7F9FC;
+  animation: fadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+}
+
+.commune-main {
+  flex: 1;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px;
+  width: 100%;
+  animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.commune-detail .dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-divider {
+  height: 1px;
+  background: rgba(229, 231, 235, 0.8);
+  margin: 24px 0;
+}
+
+/* Animations utilisées par le layout */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

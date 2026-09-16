@@ -1,0 +1,14 @@
+/* ============================================
+   BASE - Layout général
+   ============================================ */
+
+.modern-dashboard {
+  min-height: 100vh;
+  background: var(--bg-soft);
+  font-family: var(--font-primary);
+  color: var(--grey-900);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

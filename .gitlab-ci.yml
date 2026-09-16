@@ -1,0 +1,112 @@
+# Pipeline CI pour Portrait Communes V2
+# Étapes : lint, typecheck, test, build
+# Exécuté sur chaque push et merge request
+
+stages:
+  - quality
+  - test
+  - build
+  - security
+
+variables:
+  NODE_VERSION: "22"
+
+# Template réutilisable pour les jobs frontend
+.frontend_base:
+  image: node:${NODE_VERSION}
+  cache:
+    key: frontend-${CI_COMMIT_REF_SLUG}
+    paths:
+      - frontend/node_modules/
+  before_script:
+    - cd frontend
+    - yarn install --frozen-lockfile
+
+# Template réutilisable pour les jobs backend
+.backend_base:
+  image: node:${NODE_VERSION}
+  cache:
+    key: backend-${CI_COMMIT_REF_SLUG}
+    paths:
+      - backend/node_modules/
+  before_script:
+    - cd backend
+    - yarn install --frozen-lockfile
+
+# ─── QUALITY ────────────────────────────────────────────
+
+frontend:lint:
+  extends: .frontend_base
+  stage: quality
+  script:
+    - yarn lint:check
+  allow_failure: true
+
+frontend:typecheck:
+  extends: .frontend_base
+  stage: quality
+  script:
+    - yarn typecheck
+  allow_failure: true
+
+backend:typecheck:
+  extends: .backend_base
+  stage: quality
+  script:
+    - npx tsc --noEmit
+
+# ─── TEST ───────────────────────────────────────────────
+
+frontend:test:
+  extends: .frontend_base
+  stage: test
+  script:
+    - yarn test:run
+  allow_failure: true
+
+backend:test:
+  extends: .backend_base
+  stage: test
+  script:
+    - yarn test:run
+  allow_failure: true
+
+# ─── SECURITY ───────────────────────────────────────────
+
+backend:security:
+  extends: .backend_base
+  stage: security
+  script:
+    - yarn test:run __tests__/security.spec.ts
+    - yarn audit --level moderate || true
+  allow_failure: true
+
+frontend:security:
+  extends: .frontend_base
+  stage: security
+  script:
+    - yarn test:run src/utils/__tests__/mapPopupDom.spec.js src/utils/__tests__/codeInsee.spec.ts src/config/__tests__/mapConfig.spec.js src/config/site.spec.ts
+    - yarn audit --level moderate || true
+  allow_failure: true
+
+# ─── BUILD ──────────────────────────────────────────────
+
+frontend:build:
+  extends: .frontend_base
+  stage: build
+  script:
+    - yarn build
+  artifacts:
+    paths:
+      - frontend/dist/
+    expire_in: 1 week
+
+backend:build:
+  extends: .backend_base
+  stage: build
+  script:
+    - yarn build
+  artifacts:
+    paths:
+      - backend/dist/
+    expire_in: 1 week

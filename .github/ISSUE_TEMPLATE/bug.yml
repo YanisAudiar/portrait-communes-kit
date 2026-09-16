@@ -1,0 +1,31 @@
+name: Anomalie
+description: Un comportement incorrect de l’application (pas une donnée Rennes).
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Ne pas coller de secrets (.env, clés API). Pour une faille, voir SECURITY.md."
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportement observé
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: Docker démo, yarn dev, ou instance interne — préciser.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Commit ou version

@@ -1,0 +1,34 @@
+name: Thème ou indicateur
+description: Proposer un thème / une vue SQL pour le contrat générique (pas un jeu de données d’agence).
+title: "feat(theme): "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Les données d’une agence restent dans son fork. Ici on parle du contrat (noms de vues, colonnes, UI)."
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Thème
+      options:
+        - Démographie
+        - Habitat
+        - Économie
+        - Formation
+        - Solidarité
+        - Agriculture
+        - Nouveau thème
+    validations:
+      required: true
+  - type: textarea
+    id: contract
+    attributes:
+      label: Contrat proposé
+      description: Nom de vue, colonnes, code_insee_concat / code_geo. Voir docs/CONTRAT_DONNEES.md.
+    validations:
+      required: true
+  - type: textarea
+    id: ui
+    attributes:
+      label: Impact UI
+      description: KPI, graphique, sous-thème.

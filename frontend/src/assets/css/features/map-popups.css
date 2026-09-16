@@ -1,0 +1,196 @@
+/**
+ * Styles globaux pour les popups MapLibre
+ * Styles extraits de MapContainer.vue pour améliorer la maintenabilité
+ */
+
+/* Popup principale */
+.audiar-popup .maplibregl-popup-content {
+  padding: 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e8eaed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.commune-popup-audiar {
+  width: 280px;
+  font-size: 14px;
+}
+
+.popup-header {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+  color: white;
+  padding: 16px;
+  border-radius: 12px 12px 0 0;
+}
+
+.popup-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  line-height: 1.2;
+}
+
+.popup-code {
+  font-size: 12px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.popup-content {
+  padding: 16px;
+}
+
+.popup-description {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 13px;
+  margin: 8px 0;
+  font-style: italic;
+}
+
+.popup-actions {
+  padding: 12px 16px 16px;
+  border-top: 1px solid var(--bg-light);
+}
+
+.popup-btn-detail {
+  width: 100%;
+  background: var(--accent-orange);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.popup-btn-detail:hover {
+  background: var(--link-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(241, 126, 8, 0.3);
+}
+
+.audiar-popup .maplibregl-popup-close-button {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  right: 12px;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.audiar-popup .maplibregl-popup-close-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.audiar-popup .maplibregl-popup-tip {
+  border-top-color: var(--primary-blue);
+}
+
+/* Popup au survol */
+.audiar-hover-popup .maplibregl-popup-content {
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--primary-blue);
+  font-family: 'Montserrat', sans-serif;
+  background: var(--bg-white);
+}
+
+.hover-popup-content {
+  font-size: 13px;
+  color: var(--primary-blue);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.audiar-hover-popup .maplibregl-popup-tip {
+  border-top-color: var(--primary-blue);
+}
+
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+  .maplibregl-popup-content {
+    max-width: 280px !important;
+    padding: 12px !important;
+  }
+
+  .popup-header {
+    padding: 8px 12px 8px !important;
+  }
+
+  .popup-title {
+    font-size: 14px !important;
+  }
+
+  .popup-actions {
+    padding: 8px 12px 12px !important;
+  }
+
+  .popup-btn-detail {
+    padding: 10px 12px !important;
+    font-size: 13px !important;
+  }
+
+  /* Contrôles de carte mobiles */
+  .maplibregl-ctrl-group {
+    margin: 8px !important;
+  }
+
+  .maplibregl-ctrl-group button {
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 16px !important;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .maplibregl-popup-content {
+    max-width: 240px !important;
+    padding: 10px !important;
+  }
+
+  .popup-header {
+    padding: 6px 10px 6px !important;
+  }
+
+  .popup-title {
+    font-size: 13px !important;
+  }
+
+  .popup-actions {
+    padding: 6px 10px 10px !important;
+  }
+
+  .popup-btn-detail {
+    padding: 8px 10px !important;
+    font-size: 12px !important;
+  }
+
+  .maplibregl-ctrl-group {
+    margin: 6px !important;
+  }
+
+  .maplibregl-ctrl-group button {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 14px !important;
+  }
+}
+
+/* Landscape Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+  .maplibregl-popup-content {
+    max-width: 300px !important;
+  }
+}

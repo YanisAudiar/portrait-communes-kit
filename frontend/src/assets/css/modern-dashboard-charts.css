@@ -1,0 +1,80 @@
+/* ============================================
+   CONTENU PRINCIPAL - Graphiques
+   ============================================ */
+
+.modern-content-area {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--grey-200);
+  min-height: 600px;
+}
+
+/* Toggle Dataviz / Tableau */
+.modern-view-toggle {
+  display: inline-flex;
+  background: var(--grey-100);
+  border-radius: var(--radius-md);
+  padding: 4px;
+  margin-bottom: var(--spacing-xl);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.modern-view-toggle-button {
+  padding: 10px 24px;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  color: var(--grey-600);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  position: relative;
+}
+
+.modern-view-toggle-button:hover {
+  color: var(--grey-900);
+}
+
+.modern-view-toggle-button.active {
+  background: white;
+  color: var(--primary-blue);
+  box-shadow: var(--shadow-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Graphiques minimalistes */
+.modern-chart-container {
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-lg);
+  background: var(--grey-50);
+  border-radius: var(--radius-md);
+}
+
+.modern-chart-title {
+  font-size: 20px;
+  font-weight: var(--font-weight-bold);
+  color: var(--grey-900);
+  margin: 0 0 var(--spacing-sm) 0;
+  letter-spacing: -0.02em;
+}
+
+.modern-chart-subtitle {
+  font-size: 14px;
+  color: var(--grey-600);
+  margin: 0 0 var(--spacing-lg) 0;
+  font-weight: var(--font-weight-regular);
+}
+
+.modern-chart-wrapper {
+  position: relative;
+  height: 350px;
+}
+
+/* Style Chart.js minimaliste */
+.modern-chart-wrapper canvas {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.05));
+}
+

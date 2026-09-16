@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #316d7b;
+        stroke-miterlimit: 19.6;
+        stroke-width: 1.6px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-890.8" y="-465" width="1647.2" height="1164.7"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="-890.8" y="-465" width="1647.2" height="1164.7"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" x="-890.8" y="-465" width="1647.2" height="1164.7"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" x="-890.8" y="-465" width="1647.2" height="1164.7"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-1" x="-890.8" y="-465" width="1647.2" height="1164.7"/>
+    </clipPath>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="svg8">
+      <sodipodi:namedview id="base" bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" inkscape:current-layer="layer1" inkscape:cx="161.17933" inkscape:cy="45.168348" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="1148" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="3.8351354" pagecolor="#ffffff" showgrid="false"/>
+      <g id="layer1" inkscape:groupmode="layer" inkscape:label="Calque 1">
+        <g class="cls-7">
+          <path id="path7617" class="cls-2" d="M21.9,25.6c2.9.1,6.6.6,6.6.6,1.4,3.2,6.4,6.2,7.5,7.1,3,2.5,9.1,2.9,11.4,4.7,3.4,2.5,6.1,5.6,10.5,5.6,5.1,0,5.5-3.4,5-5.2-.5-1.7-1-3.6-4.7-5.5-1.3-.7-6.7-4.1-9-5.4-2-1.2-2.6-3.7-1.4-5.6,1.2-1.9,3.7-2.5,5.6-1.3,3,1.9,9.5,6.3,10.4,7.1-.4,1.3-1.5,3.8-1.5,6-.2,6.1,2.8,10.3,4.8,10.3,3.6,0,3.3-4.4,4.1-7.8.6-2.5,3.1-12,2.2-13.5-.9-1.5-10-12.2-12.4-13s-17.3-5.7-22.8-5.7h-16.3" inkscape:connector-curvature="0"/>
+        </g>
+        <g class="cls-3">
+          <rect id="rect7619" class="cls-2" x="11" y="2" width="10.9" height="27.2"/>
+        </g>
+        <g class="cls-6">
+          <line id="line7621" class="cls-2" x1="63.6" y1="55.6" x2="63.6" y2="41"/>
+        </g>
+        <g class="cls-4">
+          <path id="path7623" class="cls-2" d="M60.7,78.7v-14.4c-2.8-1.1-4.7-3.9-4.7-7.1s3.3-7.7,7.5-7.7,7.7,3.4,7.7,7.7-1.4,5.1-3.5,6.4v3.4l-1.2,1.2,1.2,1.2v2.3l-1.2,1.2v2.3l1.2,1.2v3.5l-3.5,2.3-3.5-3.5Z" inkscape:connector-curvature="0"/>
+        </g>
+        <g class="cls-5">
+          <path id="path7625" class="cls-2" d="M57.8,65.9c-1.8,1.2-3.9,1.6-5.9,1.2l-2.4,2.4h-1.7v1.7l-1.7,1.7h-1.7l-1.7,1.7v1.7l-2.5,2.5-4.1-.8v-5l10.2-10.2c-1.2-2.8-.6-6.1,1.7-8.4,1.6-1.6,3.7-2.4,5.8-2.3" inkscape:connector-curvature="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

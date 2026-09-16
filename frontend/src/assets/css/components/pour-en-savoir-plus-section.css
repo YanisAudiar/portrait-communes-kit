@@ -1,0 +1,14 @@
+/**
+ * Section "Pour en savoir plus" : placée juste sous le contenu principal,
+ * avec espacement court (comme l'ancienne app : jumbotron mt-3).
+ * Pas dans le footer pour éviter qu'elle soit trop bas.
+ */
+.pour-en-savoir-plus-section {
+  margin-top: 1rem;
+  padding: 1rem;
+  flex-shrink: 0;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

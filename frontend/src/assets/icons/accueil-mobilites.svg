@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 125.6 112.3">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-30, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-31, .cls-14, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6, .cls-10, .cls-11, .cls-14, .cls-21, .cls-22, .cls-23, .cls-27, .cls-29 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6, .cls-10, .cls-11, .cls-14, .cls-21, .cls-23, .cls-27, .cls-29 {
+        stroke-dasharray: 0 6;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-17 {
+        stroke: #896f56;
+      }
+
+      .cls-3, .cls-24, .cls-25 {
+        stroke: #4fad37;
+      }
+
+      .cls-4, .cls-30, .cls-7, .cls-8, .cls-12, .cls-13, .cls-31, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-22, .cls-24, .cls-26, .cls-28 {
+        stroke-width: 1.6px;
+      }
+
+      .cls-4, .cls-23 {
+        stroke: #e7356e;
+      }
+
+      .cls-32 {
+        opacity: .1;
+      }
+
+      .cls-32, .cls-33 {
+        fill: #4297c4;
+      }
+
+      .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39 {
+        isolation: isolate;
+      }
+
+      .cls-33 {
+        opacity: .2;
+      }
+
+      .cls-5, .cls-12 {
+        stroke: #ed712c;
+      }
+
+      .cls-6, .cls-16 {
+        stroke: #c17b6f;
+      }
+
+      .cls-30 {
+        fill: #e2ebef;
+      }
+
+      .cls-30, .cls-31, .cls-19, .cls-21, .cls-22 {
+        stroke: #4297c4;
+      }
+
+      .cls-34, .cls-35 {
+        fill: #896f56;
+      }
+
+      .cls-34, .cls-39, .cls-40 {
+        opacity: .2;
+      }
+
+      .cls-35 {
+        opacity: .1;
+      }
+
+      .cls-7, .cls-15, .cls-18, .cls-27 {
+        stroke: #1c7abe;
+      }
+
+      .cls-36, .cls-37, .cls-38, .cls-41 {
+        opacity: .2;
+      }
+
+      .cls-36, .cls-42 {
+        fill: #ed712c;
+      }
+
+      .cls-43 {
+        fill: #1c7abe;
+      }
+
+      .cls-8, .cls-9, .cls-10 {
+        stroke: #55638f;
+      }
+
+      .cls-9, .cls-25 {
+        stroke-width: 1.6px;
+      }
+
+      .cls-44, .cls-37 {
+        fill: #5e509c;
+      }
+
+      .cls-11 {
+        stroke: #dc83b4;
+      }
+
+      .cls-13, .cls-29 {
+        stroke: #5e509c;
+      }
+
+      .cls-45 {
+        fill: #2da5de;
+      }
+
+      .cls-31 {
+        fill: #d2e6f1;
+      }
+
+      .cls-14, .cls-26 {
+        stroke: #2da5de;
+      }
+
+      .cls-46 {
+        fill: #4fad37;
+      }
+
+      .cls-15 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-47 {
+        fill: #fff;
+      }
+
+      .cls-48 {
+        fill: #f0dbd4;
+      }
+
+      .cls-18 {
+        stroke-dasharray: 3.6 2;
+      }
+
+      .cls-49 {
+        fill: #c5c1d6;
+      }
+
+      .cls-38, .cls-39 {
+        fill: #e7356e;
+      }
+
+      .cls-50 {
+        opacity: .7;
+      }
+
+      .cls-51 {
+        opacity: .7;
+      }
+
+      .cls-52 {
+        opacity: .4;
+      }
+
+      .cls-53 {
+        opacity: .4;
+      }
+
+      .cls-54 {
+        opacity: .3;
+      }
+
+      .cls-55 {
+        opacity: .6;
+      }
+
+      .cls-56 {
+        opacity: .5;
+      }
+
+      .cls-57 {
+        opacity: .2;
+      }
+
+      .cls-58 {
+        opacity: .2;
+      }
+
+      .cls-59 {
+        opacity: .2;
+      }
+
+      .cls-20 {
+        stroke: #db82b4;
+      }
+
+      .cls-28 {
+        stroke: #316d7b;
+      }
+
+      .cls-60 {
+        fill: #db82b4;
+      }
+
+      .cls-61 {
+        display: none;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="svg16766">
+      <sodipodi:namedview id="namedview16768" bordercolor="#666666" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" gridtolerance="10" guidetolerance="10" inkscape:current-layer="mobilites.svg" inkscape:cx="64.131" inkscape:cy="118.6" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="1148" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="0.90769231" objecttolerance="10" pagecolor="#ffffff" showgrid="false"/>
+      <g id="demographie.svg" class="cls-61">
+        <g id="g15832">
+          <rect id="rect15830" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="g15836">
+          <rect id="rect15834" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="Groupe_238" class="cls-55">
+          <path id="Tracé_338" class="cls-37" d="M65.8-117.7c27.6,0,50,22.4,50,50s-22.4,50-50,50S15.8-40.1,15.8-67.7s22.4-50,50-50h0Z" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="Groupe_238-2" data-name="Groupe_238" class="cls-40">
+          <path id="Tracé_338-2" data-name="Tracé_338" class="cls-44" d="M65.8,12.3c27.6,0,50,22.4,50,50s-22.4,50-50,50S15.8,89.9,15.8,62.3,38.2,12.3,65.8,12.3h0Z" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="Groupe_317">
+          <g id="Groupe_307">
+            <path id="Tracé_358" class="cls-13" d="M64.5-66V-31.3c0,1.8,1.4,3.3,3.3,3.3h0c1.8,0,3.3-1.4,3.3-3.3h0" inkscape:connector-curvature="0"/>
+            <g id="Groupe_306">
+              <g id="Groupe_305">
+                <circle id="Ellipse_39" class="cls-13" cx="71.3" cy="-83.8" r="5"/>
+              </g>
+              <path id="Tracé_359" class="cls-13" d="M77.8-54.1c0,1.5,1.2,2.7,2.7,2.7h0c1.5,0,2.7-1.2,2.7-2.7v-14.2c0-4.6-5.2-5.2-5.2-5.2h-13.8s-5.2.6-5.2,5.2v14.2c0,1.5,1.2,2.7,2.7,2.7h0c1.5,0,2.7-1.2,2.7-2.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_360" class="cls-13" d="M77.8-66V-31.3c0,1.8-1.4,3.3-3.3,3.3h0c-1.8,0-3.3-1.4-3.3-3.3h0v-19.9" inkscape:connector-curvature="0"/>
+            </g>
+          </g>
+          <g id="Groupe_310">
+            <g id="Groupe_309">
+              <g id="Groupe_308">
+                <circle id="Ellipse_40" class="cls-13" cx="71.4" cy="-104.8" r="5"/>
+              </g>
+              <path id="Tracé_361" class="cls-13" d="M81.6-93.2c-1-.8-2.1-1.3-3.3-1.5h-13.8c-1.2.2-2.4.7-3.3,1.5" inkscape:connector-curvature="0"/>
+            </g>
+          </g>
+          <g id="Groupe_313">
+            <path id="Tracé_362" class="cls-13" d="M43.6-72.6v34.7c0,1.8,1.4,3.3,3.3,3.3h0c1.8,0,3.3-1.4,3.3-3.3h0" inkscape:connector-curvature="0"/>
+            <g id="Groupe_312">
+              <g id="Groupe_311">
+                <circle id="Ellipse_41" class="cls-13" cx="50.5" cy="-90.4" r="5"/>
+              </g>
+              <path id="Tracé_363" class="cls-13" d="M60.3-79c-1-.7-2.2-1.1-3.3-1.3h-13.6s-5.2.6-5.2,5.2v14.2c0,1.5,1.2,2.7,2.7,2.7h0c1.5,0,2.7-1.2,2.7-2.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_364" class="cls-13" d="M56.9-47.7v9.8c0,1.8-1.4,3.3-3.3,3.3h0c-1.8,0-3.3-1.4-3.3-3.3h0v-19.9" inkscape:connector-curvature="0"/>
+              <path id="Tracé_365" class="cls-13" d="M56.9-47.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_366" class="cls-13" d="M56.9-72.6" inkscape:connector-curvature="0"/>
+            </g>
+          </g>
+          <g id="Groupe_316">
+            <path id="Tracé_367" class="cls-13" d="M99-72.6v34.7c0,1.8-1.4,3.3-3.3,3.3h0c-1.8,0-3.3-1.4-3.3-3.3h0" inkscape:connector-curvature="0"/>
+            <g id="Groupe_315">
+              <g id="Groupe_314">
+                <circle id="Ellipse_42" class="cls-13" cx="92.3" cy="-90.4" r="5"/>
+              </g>
+              <path id="Tracé_368" class="cls-13" d="M82-79c1-.7,2.1-1.1,3.3-1.3h13.8s5.2.6,5.2,5.2v14.2c0,1.5-1.2,2.7-2.7,2.7h0c-1.5,0-2.7-1.2-2.7-2.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_369" class="cls-13" d="M85.6-47.7v9.8c0,1.8,1.4,3.3,3.3,3.3h0c1.8,0,3.3-1.4,3.3-3.3h0v-19.8" inkscape:connector-curvature="0"/>
+              <path id="Tracé_370" class="cls-13" d="M85.6-47.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_371" class="cls-13" d="M85.6-72.6" inkscape:connector-curvature="0"/>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_236">
+          <g id="g15876">
+            <g id="Groupe_232">
+              <g id="Groupe_230">
+                <path id="Tracé_335" class="cls-29" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_317-2" data-name="Groupe_317">
+          <g id="Groupe_307-2" data-name="Groupe_307">
+            <path id="Tracé_358-2" data-name="Tracé_358" class="cls-13" d="M64.5,64v34.7c0,1.8,1.4,3.3,3.3,3.3h0c1.8,0,3.3-1.4,3.3-3.3h0" inkscape:connector-curvature="0"/>
+            <g id="Groupe_306-2" data-name="Groupe_306">
+              <g id="Groupe_305-2" data-name="Groupe_305">
+                <circle id="Ellipse_39-2" data-name="Ellipse_39" class="cls-13" cx="71.3" cy="46.2" r="5"/>
+              </g>
+              <path id="Tracé_359-2" data-name="Tracé_359" class="cls-13" d="M77.8,75.9c0,1.5,1.2,2.7,2.7,2.7h0c1.5,0,2.7-1.2,2.7-2.7v-14.2c0-4.6-5.2-5.2-5.2-5.2h-13.8s-5.2.6-5.2,5.2v14.2c0,1.5,1.2,2.7,2.7,2.7h0c1.5,0,2.7-1.2,2.7-2.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_360-2" data-name="Tracé_360" class="cls-13" d="M77.8,64v34.7c0,1.8-1.4,3.3-3.3,3.3h0c-1.8,0-3.3-1.4-3.3-3.3h0v-19.9" inkscape:connector-curvature="0"/>
+            </g>
+          </g>
+          <g id="Groupe_310-2" data-name="Groupe_310">
+            <g id="Groupe_309-2" data-name="Groupe_309">
+              <g id="Groupe_308-2" data-name="Groupe_308">
+                <circle id="Ellipse_40-2" data-name="Ellipse_40" class="cls-13" cx="71.4" cy="25.2" r="5"/>
+              </g>
+              <path id="Tracé_361-2" data-name="Tracé_361" class="cls-13" d="M81.6,36.8c-1-.8-2.1-1.3-3.3-1.5h-13.8c-1.2.2-2.4.7-3.3,1.5" inkscape:connector-curvature="0"/>
+            </g>
+          </g>
+          <g id="Groupe_313-2" data-name="Groupe_313">
+            <path id="Tracé_362-2" data-name="Tracé_362" class="cls-13" d="M43.6,57.4v34.7c0,1.8,1.4,3.3,3.3,3.3h0c1.8,0,3.3-1.4,3.3-3.3h0" inkscape:connector-curvature="0"/>
+            <g id="Groupe_312-2" data-name="Groupe_312">
+              <g id="Groupe_311-2" data-name="Groupe_311">
+                <circle id="Ellipse_41-2" data-name="Ellipse_41" class="cls-13" cx="50.5" cy="39.6" r="5"/>
+              </g>
+              <path id="Tracé_363-2" data-name="Tracé_363" class="cls-13" d="M60.3,51c-1-.7-2.2-1.1-3.3-1.3h-13.6s-5.2.6-5.2,5.2v14.2c0,1.5,1.2,2.7,2.7,2.7h0c1.5,0,2.7-1.2,2.7-2.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_364-2" data-name="Tracé_364" class="cls-13" d="M56.9,82.3v9.8c0,1.8-1.4,3.3-3.3,3.3h0c-1.8,0-3.3-1.4-3.3-3.3h0v-19.8" inkscape:connector-curvature="0"/>
+              <path id="Tracé_365-2" data-name="Tracé_365" class="cls-13" d="M56.9,82.3" inkscape:connector-curvature="0"/>
+              <path id="Tracé_366-2" data-name="Tracé_366" class="cls-13" d="M56.9,57.4" inkscape:connector-curvature="0"/>
+            </g>
+          </g>
+          <g id="Groupe_316-2" data-name="Groupe_316">
+            <path id="Tracé_367-2" data-name="Tracé_367" class="cls-13" d="M99,57.4v34.7c0,1.8-1.4,3.3-3.3,3.3h0c-1.8,0-3.3-1.4-3.3-3.3h0" inkscape:connector-curvature="0"/>
+            <g id="Groupe_315-2" data-name="Groupe_315">
+              <g id="Groupe_314-2" data-name="Groupe_314">
+                <circle id="Ellipse_42-2" data-name="Ellipse_42" class="cls-13" cx="92.3" cy="39.6" r="5"/>
+              </g>
+              <path id="Tracé_368-2" data-name="Tracé_368" class="cls-13" d="M82,51c1-.7,2.1-1.1,3.3-1.3h13.8s5.2.6,5.2,5.2v14.2c0,1.5-1.2,2.7-2.7,2.7h0c-1.5,0-2.7-1.2-2.7-2.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_369-2" data-name="Tracé_369" class="cls-13" d="M85.6,82.3v9.8c0,1.8,1.4,3.3,3.3,3.3h0c1.8,0,3.3-1.4,3.3-3.3h0v-19.8" inkscape:connector-curvature="0"/>
+              <path id="Tracé_370-2" data-name="Tracé_370" class="cls-13" d="M85.6,82.3" inkscape:connector-curvature="0"/>
+              <path id="Tracé_371-2" data-name="Tracé_371" class="cls-13" d="M85.6,57.4" inkscape:connector-curvature="0"/>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_236-2" data-name="Groupe_236">
+          <g id="g15913">
+            <g id="Groupe_232-2" data-name="Groupe_232">
+              <g id="Groupe_230-2" data-name="Groupe_230">
+                <path id="Tracé_335-2" data-name="Tracé_335" class="cls-29" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="habitat.svg" class="cls-61">
+        <g id="g15919">
+          <rect id="rect15917" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g15923">
+          <rect id="rect15921" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="Groupe_238-3" data-name="Groupe_238" class="cls-40">
+          <path id="Tracé_338-3" data-name="Tracé_338" class="cls-42" d="M65.7,12.3c27.6,0,50,22.4,50,50s-22.4,50-50,50S15.7,89.9,15.7,62.3,38.1,12.3,65.7,12.3Z" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="Groupe_236-3" data-name="Groupe_236">
+          <g id="g15930">
+            <g id="Groupe_232-3" data-name="Groupe_232">
+              <g id="Groupe_230-3" data-name="Groupe_230">
+                <path id="Tracé_335-3" data-name="Tracé_335" class="cls-5" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_238-4" data-name="Groupe_238" class="cls-50">
+          <path id="Tracé_338-4" data-name="Tracé_338" class="cls-36" d="M65.7-117.7c27.6,0,50,22.4,50,50s-22.4,50-50,50S15.7-40.1,15.7-67.7s22.4-50,50-50Z" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="g16009">
+          <g id="g15939">
+            <polyline id="polyline15935" class="cls-12" points="26.6 -32 26.6 -60.9 45.2 -73.8 63.5 -60.9 63.5 -32"/>
+            <rect id="rect15937" class="cls-12" x="37.8" y="-55.5" width="14.4" height="14.4"/>
+          </g>
+          <g id="g15999">
+            <polyline id="polyline15941" class="cls-12" points="50.6 -70.5 50.6 -106 95 -106 95 -32"/>
+            <g id="g15951">
+              <line id="line15943" class="cls-12" x1="84.4" y1="-87" x2="84.4" y2="-83.4"/>
+              <line id="line15945" class="cls-12" x1="76.5" y1="-87" x2="76.5" y2="-83.4"/>
+              <line id="line15947" class="cls-12" x1="68.6" y1="-87" x2="68.6" y2="-83.4"/>
+              <line id="line15949" class="cls-12" x1="60.7" y1="-87" x2="60.7" y2="-83.4"/>
+            </g>
+            <g id="g15961">
+              <line id="line15953" class="cls-12" x1="84.4" y1="-76.4" x2="84.4" y2="-72.9"/>
+              <line id="line15955" class="cls-12" x1="76.5" y1="-76.4" x2="76.5" y2="-72.9"/>
+              <line id="line15957" class="cls-12" x1="68.6" y1="-76.4" x2="68.6" y2="-72.9"/>
+              <line id="line15959" class="cls-12" x1="60.7" y1="-76.4" x2="60.7" y2="-72.9"/>
+            </g>
+            <g id="g15971">
+              <line id="line15963" class="cls-12" x1="84.4" y1="-65.9" x2="84.4" y2="-62.3"/>
+              <line id="line15965" class="cls-12" x1="76.5" y1="-65.9" x2="76.5" y2="-62.3"/>
+              <line id="line15967" class="cls-12" x1="68.6" y1="-65.9" x2="68.6" y2="-62.3"/>
+              <line id="line15969" class="cls-12" x1="60.7" y1="-65.9" x2="60.7" y2="-62.9"/>
+            </g>
+            <g id="g15981">
+              <line id="line15973" class="cls-12" x1="84.4" y1="-97.6" x2="84.4" y2="-94"/>
+              <line id="line15975" class="cls-12" x1="76.5" y1="-97.6" x2="76.5" y2="-94"/>
+              <line id="line15977" class="cls-12" x1="68.6" y1="-97.6" x2="68.6" y2="-94"/>
+              <line id="line15979" class="cls-12" x1="60.7" y1="-97.6" x2="60.7" y2="-94"/>
+            </g>
+            <g id="g15989">
+              <line id="line15983" class="cls-12" x1="84.4" y1="-55.3" x2="84.4" y2="-51.8"/>
+              <line id="line15985" class="cls-12" x1="76.5" y1="-55.3" x2="76.5" y2="-51.8"/>
+              <line id="line15987" class="cls-12" x1="68.6" y1="-55.3" x2="68.6" y2="-51.8"/>
+            </g>
+            <g id="g15997">
+              <line id="line15991" class="cls-12" x1="84.4" y1="-44.8" x2="84.4" y2="-41.2"/>
+              <line id="line15993" class="cls-12" x1="76.5" y1="-44.8" x2="76.5" y2="-41.2"/>
+              <line id="line15995" class="cls-12" x1="68.6" y1="-44.8" x2="68.6" y2="-41.2"/>
+            </g>
+          </g>
+          <path id="path16001" class="cls-12" d="M67.5-55.7" inkscape:connector-curvature="0"/>
+          <line id="line16003" class="cls-12" x1="22.2" y1="-32" x2="111.7" y2="-32"/>
+          <circle id="circle16005" class="cls-12" cx="107.1" cy="-47.4" r="6.9"/>
+          <line id="line16007" class="cls-12" x1="107.1" y1="-40.6" x2="107.1" y2="-32.2"/>
+        </g>
+        <g id="Groupe_236-4" data-name="Groupe_236">
+          <g id="g16014">
+            <g id="Groupe_232-4" data-name="Groupe_232">
+              <g id="Groupe_230-4" data-name="Groupe_230">
+                <path id="Tracé_335-4" data-name="Tracé_335" class="cls-5" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="g16091">
+          <g id="g16021">
+            <polyline id="polyline16017" class="cls-12" points="26.6 98 26.6 69.1 45.2 56.2 63.5 69.1 63.5 98"/>
+            <rect id="rect16019" class="cls-12" x="37.8" y="74.5" width="14.4" height="14.4"/>
+          </g>
+          <g id="g16081">
+            <polyline id="polyline16023" class="cls-12" points="50.6 59.5 50.6 24 95 24 95 98"/>
+            <g id="g16033">
+              <line id="line16025" class="cls-12" x1="84.4" y1="43" x2="84.4" y2="46.6"/>
+              <line id="line16027" class="cls-12" x1="76.5" y1="43" x2="76.5" y2="46.6"/>
+              <line id="line16029" class="cls-12" x1="68.6" y1="43" x2="68.6" y2="46.6"/>
+              <line id="line16031" class="cls-12" x1="60.7" y1="43" x2="60.7" y2="46.6"/>
+            </g>
+            <g id="g16043">
+              <line id="line16035" class="cls-12" x1="84.4" y1="53.6" x2="84.4" y2="57.1"/>
+              <line id="line16037" class="cls-12" x1="76.5" y1="53.6" x2="76.5" y2="57.1"/>
+              <line id="line16039" class="cls-12" x1="68.6" y1="53.6" x2="68.6" y2="57.1"/>
+              <line id="line16041" class="cls-12" x1="60.7" y1="53.6" x2="60.7" y2="57.1"/>
+            </g>
+            <g id="g16053">
+              <line id="line16045" class="cls-12" x1="84.4" y1="64.1" x2="84.4" y2="67.7"/>
+              <line id="line16047" class="cls-12" x1="76.5" y1="64.1" x2="76.5" y2="67.7"/>
+              <line id="line16049" class="cls-12" x1="68.6" y1="64.1" x2="68.6" y2="67.7"/>
+              <line id="line16051" class="cls-12" x1="60.7" y1="64.1" x2="60.7" y2="67.1"/>
+            </g>
+            <g id="g16063">
+              <line id="line16055" class="cls-12" x1="84.4" y1="32.4" x2="84.4" y2="36"/>
+              <line id="line16057" class="cls-12" x1="76.5" y1="32.4" x2="76.5" y2="36"/>
+              <line id="line16059" class="cls-12" x1="68.6" y1="32.4" x2="68.6" y2="36"/>
+              <line id="line16061" class="cls-12" x1="60.7" y1="32.4" x2="60.7" y2="36"/>
+            </g>
+            <g id="g16071">
+              <line id="line16065" class="cls-12" x1="84.4" y1="74.7" x2="84.4" y2="78.2"/>
+              <line id="line16067" class="cls-12" x1="76.5" y1="74.7" x2="76.5" y2="78.2"/>
+              <line id="line16069" class="cls-12" x1="68.6" y1="74.7" x2="68.6" y2="78.2"/>
+            </g>
+            <g id="g16079">
+              <line id="line16073" class="cls-12" x1="84.4" y1="85.2" x2="84.4" y2="88.8"/>
+              <line id="line16075" class="cls-12" x1="76.5" y1="85.2" x2="76.5" y2="88.8"/>
+              <line id="line16077" class="cls-12" x1="68.6" y1="85.2" x2="68.6" y2="88.8"/>
+            </g>
+          </g>
+          <path id="path16083" class="cls-12" d="M67.5,74.3" inkscape:connector-curvature="0"/>
+          <line id="line16085" class="cls-12" x1="22.2" y1="98" x2="111.7" y2="98"/>
+          <circle id="circle16087" class="cls-12" cx="107.1" cy="82.6" r="6.9"/>
+          <line id="line16089" class="cls-12" x1="107.1" y1="89.4" x2="107.1" y2="97.8"/>
+        </g>
+      </g>
+      <g id="foncier.svg" class="cls-61">
+        <g id="g16096">
+          <rect id="rect16094" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g16100">
+          <rect id="rect16098" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <path id="Tracé_338-5" data-name="Tracé_338" class="cls-35" d="M65.7-117.7c27.6,0,50,22.4,50,50s-22.4,50-50,50S15.7-40.1,15.7-67.7s22.4-50,50-50Z" inkscape:connector-curvature="0"/>
+        <g id="Groupe_326">
+          <g id="Groupe_320">
+            <rect id="Rectangle_526" class="cls-1" x="73.6" y="-70.6" width="8.1" height="21.3"/>
+            <rect id="Rectangle_527" class="cls-1" x="91.7" y="-70.6" width="8.1" height="21.3"/>
+            <rect id="Rectangle_528" class="cls-1" x="55.4" y="-70.6" width="8.1" height="21.3"/>
+            <rect id="Rectangle_529" class="cls-17" x="40.8" y="-80.7" width="4.3" height="9.9"/>
+            <rect id="Rectangle_530" class="cls-17" x="55.4" y="-80.7" width="8.1" height="9.9"/>
+            <rect id="Rectangle_531" class="cls-17" x="73.6" y="-80.7" width="8.1" height="9.9"/>
+            <rect id="Rectangle_532" class="cls-17" x="109.8" y="-80.7" width="4.7" height="9.9"/>
+            <rect id="Rectangle_533" class="cls-17" x="91.7" y="-80.7" width="8.1" height="9.9"/>
+            <rect id="Rectangle_534" class="cls-17" x="91.7" y="-49.3" width="8.1" height="9.9"/>
+            <path id="Tracé_380" class="cls-17" d="M45.2-47.9v8.5h-4.3v-6.3" inkscape:connector-curvature="0"/>
+            <rect id="Rectangle_535" class="cls-17" x="73.6" y="-49.3" width="8.1" height="9.9"/>
+            <rect id="Rectangle_536" class="cls-17" x="109.8" y="-49.3" width="4.7" height="9.9"/>
+            <rect id="Rectangle_537" class="cls-17" x="55.4" y="-49.3" width="8.1" height="9.9"/>
+            <line id="Ligne_61" class="cls-17" x1="55.4" y1="-49.3" x2="55.4" y2="-70.6"/>
+            <line id="Ligne_62" class="cls-17" x1="45.2" y1="-70.6" x2="45.2" y2="-65.7"/>
+            <path id="Tracé_381" class="cls-17" d="M45.2-39.5v7.5h10.3v-7.5" inkscape:connector-curvature="0"/>
+            <path id="Tracé_382" class="cls-17" d="M55.4-80.7v-7.1l-5.1-4.5-5.1,4.5v7.1" inkscape:connector-curvature="0"/>
+            <path id="Tracé_383" class="cls-17" d="M63.5-39.5v7.5h10.1v-7.5" inkscape:connector-curvature="0"/>
+            <path id="Tracé_384" class="cls-17" d="M73.6-80.7v-7.1l-5.1-4.5-4.9,4.5v7.1" inkscape:connector-curvature="0"/>
+            <line id="Ligne_63" class="cls-17" x1="73.6" y1="-49.3" x2="73.6" y2="-70.6"/>
+            <line id="Ligne_64" class="cls-17" x1="63.5" y1="-70.6" x2="63.5" y2="-49.3"/>
+            <path id="Tracé_385" class="cls-17" d="M81.7-39.5v7.5h10.1v-7.5" inkscape:connector-curvature="0"/>
+            <line id="Ligne_65" class="cls-17" x1="91.7" y1="-49.3" x2="91.7" y2="-70.6"/>
+            <line id="Ligne_66" class="cls-17" x1="81.7" y1="-70.6" x2="81.7" y2="-49.3"/>
+            <path id="Tracé_386" class="cls-17" d="M91.7-80.7v-7.1l-5.1-4.5-4.9,4.5v7.1" inkscape:connector-curvature="0"/>
+            <path id="Tracé_387" class="cls-17" d="M99.8-39.5v7.5h10.1v-7.5" inkscape:connector-curvature="0"/>
+            <line id="Ligne_67" class="cls-17" x1="109.8" y1="-49.3" x2="109.8" y2="-70.6"/>
+            <line id="Ligne_68" class="cls-17" x1="99.8" y1="-70.6" x2="99.8" y2="-49.3"/>
+            <path id="Tracé_388" class="cls-17" d="M109.8-80.7v-7.1l-5.1-4.5-4.9,4.5v7.1" inkscape:connector-curvature="0"/>
+          </g>
+          <g id="Groupe_321">
+            <path id="Tracé_389" class="cls-17" d="M18.6-36.1s3.7,1.4,5.9-.8,2-7.1,2-7.1c0,0-4.9-.2-7.1,2-2.2,2.1-.9,5.9-.8,5.9h0Z" inkscape:connector-curvature="0"/>
+            <line id="Ligne_69" class="cls-17" x1="17.6" y1="-36.6" x2="17.6" y2="-32"/>
+            <path id="Tracé_390" class="cls-17" d="M16.6-35.5s.8-2.2-.4-3.4-3.9-1.2-3.9-1.2c0,0,0,2.8,1.2,3.9.8.8,2,1,3.1.7h0Z" inkscape:connector-curvature="0"/>
+          </g>
+          <g id="Groupe_325">
+            <g id="Groupe_322">
+              <path id="Tracé_391" class="cls-17" d="M30.4-72.8s-7.5-3.5-7.5-9.7,7.5-13.4,7.5-13.4c0,0,7.5,7.1,7.5,13.4s-7.5,9.7-7.5,9.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_392" class="cls-17" d="M30.4-83.5V-32" inkscape:connector-curvature="0"/>
+            </g>
+            <g id="Groupe_323">
+              <path id="Tracé_393" class="cls-17" d="M28.1-54s-8.7,2.7-13.8-2.2-4.7-17.2-4.7-17.2c0,0,12-.2,17.2,4.7,5,5,1.3,14.7,1.3,14.7Z" inkscape:connector-curvature="0"/>
+              <line id="Ligne_70" class="cls-17" x1="20" y1="-62" x2="30.4" y2="-51.5"/>
+            </g>
+            <g id="Groupe_324">
+              <path id="Tracé_394" class="cls-17" d="M31.9-45.9s8.5,2.5,13.7-2.4c5.1-4.9,4.7-17.2,4.7-17.2,0,0-12-.2-17.2,4.7-5,5-1.2,14.9-1.2,14.9Z" inkscape:connector-curvature="0"/>
+              <line id="Ligne_71" class="cls-17" x1="40.5" y1="-53.5" x2="30.4" y2="-44.6"/>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_236-5" data-name="Groupe_236">
+          <g id="g16151">
+            <g id="Groupe_232-5" data-name="Groupe_232">
+              <g id="Groupe_230-5" data-name="Groupe_230">
+                <path id="Tracé_335-5" data-name="Tracé_335" class="cls-2" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <path id="Tracé_338-6" data-name="Tracé_338" class="cls-34" d="M65.7,12.3c27.6,0,50,22.4,50,50s-22.4,50-50,50S15.7,89.9,15.7,62.3,38.1,12.3,65.7,12.3Z" inkscape:connector-curvature="0"/>
+        <g id="Groupe_326-2" data-name="Groupe_326">
+          <g id="Groupe_320-2" data-name="Groupe_320">
+            <rect id="Rectangle_526-2" data-name="Rectangle_526" class="cls-1" x="73.6" y="59.4" width="8.1" height="21.3"/>
+            <rect id="Rectangle_527-2" data-name="Rectangle_527" class="cls-1" x="91.7" y="59.4" width="8.1" height="21.3"/>
+            <rect id="Rectangle_528-2" data-name="Rectangle_528" class="cls-1" x="55.4" y="59.4" width="8.1" height="21.3"/>
+            <rect id="Rectangle_529-2" data-name="Rectangle_529" class="cls-17" x="40.8" y="49.3" width="4.3" height="9.9"/>
+            <rect id="Rectangle_530-2" data-name="Rectangle_530" class="cls-17" x="55.4" y="49.3" width="8.1" height="9.9"/>
+            <rect id="Rectangle_531-2" data-name="Rectangle_531" class="cls-17" x="73.6" y="49.3" width="8.1" height="9.9"/>
+            <rect id="Rectangle_532-2" data-name="Rectangle_532" class="cls-17" x="109.8" y="49.3" width="4.7" height="9.9"/>
+            <rect id="Rectangle_533-2" data-name="Rectangle_533" class="cls-17" x="91.7" y="49.3" width="8.1" height="9.9"/>
+            <rect id="Rectangle_534-2" data-name="Rectangle_534" class="cls-17" x="91.7" y="80.7" width="8.1" height="9.9"/>
+            <path id="Tracé_380-2" data-name="Tracé_380" class="cls-17" d="M45.2,82.1v8.5h-4.3v-6.3" inkscape:connector-curvature="0"/>
+            <rect id="Rectangle_535-2" data-name="Rectangle_535" class="cls-17" x="73.6" y="80.7" width="8.1" height="9.9"/>
+            <rect id="Rectangle_536-2" data-name="Rectangle_536" class="cls-17" x="109.8" y="80.7" width="4.7" height="9.9"/>
+            <rect id="Rectangle_537-2" data-name="Rectangle_537" class="cls-17" x="55.4" y="80.7" width="8.1" height="9.9"/>
+            <line id="Ligne_61-2" data-name="Ligne_61" class="cls-17" x1="55.4" y1="80.7" x2="55.4" y2="59.4"/>
+            <line id="Ligne_62-2" data-name="Ligne_62" class="cls-17" x1="45.2" y1="59.4" x2="45.2" y2="64.3"/>
+            <path id="Tracé_381-2" data-name="Tracé_381" class="cls-17" d="M45.2,90.5v7.5h10.3v-7.5" inkscape:connector-curvature="0"/>
+            <path id="Tracé_382-2" data-name="Tracé_382" class="cls-17" d="M55.4,49.3v-7.1l-5.1-4.5-5.1,4.5v7.1" inkscape:connector-curvature="0"/>
+            <path id="Tracé_383-2" data-name="Tracé_383" class="cls-17" d="M63.5,90.5v7.5h10.1v-7.5" inkscape:connector-curvature="0"/>
+            <path id="Tracé_384-2" data-name="Tracé_384" class="cls-17" d="M73.6,49.3v-7.1l-5.1-4.5-4.9,4.5v7.1" inkscape:connector-curvature="0"/>
+            <line id="Ligne_63-2" data-name="Ligne_63" class="cls-17" x1="73.6" y1="80.7" x2="73.6" y2="59.4"/>
+            <line id="Ligne_64-2" data-name="Ligne_64" class="cls-17" x1="63.5" y1="59.4" x2="63.5" y2="80.7"/>
+            <path id="Tracé_385-2" data-name="Tracé_385" class="cls-17" d="M81.7,90.5v7.5h10.1v-7.5" inkscape:connector-curvature="0"/>
+            <line id="Ligne_65-2" data-name="Ligne_65" class="cls-17" x1="91.7" y1="80.7" x2="91.7" y2="59.4"/>
+            <line id="Ligne_66-2" data-name="Ligne_66" class="cls-17" x1="81.7" y1="59.4" x2="81.7" y2="80.7"/>
+            <path id="Tracé_386-2" data-name="Tracé_386" class="cls-17" d="M91.7,49.3v-7.1l-5.1-4.5-4.9,4.5v7.1" inkscape:connector-curvature="0"/>
+            <path id="Tracé_387-2" data-name="Tracé_387" class="cls-17" d="M99.8,90.5v7.5h10.1v-7.5" inkscape:connector-curvature="0"/>
+            <line id="Ligne_67-2" data-name="Ligne_67" class="cls-17" x1="109.8" y1="80.7" x2="109.8" y2="59.4"/>
+            <line id="Ligne_68-2" data-name="Ligne_68" class="cls-17" x1="99.8" y1="59.4" x2="99.8" y2="80.7"/>
+            <path id="Tracé_388-2" data-name="Tracé_388" class="cls-17" d="M109.8,49.3v-7.1l-5.1-4.5-4.9,4.5v7.1" inkscape:connector-curvature="0"/>
+          </g>
+          <g id="Groupe_321-2" data-name="Groupe_321">
+            <path id="Tracé_389-2" data-name="Tracé_389" class="cls-17" d="M18.6,93.9s3.7,1.4,5.9-.8c2.2-2.2,2-7.1,2-7.1,0,0-4.9-.2-7.1,2-2.2,2.1-.9,5.9-.8,5.9h0Z" inkscape:connector-curvature="0"/>
+            <line id="Ligne_69-2" data-name="Ligne_69" class="cls-17" x1="17.6" y1="93.4" x2="17.6" y2="98"/>
+            <path id="Tracé_390-2" data-name="Tracé_390" class="cls-17" d="M16.6,94.5s.8-2.2-.4-3.4-3.9-1.2-3.9-1.2c0,0,0,2.8,1.2,3.9.8.8,2,1,3.1.7h0Z" inkscape:connector-curvature="0"/>
+          </g>
+          <g id="Groupe_325-2" data-name="Groupe_325">
+            <g id="Groupe_322-2" data-name="Groupe_322">
+              <path id="Tracé_391-2" data-name="Tracé_391" class="cls-17" d="M30.4,57.2s-7.5-3.5-7.5-9.7,7.5-13.4,7.5-13.4c0,0,7.5,7.1,7.5,13.4s-7.5,9.7-7.5,9.7" inkscape:connector-curvature="0"/>
+              <path id="Tracé_392-2" data-name="Tracé_392" class="cls-17" d="M30.4,46.5v51.5" inkscape:connector-curvature="0"/>
+            </g>
+            <g id="Groupe_323-2" data-name="Groupe_323">
+              <path id="Tracé_393-2" data-name="Tracé_393" class="cls-17" d="M28.1,76s-8.7,2.7-13.8-2.2c-5.1-4.9-4.7-17.2-4.7-17.2,0,0,12-.2,17.2,4.7,5,5,1.3,14.7,1.3,14.7Z" inkscape:connector-curvature="0"/>
+              <line id="Ligne_70-2" data-name="Ligne_70" class="cls-17" x1="20" y1="68" x2="30.4" y2="78.5"/>
+            </g>
+            <g id="Groupe_324-2" data-name="Groupe_324">
+              <path id="Tracé_394-2" data-name="Tracé_394" class="cls-17" d="M31.9,84.1s8.5,2.5,13.7-2.4c5.1-4.9,4.7-17.2,4.7-17.2,0,0-12-.2-17.2,4.7-5.2,4.9-1.2,14.9-1.2,14.9Z" inkscape:connector-curvature="0"/>
+              <line id="Ligne_71-2" data-name="Ligne_71" class="cls-17" x1="40.5" y1="76.5" x2="30.4" y2="85.4"/>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_236-6" data-name="Groupe_236">
+          <g id="g16203">
+            <g id="Groupe_232-6" data-name="Groupe_232">
+              <g id="Groupe_230-6" data-name="Groupe_230">
+                <path id="Tracé_335-6" data-name="Tracé_335" class="cls-2" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="economie.svg" class="cls-61">
+        <g id="g16209">
+          <rect id="rect16207" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g16213">
+          <rect id="rect16211" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <path id="Tracé_340" class="cls-32" d="M65.7-117.7c27.6,0,50,22.4,50,50s-22.4,50-50,50S15.7-40.1,15.7-67.7s22.4-50,50-50Z" inkscape:connector-curvature="0"/>
+        <g id="Groupe_295">
+          <g id="Groupe_292">
+            <path id="Tracé_346" class="cls-19" d="M105.4-77.9" inkscape:connector-curvature="0"/>
+            <path id="Tracé_348" class="cls-19" d="M80.5-71.3c0,2.5,5.6,4.5,12.4,4.5s12.5-2,12.5-4.5" inkscape:connector-curvature="0"/>
+            <path id="Tracé_349" class="cls-19" d="M86.2-61c2.2.5,4.5.8,6.7.7,6.9,0,12.5-2,12.5-4.5" inkscape:connector-curvature="0"/>
+            <line id="Ligne_57" class="cls-19" x1="80.5" y1="-77.9" x2="80.5" y2="-65"/>
+          </g>
+          <path id="Tracé_350" class="cls-19" d="M86.2-54.5c2.3.5,4.6.8,6.9.7,6.9,0,12.4-2,12.4-4.5" inkscape:connector-curvature="0"/>
+          <path id="Tracé_351" class="cls-19" d="M105.4-77.9v26c0,2.5-5.6,4.5-12.4,4.5s-4.6-.3-6.9-.7" inkscape:connector-curvature="0"/>
+          <g id="Groupe_294">
+            <g id="Groupe_293">
+              <path id="Ellipse_36" class="cls-19" d="M92.9-95.4c6.8,0,12.5,2,12.5,4.5s-5.7,4.5-12.5,4.5-12.4-1.9-12.4-4.4,5.6-4.6,12.4-4.6Z" inkscape:connector-curvature="0"/>
+              <path id="Tracé_352" class="cls-19" d="M80.5-84.5c0,2.5,5.6,4.5,12.4,4.5s12.5-2,12.5-4.5" inkscape:connector-curvature="0"/>
+              <line id="Ligne_58" class="cls-19" x1="80.5" y1="-90.8" x2="80.5" y2="-77.6"/>
+            </g>
+            <path id="Tracé_353" class="cls-19" d="M80.5-77.9" inkscape:connector-curvature="0"/>
+            <path id="Tracé_354" class="cls-19" d="M105.4-90.8v12.9c0,2.5-5.6,4.5-12.4,4.5h-.2c-6.7,0-12.4-2-12.4-4.5" inkscape:connector-curvature="0"/>
+          </g>
+        </g>
+        <g id="Groupe_300">
+          <g id="Groupe_299">
+            <g id="Groupe_298">
+              <path id="Tracé_355" class="cls-19" d="M45.6-74v37.7c0,2.1,1.7,3.8,3.8,3.8h0c2.1,0,3.8-1.6,3.8-3.6v-.2" inkscape:connector-curvature="0"/>
+              <g id="Groupe_297">
+                <g id="Groupe_296">
+                  <circle id="Ellipse_37" class="cls-19" cx="53" cy="-96.9" r="5.8"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <path id="Tracé_356" class="cls-19" d="M53.2-59.2v22.9c0,2.5,2.2,4.4,4.8,3.8,1-.3,1.9-.9,2.3-1.8.3-.6.5-1.3.5-1.9v-44.5h16.5c1.8,0,3.2-1.4,3.2-3.2s0-.4,0-.6c-.3-1.6-1.7-2.7-3.3-2.7h-22.7c-2.8,0-5.7.6-8.2,1.9-.9.5-1.8,1.1-2.7,1.7-2.7,2-4.3,5.2-4.2,8.5v13.8c0,1.6,1.1,3,2.7,3.3,1.4.2,2.7-.4,3.4-1.6" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="Groupe_303">
+          <g id="Groupe_301">
+            <circle id="Ellipse_38" class="cls-30" cx="77.3" cy="-51" r="18.4"/>
+          </g>
+          <g id="Groupe_302">
+            <line id="Ligne_59" class="cls-22" x1="67.7" y1="-53.6" x2="78.1" y2="-53.6"/>
+            <line id="Ligne_60" class="cls-22" x1="67.7" y1="-47.8" x2="78.1" y2="-47.8"/>
+            <path id="Tracé_357" class="cls-22" d="M81-42.5c-.7.2-1.3.2-2,.2-4.7,0-8.5-3.9-8.5-8.6,0-4.6,3.8-8.4,8.5-8.5.6,0,1.1,0,1.6.2" inkscape:connector-curvature="0"/>
+          </g>
+        </g>
+        <g id="Groupe_236-7" data-name="Groupe_236">
+          <g id="g16249">
+            <g id="Groupe_232-7" data-name="Groupe_232">
+              <g id="Groupe_230-7" data-name="Groupe_230">
+                <path id="Tracé_335-7" data-name="Tracé_335" class="cls-21" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <path id="Tracé_340-2" data-name="Tracé_340" class="cls-33" d="M65.7,12.3c27.6,0,50,22.4,50,50s-22.4,50-50,50S15.7,89.9,15.7,62.3,38.1,12.3,65.7,12.3Z" inkscape:connector-curvature="0"/>
+        <g id="Groupe_295-2" data-name="Groupe_295">
+          <g id="Groupe_292-2" data-name="Groupe_292">
+            <path id="Tracé_346-2" data-name="Tracé_346" class="cls-19" d="M105.4,52.1" inkscape:connector-curvature="0"/>
+            <path id="Tracé_348-2" data-name="Tracé_348" class="cls-19" d="M80.5,58.7c0,2.5,5.6,4.5,12.4,4.5s12.5-2,12.5-4.5" inkscape:connector-curvature="0"/>
+            <path id="Tracé_349-2" data-name="Tracé_349" class="cls-19" d="M86.2,69c2.2.5,4.5.8,6.7.7,6.9,0,12.5-2,12.5-4.5" inkscape:connector-curvature="0"/>
+            <line id="Ligne_57-2" data-name="Ligne_57" class="cls-19" x1="80.5" y1="52.1" x2="80.5" y2="65"/>
+          </g>
+          <path id="Tracé_350-2" data-name="Tracé_350" class="cls-19" d="M86.2,75.5c2.3.5,4.6.8,6.9.7,6.9,0,12.4-2,12.4-4.5" inkscape:connector-curvature="0"/>
+          <path id="Tracé_351-2" data-name="Tracé_351" class="cls-19" d="M105.4,52.1v26c0,2.5-5.6,4.5-12.4,4.5s-4.6-.3-6.9-.7" inkscape:connector-curvature="0"/>
+          <g id="Groupe_294-2" data-name="Groupe_294">
+            <g id="Groupe_293-2" data-name="Groupe_293">
+              <path id="Ellipse_36-2" data-name="Ellipse_36" class="cls-19" d="M92.9,34.6c6.8,0,12.5,2,12.5,4.5s-5.7,4.5-12.5,4.5-12.4-2-12.4-4.5,5.6-4.5,12.4-4.5Z" inkscape:connector-curvature="0"/>
+              <path id="Tracé_352-2" data-name="Tracé_352" class="cls-19" d="M80.5,45.5c0,2.5,5.6,4.5,12.4,4.5s12.5-2,12.5-4.5" inkscape:connector-curvature="0"/>
+              <line id="Ligne_58-2" data-name="Ligne_58" class="cls-19" x1="80.5" y1="39.2" x2="80.5" y2="52.4"/>
+            </g>
+            <path id="Tracé_353-2" data-name="Tracé_353" class="cls-19" d="M80.5,52.1" inkscape:connector-curvature="0"/>
+            <path id="Tracé_354-2" data-name="Tracé_354" class="cls-19" d="M105.4,39.2v12.9c0,2.5-5.6,4.5-12.4,4.5h-.2c-6.7,0-12.4-2-12.4-4.5" inkscape:connector-curvature="0"/>
+          </g>
+        </g>
+        <g id="Groupe_300-2" data-name="Groupe_300">
+          <g id="Groupe_299-2" data-name="Groupe_299">
+            <g id="Groupe_298-2" data-name="Groupe_298">
+              <path id="Tracé_355-2" data-name="Tracé_355" class="cls-19" d="M45.6,56v37.7c0,2.1,1.7,3.8,3.8,3.8h0c2.1.1,3.8-1.6,3.8-3.6v-.2" inkscape:connector-curvature="0"/>
+              <g id="Groupe_297-2" data-name="Groupe_297">
+                <g id="Groupe_296-2" data-name="Groupe_296">
+                  <circle id="Ellipse_37-2" data-name="Ellipse_37" class="cls-19" cx="53" cy="33.1" r="5.8"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <path id="Tracé_356-2" data-name="Tracé_356" class="cls-19" d="M53.2,70.8v22.9c0,2.5,2.2,4.4,4.8,3.8,1-.3,1.9-.9,2.3-1.8.3-.6.5-1.3.5-1.9v-44.4h16.5c1.8,0,3.2-1.4,3.2-3.2s0-.4,0-.6c-.3-1.6-1.7-2.7-3.3-2.7h-22.7c-2.8,0-5.7.6-8.2,1.9-.9.5-1.8,1.1-2.7,1.7-2.7,2-4.3,5.2-4.2,8.5v13.8c0,1.6,1.1,3,2.7,3.3,1.4.2,2.7-.4,3.4-1.6" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="Groupe_303-2" data-name="Groupe_303">
+          <g id="Groupe_301-2" data-name="Groupe_301">
+            <circle id="Ellipse_38-2" data-name="Ellipse_38" class="cls-31" cx="77.3" cy="79" r="18.4"/>
+          </g>
+          <g id="Groupe_302-2" data-name="Groupe_302">
+            <line id="Ligne_59-2" data-name="Ligne_59" class="cls-22" x1="67.7" y1="76.4" x2="78.1" y2="76.4"/>
+            <line id="Ligne_60-2" data-name="Ligne_60" class="cls-22" x1="67.7" y1="82.2" x2="78.1" y2="82.2"/>
+            <path id="Tracé_357-2" data-name="Tracé_357" class="cls-22" d="M81,87.5c-.7.2-1.3.2-2,.2-4.7-.1-8.5-3.9-8.5-8.6,0-4.6,3.8-8.4,8.5-8.5.6,0,1.1,0,1.6.2" inkscape:connector-curvature="0"/>
+          </g>
+        </g>
+        <g id="Groupe_236-8" data-name="Groupe_236">
+          <g id="g16286">
+            <g id="Groupe_232-8" data-name="Groupe_232">
+              <g id="Groupe_230-8" data-name="Groupe_230">
+                <path id="Tracé_335-8" data-name="Tracé_335" class="cls-21" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="emploi.svg" class="cls-61">
+        <g id="g16292">
+          <rect id="rect16290" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g16296">
+          <rect id="rect16294" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="Groupe_235" class="cls-40">
+          <circle id="Ellipse_35" class="cls-60" cx="65.7" cy="62.3" r="50"/>
+        </g>
+        <g id="Groupe_235-2" data-name="Groupe_235" class="cls-41">
+          <circle id="Ellipse_35-2" data-name="Ellipse_35" class="cls-60" cx="65.7" cy="-67.7" r="50"/>
+        </g>
+        <g id="Groupe_236-9" data-name="Groupe_236">
+          <g id="g16305">
+            <g id="Groupe_232-9" data-name="Groupe_232">
+              <g id="Groupe_230-9" data-name="Groupe_230">
+                <path id="Tracé_335-9" data-name="Tracé_335" class="cls-11" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_236-10" data-name="Groupe_236">
+          <g id="g16311">
+            <g id="Groupe_232-10" data-name="Groupe_232">
+              <g id="Groupe_230-10" data-name="Groupe_230">
+                <path id="Tracé_335-10" data-name="Tracé_335" class="cls-11" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_319">
+          <circle id="Ellipse_44" class="cls-20" cx="65.5" cy="62.1" r="31.8"/>
+          <path id="Tracé_375" class="cls-20" d="M88.5,93.3l23.3,23.6c2.1,2,5.4,2,7.4,0h0c2-2.1,2-5.4,0-7.4l-23.3-23.6-7.4,7.4Z" inkscape:connector-curvature="0"/>
+          <path id="Tracé_376" class="cls-20" d="M84.6,87.1l5,5.2,5.2-5.2-5-5.2" inkscape:connector-curvature="0"/>
+          <path id="Tracé_377" class="cls-20" d="M59.2,48.9v-5.7h11.7v5.7" inkscape:connector-curvature="0"/>
+          <path id="Tracé_378" class="cls-20" d="M68.5,64.5c10.2-.7,16.4-4,16.4-4v-11.9h-39.4v11.9s6.2,3.2,16.4,4" inkscape:connector-curvature="0"/>
+          <path id="Tracé_379" class="cls-20" d="M47.1,61.1v16.9h36.2v-16.9" inkscape:connector-curvature="0"/>
+          <rect id="Rectangle_525" class="cls-20" x="61.8" y="62.1" width="6.7" height="5.2"/>
+        </g>
+        <g id="Groupe_319-2" data-name="Groupe_319">
+          <circle id="Ellipse_44-2" data-name="Ellipse_44" class="cls-20" cx="65.5" cy="-67.9" r="31.8"/>
+          <path id="Tracé_375-2" data-name="Tracé_375" class="cls-20" d="M88.5-36.7l23.3,23.6c2.1,2,5.4,2,7.4,0h0c2-2.1,2-5.4,0-7.4l-23.3-23.6-7.4,7.4Z" inkscape:connector-curvature="0"/>
+          <path id="Tracé_376-2" data-name="Tracé_376" class="cls-20" d="M84.6-42.9l5,5.2,5.2-5.2-5-5.2" inkscape:connector-curvature="0"/>
+          <path id="Tracé_377-2" data-name="Tracé_377" class="cls-20" d="M59.2-81.1v-5.7h11.7v5.7" inkscape:connector-curvature="0"/>
+          <path id="Tracé_378-2" data-name="Tracé_378" class="cls-20" d="M68.5-65.5c10.2-.7,16.4-4,16.4-4v-11.9h-39.4v11.9s6.2,3.2,16.4,4" inkscape:connector-curvature="0"/>
+          <path id="Tracé_379-2" data-name="Tracé_379" class="cls-20" d="M47.1-68.9v16.9h36.2v-16.9" inkscape:connector-curvature="0"/>
+          <rect id="Rectangle_525-2" data-name="Rectangle_525" class="cls-20" x="61.8" y="-67.9" width="6.7" height="5.2"/>
+        </g>
+      </g>
+      <g id="enseignement.svg" class="cls-61">
+        <g id="g16333">
+          <rect id="rect16331" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g16337">
+          <rect id="rect16335" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <circle id="Ellipse_35-3" data-name="Ellipse_35" class="cls-38" cx="65.7" cy="-67.7" r="50"/>
+        <g id="Groupe_222">
+          <path id="Tracé_190" class="cls-4" d="M113.2-72.6l10.6-3.6c.7-.2,1.1-1,.9-1.7,0-.4-.5-.8-.9-.9l-50.3-15.7-46.9,15.7c-.7.2-1.1,1-.9,1.7,0,.4.5.8.9.9l46.9,17.2,34.8-11.7" inkscape:connector-curvature="0"/>
+          <path id="Tracé_191" class="cls-4" d="M47.5-68v20.7c8.3,5.3,17.9,7.9,27.8,7.5,9.4-.5,18.5-3.7,26-9.2v-18.7" inkscape:connector-curvature="0"/>
+          <path id="Tracé_192" class="cls-4" d="M75.4-82.7l38.1,13.8v9.5" inkscape:connector-curvature="0"/>
+          <circle id="Ellipse_17" class="cls-4" cx="112.9" cy="-54.5" r="5.4"/>
+          <path id="Tracé_193" class="cls-4" d="M115.9-49.9l1.7,13.3c0,.4-.2.9-.6.9h-8.4c-.4,0-.6-.4-.6-.9l2.1-13.3" inkscape:connector-curvature="0"/>
+          <line id="Ligne_35" class="cls-4" x1="55.8" y1="-65.5" x2="55.8" y2="-48"/>
+        </g>
+        <path id="Tracé_335-11" data-name="Tracé_335" class="cls-23" d="M51.3-129.1c-24.7,1-46.7,23-46.7,50" inkscape:connector-curvature="0"/>
+        <circle id="Ellipse_35-4" data-name="Ellipse_35" class="cls-39" cx="65.7" cy="62.3" r="50"/>
+        <g id="Groupe_222-2" data-name="Groupe_222">
+          <path id="Tracé_190-2" data-name="Tracé_190" class="cls-4" d="M113.2,57.4l10.6-3.6c.7-.2,1.1-1,.9-1.7,0-.4-.5-.8-.9-.9l-50.3-15.7-46.9,15.7c-.7.2-1.1,1-.9,1.7,0,.4.5.8.9.9l46.9,17.2,34.8-11.7" inkscape:connector-curvature="0"/>
+          <path id="Tracé_191-2" data-name="Tracé_191" class="cls-4" d="M47.5,62v20.7c8.3,5.3,17.9,7.9,27.8,7.5,9.4-.5,18.5-3.7,26-9.2v-18.7" inkscape:connector-curvature="0"/>
+          <path id="Tracé_192-2" data-name="Tracé_192" class="cls-4" d="M75.4,47.3l38.1,13.8v9.5" inkscape:connector-curvature="0"/>
+          <circle id="Ellipse_17-2" data-name="Ellipse_17" class="cls-4" cx="112.9" cy="75.5" r="5.4"/>
+          <path id="Tracé_193-2" data-name="Tracé_193" class="cls-4" d="M115.9,80.1l1.7,13.3c0,.4-.2.9-.6.9h-8.4c-.4,0-.6-.4-.6-.9l2.1-13.3" inkscape:connector-curvature="0"/>
+          <line id="Ligne_35-2" data-name="Ligne_35" class="cls-4" x1="55.8" y1="64.5" x2="55.8" y2="82"/>
+        </g>
+        <path id="Tracé_335-12" data-name="Tracé_335" class="cls-23" d="M51.3.9C26.5,1.9,4.5,23.9,4.5,50.9" inkscape:connector-curvature="0"/>
+      </g>
+      <g id="social.svg" class="cls-61">
+        <g id="g16360">
+          <rect id="rect16358" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g16364">
+          <rect id="rect16362" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="Groupe_255" class="cls-52">
+          <circle id="Ellipse_35-5" data-name="Ellipse_35" class="cls-49" cx="65.7" cy="-67.7" r="50"/>
+        </g>
+        <g id="g16388">
+          <g id="Groupe_224">
+            <path id="Tracé_300" class="cls-8" d="M108.9-47.3" inkscape:connector-curvature="0"/>
+            <path id="Tracé_301" class="cls-8" d="M95.3-121.6c2.8,0,5.1-2.3,5.1-5.1,0-2.8-2.3-5.1-5.1-5.2-2.8,0-5.1,2.3-5.2,5.2,0,2.7,2.4,5,5.2,5.1Z" inkscape:connector-curvature="0"/>
+            <path id="Tracé_302" class="cls-8" d="M89.2-74.7v2.2c0,1.7,1.3,3.2,3.1,3.3h0c1.8,0,3.3-1.5,3.3-3.3h0" inkscape:connector-curvature="0"/>
+            <path id="Tracé_303" class="cls-8" d="M104.2-99c.4,1.5,1.9,2.5,3.5,2.1h.2c1.6-.4,2.5-2,2.1-3.6h0l-3.6-12.2c-1-3.3-4.8-3.8-4.8-3.8h-12c-1.1.2-2.1.6-2.9,1.2" inkscape:connector-curvature="0"/>
+            <path id="Tracé_304" class="cls-8" d="M101.7-108.4l5.8,21.6c.2.4,0,.8-.4,1,0,0-.2,0-.3,0h-5v13.2c0,1.7-1.3,3.2-3.1,3.3h0c-1.8,0-3.3-1.5-3.3-3.3h0v-13.2" inkscape:connector-curvature="0"/>
+            <path id="Tracé_305" class="cls-8" d="M69.4-104.1v35.7c0,1.8,1.4,3.4,3.3,3.4h0c1.9,0,3.4-1.5,3.4-3.4" inkscape:connector-curvature="0"/>
+            <circle id="Ellipse_26" class="cls-8" cx="76.1" cy="-122.5" r="5.2"/>
+            <path id="Tracé_306" class="cls-8" d="M82.7-91.1c.4,1.1,1.5,1.9,2.7,1.9h0c1.6,0,2.9-1.3,2.9-2.9h0v-14.6c0-4.6-5.3-5.3-5.3-5.3h-14.1s-5.3.7-5.3,5.3v14.6c0,1.6,1.3,2.9,2.9,2.9h0c1.3,0,2.3-.8,2.7-1.9" inkscape:connector-curvature="0"/>
+            <path id="Tracé_307" class="cls-8" d="M82.8-104.1v35.7c0,1.8-1.4,3.4-3.3,3.4h0c-1.9,0-3.4-1.5-3.4-3.4v-20.4" inkscape:connector-curvature="0"/>
+            <path id="Tracé_308" class="cls-8" d="M51.5-98.6v26.8c0,1.4,1.2,2.5,2.6,2.6h0c1.4,0,2.5-1.2,2.6-2.6" inkscape:connector-curvature="0"/>
+            <circle id="Ellipse_27" class="cls-8" cx="56.7" cy="-112.4" r="3.8"/>
+            <path id="Tracé_309" class="cls-8" d="M56.8-104.6h-5.3s-4.1.5-4.1,3.9v11c0,1.1.9,2,2.1,2.1h0c1.1,0,2-.9,2.1-2.1" inkscape:connector-curvature="0"/>
+            <path id="Tracé_310" class="cls-8" d="M61.8-84.7v12.9c0,1.4-1.2,2.5-2.6,2.6h0c-1.4,0-2.5-1.2-2.6-2.6v-12.9" inkscape:connector-curvature="0"/>
+          </g>
+          <path id="path16382" class="cls-8" d="M61.7-40.2c.7-.7,1.5-1.8,3.8-1.8h26.7c2.1,0,17.6-11.7,19-13.4,1.4-1.6,7.8-11.2,9.5-15.3-1.1-1.5-3.2-2-6.7-1.2-3.4.8-5.2,4.4-7.4,8.8l-12.5,5.5" inkscape:connector-curvature="0"/>
+          <path id="path16384" class="cls-8" d="M73.2-53.5h15.2c7.6,0,7.6-9.5,0-9.5h-10.1c-1.6,0-4.6-1.5-7.1-1.9-3.5-.5-8-.2-9.5,0-2.5.4-5.8,2-7.6,3.7-2.9,2.9-7.6,5.7-7.6,5.7" inkscape:connector-curvature="0"/>
+          <rect id="rect16386" class="cls-9" x="42.6" y="-58.3" width="13.5" height="32.3" transform="translate(44.2 22.6) rotate(-45)"/>
+        </g>
+        <g id="Groupe_236-11" data-name="Groupe_236">
+          <g id="g16393">
+            <g id="Groupe_232-11" data-name="Groupe_232">
+              <g id="Groupe_230-11" data-name="Groupe_230">
+                <path id="Tracé_335-13" data-name="Tracé_335" class="cls-10" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_255-2" data-name="Groupe_255" class="cls-51">
+          <circle id="Ellipse_35-6" data-name="Ellipse_35" class="cls-49" cx="65.7" cy="62.3" r="50"/>
+        </g>
+        <g id="g16418">
+          <g id="Groupe_224-2" data-name="Groupe_224">
+            <path id="Tracé_300-2" data-name="Tracé_300" class="cls-8" d="M108.9,82.7" inkscape:connector-curvature="0"/>
+            <path id="Tracé_301-2" data-name="Tracé_301" class="cls-8" d="M95.3,8.4c2.8,0,5.1-2.3,5.1-5.1,0-2.8-2.3-5.1-5.1-5.2-2.8,0-5.1,2.3-5.2,5.2,0,2.7,2.4,5,5.2,5.1Z" inkscape:connector-curvature="0"/>
+            <path id="Tracé_302-2" data-name="Tracé_302" class="cls-8" d="M89.2,55.3v2.2c0,1.7,1.3,3.2,3.1,3.3h0c1.8,0,3.3-1.5,3.3-3.3h0" inkscape:connector-curvature="0"/>
+            <path id="Tracé_303-2" data-name="Tracé_303" class="cls-8" d="M104.2,31c.4,1.5,1.9,2.5,3.5,2.1h.2c1.6-.4,2.5-2,2.1-3.6h0l-3.6-12.2c-1-3.3-4.8-3.8-4.8-3.8h-12c-1.1.2-2.1.6-2.9,1.2" inkscape:connector-curvature="0"/>
+            <path id="Tracé_304-2" data-name="Tracé_304" class="cls-8" d="M101.7,21.6l5.8,21.6c.2.4,0,.8-.4,1,0,0-.2,0-.3.1h-5v13.2c0,1.7-1.3,3.2-3.1,3.3h0c-1.8,0-3.3-1.5-3.3-3.3h0v-13.2" inkscape:connector-curvature="0"/>
+            <path id="Tracé_305-2" data-name="Tracé_305" class="cls-8" d="M69.4,25.9v35.7c0,1.8,1.4,3.4,3.3,3.4h0c1.9,0,3.4-1.5,3.4-3.4" inkscape:connector-curvature="0"/>
+            <circle id="Ellipse_26-2" data-name="Ellipse_26" class="cls-8" cx="76.1" cy="7.5" r="5.2"/>
+            <path id="Tracé_306-2" data-name="Tracé_306" class="cls-8" d="M82.7,38.9c.4,1.1,1.5,1.9,2.7,1.9h0c1.6,0,2.9-1.3,2.9-2.9h0v-14.6c0-4.6-5.3-5.3-5.3-5.3h-14.1s-5.3.7-5.3,5.3v14.6c0,1.6,1.3,2.9,2.9,2.9h0c1.3,0,2.3-.8,2.7-1.9" inkscape:connector-curvature="0"/>
+            <path id="Tracé_307-2" data-name="Tracé_307" class="cls-8" d="M82.8,25.9v35.7c0,1.8-1.4,3.4-3.3,3.4h0c-1.9,0-3.4-1.5-3.4-3.4v-20.4" inkscape:connector-curvature="0"/>
+            <path id="Tracé_308-2" data-name="Tracé_308" class="cls-8" d="M51.5,31.4v26.8c0,1.4,1.2,2.5,2.6,2.6h0c1.4,0,2.5-1.2,2.6-2.6" inkscape:connector-curvature="0"/>
+            <circle id="Ellipse_27-2" data-name="Ellipse_27" class="cls-8" cx="56.7" cy="17.6" r="3.8"/>
+            <path id="Tracé_309-2" data-name="Tracé_309" class="cls-8" d="M56.8,25.4h-5.3s-4.1.5-4.1,3.9v11c0,1.1.9,2,2.1,2.1h0c1.1,0,2-.9,2.1-2.1" inkscape:connector-curvature="0"/>
+            <path id="Tracé_310-2" data-name="Tracé_310" class="cls-8" d="M61.8,45.3v12.9c0,1.4-1.2,2.5-2.6,2.6h0c-1.4,0-2.5-1.2-2.6-2.6v-12.9" inkscape:connector-curvature="0"/>
+          </g>
+          <path id="path16412" class="cls-8" d="M61.7,89.8c.7-.7,1.5-1.8,3.8-1.8h26.7c2.1,0,17.6-11.7,19-13.4,1.4-1.6,7.8-11.2,9.5-15.3-1.1-1.5-3.2-2-6.7-1.2-3.4.8-5.2,4.4-7.4,8.8l-12.5,5.5" inkscape:connector-curvature="0"/>
+          <path id="path16414" class="cls-8" d="M73.2,76.5h15.2c7.6,0,7.6-9.5,0-9.5h-10.1c-1.6,0-4.6-1.5-7.1-1.9-3.5-.5-8-.2-9.5,0-2.5.4-5.8,2-7.6,3.7-2.9,2.9-7.6,5.7-7.6,5.7" inkscape:connector-curvature="0"/>
+          <rect id="rect16416" class="cls-9" x="42.6" y="71.7" width="13.5" height="32.3" transform="translate(-47.7 60.6) rotate(-45)"/>
+        </g>
+        <g id="Groupe_236-12" data-name="Groupe_236">
+          <g id="g16423">
+            <g id="Groupe_232-12" data-name="Groupe_232">
+              <g id="Groupe_230-12" data-name="Groupe_230">
+                <path id="Tracé_335-14" data-name="Tracé_335" class="cls-10" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="fidcalite.svg" class="cls-61">
+        <g id="g16429">
+          <rect id="rect16427" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g16433">
+          <rect id="rect16431" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="g16437">
+          <rect id="rect16435" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="g16441">
+          <polyline id="polyline16439" class="cls-47" points="-3.4 123.7 -3.4 123.7 131.6 123.7 131.6 123.7"/>
+        </g>
+        <g id="Groupe_257" class="cls-56">
+          <circle id="Ellipse_35-7" data-name="Ellipse_35" class="cls-48" cx="65.7" cy="-67.7" r="50"/>
+        </g>
+        <g id="Groupe_226">
+          <ellipse id="Ellipse_12" class="cls-16" cx="60.8" cy="-89.9" rx="20.2" ry="7.4"/>
+          <path id="Tracé_173" class="cls-16" d="M81-79.5c0,4.2-9.2,7.4-20.2,7.4s-20.2-3.3-20.2-7.4" inkscape:connector-curvature="0"/>
+          <path id="Tracé_174" class="cls-16" d="M71.8-62.6c-3.6.9-7.3,1.3-11,1.2-11.3,0-20.2-3.3-20.2-7.4" inkscape:connector-curvature="0"/>
+          <line id="Ligne_30" class="cls-16" x1="81" y1="-89.9" x2="81" y2="-69.1"/>
+          <line id="Ligne_31" class="cls-16" x1="91.1" y1="-78.3" x2="118" y2="-122.5"/>
+          <circle id="Ellipse_13" class="cls-16" cx="92.6" cy="-113.6" r="7.1"/>
+          <circle id="Ellipse_14" class="cls-16" cx="116.6" cy="-87.2" r="7.1"/>
+          <path id="Tracé_175" class="cls-16" d="M72.1-51.9c-3.7.9-7.5,1.3-11.3,1.2-11.3,0-20.2-3.3-20.2-7.4" inkscape:connector-curvature="0"/>
+          <path id="Tracé_176" class="cls-16" d="M40.7-89.9v42.4c0,4.2,9.2,7.4,20.2,7.4,3.8-.1,7.6-.5,11.3-1.2" inkscape:connector-curvature="0"/>
+          <ellipse id="Ellipse_15" class="cls-16" cx="92.3" cy="-62.9" rx="20.2" ry="7.4"/>
+          <path id="Tracé_177" class="cls-16" d="M112.4-52.2c0,4.2-9.2,7.4-20.2,7.4s-20.2-3.3-20.2-7.4" inkscape:connector-curvature="0"/>
+          <line id="Ligne_32" class="cls-16" x1="112.4" y1="-62.9" x2="112.4" y2="-41.2"/>
+          <path id="Tracé_178" class="cls-16" d="M72.1-62.6v21c0,4.1,9.2,7.4,20.2,7.4s20.2-3.3,20.2-7.4" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="Groupe_236-13" data-name="Groupe_236">
+          <g id="g16462">
+            <g id="Groupe_232-13" data-name="Groupe_232">
+              <g id="Groupe_230-13" data-name="Groupe_230">
+                <path id="Tracé_335-15" data-name="Tracé_335" class="cls-6" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_257-2" data-name="Groupe_257">
+          <circle id="Ellipse_35-8" data-name="Ellipse_35" class="cls-48" cx="65.7" cy="62.3" r="50"/>
+        </g>
+        <g id="Groupe_226-2" data-name="Groupe_226">
+          <ellipse id="Ellipse_12-2" data-name="Ellipse_12" class="cls-16" cx="60.8" cy="40.1" rx="20.2" ry="7.4"/>
+          <path id="Tracé_173-2" data-name="Tracé_173" class="cls-16" d="M81,50.5c0,4.1-9.2,7.4-20.2,7.4s-20.2-3.3-20.2-7.4" inkscape:connector-curvature="0"/>
+          <path id="Tracé_174-2" data-name="Tracé_174" class="cls-16" d="M71.8,67.4c-3.6.9-7.3,1.3-11,1.2-11.3,0-20.2-3.3-20.2-7.4" inkscape:connector-curvature="0"/>
+          <line id="Ligne_30-2" data-name="Ligne_30" class="cls-16" x1="81" y1="40.1" x2="81" y2="60.9"/>
+          <line id="Ligne_31-2" data-name="Ligne_31" class="cls-16" x1="91.1" y1="51.7" x2="118" y2="7.5"/>
+          <circle id="Ellipse_13-2" data-name="Ellipse_13" class="cls-16" cx="92.6" cy="16.4" r="7.1"/>
+          <circle id="Ellipse_14-2" data-name="Ellipse_14" class="cls-16" cx="116.6" cy="42.8" r="7.1"/>
+          <path id="Tracé_175-2" data-name="Tracé_175" class="cls-16" d="M72.1,78.1c-3.7.9-7.5,1.3-11.3,1.2-11.3,0-20.2-3.3-20.2-7.4" inkscape:connector-curvature="0"/>
+          <path id="Tracé_176-2" data-name="Tracé_176" class="cls-16" d="M40.7,40.1v42.4c0,4.2,9.2,7.4,20.2,7.4,3.8-.1,7.6-.5,11.3-1.2" inkscape:connector-curvature="0"/>
+          <ellipse id="Ellipse_15-2" data-name="Ellipse_15" class="cls-16" cx="92.3" cy="67.1" rx="20.2" ry="7.4"/>
+          <path id="Tracé_177-2" data-name="Tracé_177" class="cls-16" d="M112.4,77.8c0,4.2-9.2,7.4-20.2,7.4s-20.2-3.3-20.2-7.4" inkscape:connector-curvature="0"/>
+          <line id="Ligne_32-2" data-name="Ligne_32" class="cls-16" x1="112.4" y1="67.1" x2="112.4" y2="88.8"/>
+          <path id="Tracé_178-2" data-name="Tracé_178" class="cls-16" d="M72.1,67.4v21c0,4.2,9.2,7.4,20.2,7.4s20.2-3.3,20.2-7.4" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="Groupe_236-14" data-name="Groupe_236">
+          <g id="g16484">
+            <g id="Groupe_232-14" data-name="Groupe_232">
+              <g id="Groupe_230-14" data-name="Groupe_230">
+                <path id="Tracé_335-16" data-name="Tracé_335" class="cls-6" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="mobilites.svg">
+        <g id="Groupe_212">
+          <path id="Tracé_148" class="cls-28" d="M46,93.2H10.4c-2.2,0-4.1-1.7-4.1-4h0v-41.2c0-2.2,1.7-4.1,4-4.1h35.7c2.2,0,4.1,1.7,4.1,4h0v41.2c0,2.3-1.9,4.1-4.1,4.1Z" inkscape:connector-curvature="0"/>
+          <path id="Tracé_149" class="cls-28" d="M47.4,93.2v2.7c0,.7-.5,1.3-1.2,1.4h-7c-.7,0-1.3-.5-1.4-1.2v-2.9" inkscape:connector-curvature="0"/>
+          <path id="Tracé_150" class="cls-28" d="M9,93.2v2.7c0,.7.5,1.3,1.2,1.4h7c.7,0,1.3-.5,1.4-1.2v-2.9" inkscape:connector-curvature="0"/>
+          <line id="Ligne_15" class="cls-28" x1="6.3" y1="76.8" x2="50.1" y2="76.8"/>
+          <line id="Ligne_16" class="cls-28" x1="10.4" y1="83.6" x2="17.2" y2="83.6"/>
+          <line id="Ligne_17" class="cls-28" x1="39.1" y1="83.6" x2="46" y2="83.6"/>
+          <line id="Ligne_18" class="cls-28" x1="9" y1="54.9" x2="50.1" y2="54.9"/>
+          <path id="Tracé_151" class="cls-28" d="M6.3,56.3l-5.5,4.1v8.2" inkscape:connector-curvature="0"/>
+          <path id="Tracé_152" class="cls-28" d="M50.1,56.3l5.5,4.1v8.2" inkscape:connector-curvature="0"/>
+          <circle id="Ellipse_6" class="cls-28" cx="112.5" cy="85" r="12.3"/>
+          <circle id="Ellipse_7" class="cls-28" cx="74.2" cy="85" r="12.3"/>
+          <path id="Tracé_153" class="cls-28" d="M112.5,85l-8.2-17.8,2.7-4.1-6.8-4.1" inkscape:connector-curvature="0"/>
+          <path id="Tracé_154" class="cls-28" d="M104.3,67.2h-21.9l-8.2,17.8h19l7.3-13.7" inkscape:connector-curvature="0"/>
+          <line id="Ligne_19" class="cls-28" x1="82.4" y1="67.2" x2="82.4" y2="63.1"/>
+          <line id="Ligne_20" class="cls-28" x1="86.5" y1="63.1" x2="78.3" y2="63.1"/>
+        </g>
+        <g id="Groupe_451">
+          <path id="Tracé_148-2" class="cls-28" d="M46,93.2H10.4c-2.2,0-4.1-1.7-4.1-4h0v-41.2c0-2.2,1.7-4.1,4-4.1h35.7c2.2,0,4.1,1.7,4.1,4h0v41.2c0,2.3-1.9,4.1-4.1,4.1Z" inkscape:connector-curvature="0"/>
+          <path id="Tracé_149-2" class="cls-28" d="M47.4,93.2v2.7c0,.7-.5,1.3-1.2,1.4h-7c-.7,0-1.3-.5-1.4-1.2v-2.9" inkscape:connector-curvature="0"/>
+          <path id="Tracé_150-2" class="cls-28" d="M9,93.2v2.7c0,.7.5,1.3,1.2,1.4h7c.7,0,1.3-.5,1.4-1.2v-2.9" inkscape:connector-curvature="0"/>
+          <line id="Ligne_15-2" class="cls-28" x1="6.3" y1="76.8" x2="50.1" y2="76.8"/>
+          <line id="Ligne_16-2" class="cls-28" x1="10.4" y1="83.6" x2="17.2" y2="83.6"/>
+          <line id="Ligne_17-2" class="cls-28" x1="39.1" y1="83.6" x2="46" y2="83.6"/>
+          <line id="Ligne_18-2" class="cls-28" x1="9" y1="54.9" x2="50.1" y2="54.9"/>
+          <path id="Tracé_151-2" class="cls-28" d="M6.3,56.3l-5.5,4.1v8.2" inkscape:connector-curvature="0"/>
+          <path id="Tracé_152-2" class="cls-28" d="M50.1,56.3l5.5,4.1v8.2" inkscape:connector-curvature="0"/>
+          <circle id="Ellipse_6-2" class="cls-28" cx="112.5" cy="85" r="12.3"/>
+          <circle id="Ellipse_7-2" class="cls-28" cx="74.2" cy="85" r="12.3"/>
+          <path id="Tracé_153-2" class="cls-28" d="M112.5,85l-8.2-17.8,2.7-4.1-6.8-4.1" inkscape:connector-curvature="0"/>
+          <path id="Tracé_154-2" class="cls-28" d="M104.3,67.2h-21.9l-8.2,17.8h19l7.3-13.7" inkscape:connector-curvature="0"/>
+          <line id="Ligne_19-2" class="cls-28" x1="82.4" y1="67.2" x2="82.4" y2="63.1"/>
+          <line id="Ligne_20-2" class="cls-28" x1="86.5" y1="63.1" x2="78.3" y2="63.1"/>
+        </g>
+      </g>
+      <g id="environnement.svg" class="cls-61">
+        <g id="g16591">
+          <rect id="rect16589" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g16595">
+          <rect id="rect16593" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="g16599">
+          <rect id="rect16597" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="g16603">
+          <polyline id="polyline16601" class="cls-47" points="-3.4 123.7 -3.4 123.7 131.6 123.7 131.6 123.7"/>
+        </g>
+        <g id="Groupe_376" class="cls-59">
+          <circle id="Ellipse_35-9" data-name="Ellipse_35" class="cls-46" cx="65.7" cy="-67.7" r="50"/>
+        </g>
+        <g id="g16613">
+          <path id="path16607" class="cls-24" d="M56-44.6c.7-.7,1.5-1.9,3.9-1.9h27.2c2.2,0,17.9-12,19.5-13.7,1.5-1.6,7.9-11.4,9.7-15.6-1.1-1.5-3.3-2.1-6.9-1.2-3.4.8-5.3,4.5-7.6,9l-12.8,5.6" inkscape:connector-curvature="0"/>
+          <path id="path16609" class="cls-24" d="M67.7-58.2h15.6c7.8,0,7.8-9.7,0-9.7h-10.3c-1.6,0-4.7-1.6-7.2-1.9-3.6-.5-8.1-.2-9.7,0-2.6.4-5.9,2.1-7.8,3.8-2.9,2.9-7.8,5.9-7.8,5.9" inkscape:connector-curvature="0"/>
+          <rect id="rect16611" class="cls-25" x="36.5" y="-64.1" width="13.8" height="33" transform="translate(46.4 16.8) rotate(-45)"/>
+        </g>
+        <g id="g16623">
+          <path id="path16615" class="cls-24" d="M82.5-91s13.6,4.8,21.1-2.7,7.1-25.5,7.1-25.5c0,0-18-.4-25.5,7.1s-2.7,21.1-2.7,21.1Z" inkscape:connector-curvature="0"/>
+          <polyline id="polyline16617" class="cls-24" points="99.7 -107.8 78.1 -86.2 78.1 -80.1"/>
+          <path id="path16619" class="cls-24" d="M74.9-89.3s2.7-7.7-1.5-11.9c-4.3-4.3-14.4-4-14.4-4,0,0-.2,10.2,4,14.4,4.2,4.2,11.9,1.5,11.9,1.5" inkscape:connector-curvature="0"/>
+          <line id="line16621" class="cls-24" x1="78.1" y1="-86.1" x2="67.3" y2="-96.9"/>
+        </g>
+        <path id="path16625" class="cls-24" d="M59.7-70.2c3.7-6.3,10.5-10.5,18.3-10.5s17.6,6.2,20.3,15" inkscape:connector-curvature="0"/>
+        <g id="Groupe_236-15" data-name="Groupe_236">
+          <g id="g16630">
+            <g id="Groupe_232-15" data-name="Groupe_232">
+              <g id="Groupe_230-15" data-name="Groupe_230">
+                <path id="Tracé_335-17" data-name="Tracé_335" class="cls-3" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_376-2" data-name="Groupe_376" class="cls-54">
+          <circle id="Ellipse_35-10" data-name="Ellipse_35" class="cls-46" cx="65.7" cy="62.3" r="50"/>
+        </g>
+        <g id="g16641">
+          <path id="path16635" class="cls-24" d="M56,85.4c.7-.7,1.5-1.9,3.9-1.9h27.2c2.2,0,17.9-12,19.5-13.7,1.5-1.6,7.9-11.4,9.7-15.6-1.1-1.5-3.3-2.1-6.9-1.2-3.4.8-5.3,4.5-7.6,9l-12.8,5.6" inkscape:connector-curvature="0"/>
+          <path id="path16637" class="cls-24" d="M67.7,71.8h15.6c7.8,0,7.8-9.7,0-9.7h-10.3c-1.6,0-4.7-1.6-7.2-1.9-3.6-.5-8.1-.2-9.7,0-2.6.4-5.9,2.1-7.8,3.8-2.9,2.9-7.8,5.9-7.8,5.9" inkscape:connector-curvature="0"/>
+          <rect id="rect16639" class="cls-25" x="36.5" y="65.9" width="13.8" height="33" transform="translate(-45.5 54.8) rotate(-45)"/>
+        </g>
+        <g id="g16651">
+          <path id="path16643" class="cls-24" d="M82.5,39s13.6,4.8,21.1-2.7,7.1-25.5,7.1-25.5c0,0-18-.4-25.5,7.1s-2.7,21.1-2.7,21.1h0Z" inkscape:connector-curvature="0"/>
+          <polyline id="polyline16645" class="cls-24" points="99.7 22.2 78.1 43.8 78.1 49.9"/>
+          <path id="path16647" class="cls-24" d="M74.9,40.7s2.7-7.7-1.5-11.9-14.4-4-14.4-4c0,0-.2,10.2,4,14.4,4.2,4.2,11.9,1.5,11.9,1.5" inkscape:connector-curvature="0"/>
+          <line id="line16649" class="cls-24" x1="78.1" y1="43.9" x2="67.3" y2="33.1"/>
+        </g>
+        <path id="path16653" class="cls-24" d="M59.7,59.8c3.7-6.3,10.5-10.5,18.3-10.5s17.6,6.2,20.3,15" inkscape:connector-curvature="0"/>
+        <g id="Groupe_236-16" data-name="Groupe_236">
+          <g id="g16658">
+            <g id="Groupe_232-16" data-name="Groupe_232">
+              <g id="Groupe_230-16" data-name="Groupe_230">
+                <path id="Tracé_335-18" data-name="Tracé_335" class="cls-3" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="tourisme.svg" class="cls-61">
+        <g id="g16664">
+          <rect id="rect16662" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="g16668">
+          <rect id="rect16666" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="tourisme">
+          <g id="Groupe_245" class="cls-58">
+            <circle id="Ellipse_35-11" data-name="Ellipse_35" class="cls-45" cx="65.7" cy="-67.7" r="50"/>
+          </g>
+          <g id="Groupe_218">
+            <path id="Tracé_155" class="cls-26" d="M13.2-40.8v-34.7c0-2.7,2.2-5,4.9-5h22.5c2.7,0,5,2.2,5,4.9h0v34.6c0,2.7-2.2,5-4.9,5h-22.5c-2.7,0-4.9-2-5-4.7h0Z" inkscape:connector-curvature="0"/>
+            <path id="Tracé_156" class="cls-26" d="M34.2-93.2v13.4" inkscape:connector-curvature="0"/>
+            <path id="Tracé_157" class="cls-26" d="M25.2-79.8v-13.4" inkscape:connector-curvature="0"/>
+            <line id="Ligne_21" class="cls-26" x1="42.4" y1="-49.2" x2="16.4" y2="-49.2"/>
+            <line id="Ligne_22" class="cls-26" x1="42.4" y1="-67.1" x2="16.4" y2="-67.1"/>
+            <line id="Ligne_23" class="cls-26" x1="19.2" y1="-92.8" x2="40.2" y2="-92.8"/>
+            <path id="Tracé_158" class="cls-26" d="M23.6-35.9v3c0,.9-.7,1.6-1.6,1.6h0c-.9,0-1.6-.7-1.6-1.6v-3" inkscape:connector-curvature="0"/>
+            <path id="Tracé_159" class="cls-26" d="M38.6-35.9v3c0,.9-.7,1.6-1.6,1.6h0c-.9,0-1.6-.7-1.6-1.6v-3" inkscape:connector-curvature="0"/>
+            <path id="Tracé_160" class="cls-26" d="M123.5-92.6c-2-2-9.3,1.7-11.3,3.8l-33.9,33.9c-2.2,2.2-12.1,15.1-9.9,17.5,2.2,2.2,15.1-7.6,17.5-9.9l33.9-33.7c2-2.3,5.7-9.4,3.7-11.6h0Z" inkscape:connector-curvature="0"/>
+            <path id="Tracé_161" class="cls-26" d="M94.3-55.8l7.7,7.9,8.7,16.2,3.9-.2-7.6-36.7" inkscape:connector-curvature="0"/>
+            <path id="Tracé_162" class="cls-26" d="M99.5-76.2l-36.7-7.4v3.8l16.2,8.7,7.7,7.7" inkscape:connector-curvature="0"/>
+            <path id="Tracé_163" class="cls-26" d="M83.6-45.1l1.7,13.6-3.6,1.7-6-9.9" inkscape:connector-curvature="0"/>
+            <path id="Tracé_164" class="cls-26" d="M76.1-52.7l-13.6-1.7-1.6,3.6,9.9,6" inkscape:connector-curvature="0"/>
+          </g>
+        </g>
+        <g id="Groupe_236-17" data-name="Groupe_236">
+          <g id="g16690">
+            <g id="Groupe_232-17" data-name="Groupe_232">
+              <g id="Groupe_230-17" data-name="Groupe_230">
+                <path id="Tracé_335-19" data-name="Tracé_335" class="cls-14" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="tourisme-2" data-name="tourisme">
+          <g id="Groupe_245-2" data-name="Groupe_245" class="cls-53">
+            <circle id="Ellipse_35-12" data-name="Ellipse_35" class="cls-45" cx="65.7" cy="62.3" r="50"/>
+          </g>
+          <g id="Groupe_218-2" data-name="Groupe_218">
+            <path id="Tracé_155-2" data-name="Tracé_155" class="cls-26" d="M13.2,89.2v-34.7c0-2.7,2.2-5,4.9-5h22.5c2.7,0,5,2.2,5,4.9h0v34.6c0,2.7-2.2,5-4.9,5h-22.5c-2.7,0-4.9-2-5-4.7h0Z" inkscape:connector-curvature="0"/>
+            <path id="Tracé_156-2" data-name="Tracé_156" class="cls-26" d="M34.2,36.8v13.4" inkscape:connector-curvature="0"/>
+            <path id="Tracé_157-2" data-name="Tracé_157" class="cls-26" d="M25.2,50.2v-13.4" inkscape:connector-curvature="0"/>
+            <line id="Ligne_21-2" data-name="Ligne_21" class="cls-26" x1="42.4" y1="80.8" x2="16.4" y2="80.8"/>
+            <line id="Ligne_22-2" data-name="Ligne_22" class="cls-26" x1="42.4" y1="62.9" x2="16.4" y2="62.9"/>
+            <line id="Ligne_23-2" data-name="Ligne_23" class="cls-26" x1="19.2" y1="37.2" x2="40.2" y2="37.2"/>
+            <path id="Tracé_158-2" data-name="Tracé_158" class="cls-26" d="M23.6,94.1v3c0,.9-.7,1.6-1.6,1.6h0c-.9,0-1.6-.7-1.6-1.6v-3" inkscape:connector-curvature="0"/>
+            <path id="Tracé_159-2" data-name="Tracé_159" class="cls-26" d="M38.6,94.1v3c0,.9-.7,1.6-1.6,1.6h0c-.9,0-1.6-.7-1.6-1.6v-3" inkscape:connector-curvature="0"/>
+            <path id="Tracé_160-2" data-name="Tracé_160" class="cls-26" d="M123.5,37.4c-2-2-9.3,1.7-11.3,3.8l-33.9,33.9c-2.2,2.2-12.1,15.1-9.9,17.5,2.2,2.2,15.1-7.6,17.5-9.9l33.9-33.7c2-2.3,5.7-9.4,3.7-11.6h0Z" inkscape:connector-curvature="0"/>
+            <path id="Tracé_161-2" data-name="Tracé_161" class="cls-26" d="M94.3,74.2l7.7,7.9,8.7,16.2,3.9-.2-7.6-36.7" inkscape:connector-curvature="0"/>
+            <path id="Tracé_162-2" data-name="Tracé_162" class="cls-26" d="M99.5,53.8l-36.7-7.4v3.8l16.2,8.7,7.7,7.7" inkscape:connector-curvature="0"/>
+            <path id="Tracé_163-2" data-name="Tracé_163" class="cls-26" d="M83.6,84.9l1.7,13.6-3.6,1.7-6-9.9" inkscape:connector-curvature="0"/>
+            <path id="Tracé_164-2" data-name="Tracé_164" class="cls-26" d="M76.1,77.3l-13.6-1.7-1.6,3.6,9.9,6" inkscape:connector-curvature="0"/>
+          </g>
+        </g>
+        <g id="Groupe_236-18" data-name="Groupe_236">
+          <g id="g16713">
+            <g id="Groupe_232-18" data-name="Groupe_232">
+              <g id="Groupe_230-18" data-name="Groupe_230">
+                <path id="Tracé_335-20" data-name="Tracé_335" class="cls-14" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="securite.svg" class="cls-61">
+        <g id="g16719">
+          <rect id="rect16717" class="cls-47" x="-3.4" y="-136.3" width="135" height="130"/>
+        </g>
+        <g id="securite">
+          <g id="Groupe_246" class="cls-57">
+            <circle id="Ellipse_35-13" data-name="Ellipse_35" class="cls-43" cx="65.7" cy="-67.7" r="50"/>
+          </g>
+          <g id="Groupe_379">
+            <circle id="Ellipse_49" class="cls-7" cx="67.4" cy="-46.6" r="11"/>
+            <circle id="Ellipse_50" class="cls-7" cx="67.4" cy="-46.6" r="17.1"/>
+            <path id="Tracé_433" class="cls-7" d="M81.8-55.6h5.9c1.4,0,2.5,1.1,2.5,2.5v12.9c0,1.4-1.1,2.5-2.5,2.5h-5.5" inkscape:connector-curvature="0"/>
+            <circle id="Ellipse_51" class="cls-7" cx="106.7" cy="-86" r="11"/>
+            <circle id="Ellipse_52" class="cls-7" cx="106.7" cy="-86" r="17.1"/>
+            <path id="Tracé_434" class="cls-7" d="M115.9-71.9v6.3c0,1.4-1.1,2.5-2.5,2.5h-12.9c-1.4,0-2.5-1.1-2.5-2.5v-5.8" inkscape:connector-curvature="0"/>
+            <g id="Groupe_378">
+              <g id="Groupe_377">
+                <path id="Tracé_435" class="cls-18" d="M107.8-63.4c0,1.3-.2,2.6-.4,3.8l-.6,1.6c-1.8,5.3-6.1,9.4-11.5,11l-.8.2c-1.3.2-2.6.4-3.8.4" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+            <path id="Tracé_438" class="cls-15" d="M65.8-84.1v11.7h-7.9v-11.7h-11.7v-7.9h11.8v-11.5h7.9v11.5h11.7v7.9h-11.8Z" inkscape:connector-curvature="0"/>
+          </g>
+        </g>
+        <g id="Groupe_236-19" data-name="Groupe_236">
+          <g id="g16738">
+            <g id="Groupe_232-19" data-name="Groupe_232">
+              <g id="Groupe_230-19" data-name="Groupe_230">
+                <path id="Tracé_335-21" data-name="Tracé_335" class="cls-27" d="M51.4-129c-24.8,1-46.8,23-46.8,50" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="g16743">
+          <rect id="rect16741" class="cls-47" x="-3.4" y="-6.3" width="135" height="130"/>
+        </g>
+        <g id="securite-2" data-name="securite">
+          <g id="Groupe_246-2" data-name="Groupe_246" class="cls-53">
+            <circle id="Ellipse_35-14" data-name="Ellipse_35" class="cls-43" cx="65.7" cy="62.3" r="50"/>
+          </g>
+          <g id="Groupe_379-2" data-name="Groupe_379">
+            <circle id="Ellipse_49-2" data-name="Ellipse_49" class="cls-7" cx="67.4" cy="83.4" r="11"/>
+            <circle id="Ellipse_50-2" data-name="Ellipse_50" class="cls-7" cx="67.4" cy="83.4" r="17.1"/>
+            <path id="Tracé_433-2" data-name="Tracé_433" class="cls-7" d="M81.8,74.4h5.9c1.4,0,2.5,1.1,2.5,2.5v12.9c0,1.4-1.1,2.5-2.5,2.5h-5.5" inkscape:connector-curvature="0"/>
+            <circle id="Ellipse_51-2" data-name="Ellipse_51" class="cls-7" cx="106.7" cy="44" r="11"/>
+            <circle id="Ellipse_52-2" data-name="Ellipse_52" class="cls-7" cx="106.7" cy="44" r="17.1"/>
+            <path id="Tracé_434-2" data-name="Tracé_434" class="cls-7" d="M115.9,58.1v6.3c0,1.4-1.1,2.5-2.5,2.5h-12.9c-1.4,0-2.5-1.1-2.5-2.5v-5.8" inkscape:connector-curvature="0"/>
+            <g id="Groupe_378-2" data-name="Groupe_378">
+              <g id="Groupe_377-2" data-name="Groupe_377">
+                <path id="Tracé_435-2" data-name="Tracé_435" class="cls-18" d="M107.8,66.6c0,1.3-.2,2.6-.4,3.8l-.6,1.5c-1.8,5.3-6.1,9.4-11.5,11l-.8.2c-1.3.2-2.6.4-3.8.4" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+            <path id="Tracé_438-2" data-name="Tracé_438" class="cls-15" d="M65.8,45.9v11.7h-7.9v-11.7h-11.7v-7.9h11.8v-11.5h7.9v11.5h11.7v7.9h-11.8Z" inkscape:connector-curvature="0"/>
+          </g>
+        </g>
+        <g id="Groupe_236-20" data-name="Groupe_236">
+          <g id="g16762">
+            <g id="Groupe_232-20" data-name="Groupe_232">
+              <g id="Groupe_230-20" data-name="Groupe_230">
+                <path id="Tracé_335-22" data-name="Tracé_335" class="cls-27" d="M51.4,1C26.6,2,4.6,24,4.6,51" inkscape:connector-curvature="0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,262 @@
+/**
+ * Styles pour le composant ThemeTab
+ */
+
+.theme-tab {
+  animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.theme-header {
+  margin-bottom: 48px;
+  text-align: left;
+  padding: 32px;
+  --glass-radius: 20px;
+  --glass-bg-alpha: 0.8;
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #1e2972 0%, #316d7b 50%, #f17e08 100%);
+}
+
+.theme-header-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.theme-header-icon {
+  flex-shrink: 0;
+  width: 68px;
+  height: 68px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(241, 126, 8, 0.12), rgba(49, 109, 123, 0.12));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1px rgba(241, 126, 8, 0.2);
+}
+
+.theme-header-icon img {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+}
+
+.theme-header-text {
+  flex: 1;
+}
+
+.theme-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #111827;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #1e2972 0%, #f17e08 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.theme-description {
+  font-size: 15px;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.8;
+  max-width: 700px;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .theme-header {
+    padding: 28px;
+  }
+
+  .theme-header-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+  }
+
+  .theme-header-icon img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .theme-header {
+    padding: 24px;
+  }
+
+  .theme-header-content {
+    gap: 16px;
+  }
+
+  .theme-header-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+  }
+
+  .theme-header-icon img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .theme-title {
+    font-size: 26px;
+  }
+
+  .theme-description {
+    font-size: 14px;
+  }
+}
+
+.subthemes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 18px;
+  margin-bottom: 40px;
+}
+
+.subtheme-button {
+  --glass-radius: 16px;
+  --glass-bg-alpha: 0.9;
+  border: 2px solid rgba(229, 231, 235, 0.6);
+  padding: 20px 28px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.subtheme-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  background: linear-gradient(
+    180deg,
+    rgba(var(--theme-accent-rgb, 241, 126, 8), 1) 0%,
+    rgba(var(--theme-accent-rgb, 241, 126, 8), 0.4) 100%
+  );
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subtheme-button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--theme-accent-rgb, 241, 126, 8), 0.08) 0%,
+    rgba(var(--theme-accent-rgb, 241, 126, 8), 0.04) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.subtheme-button:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: var(--theme-accent, #f17e08);
+  transform: translateY(-4px) translateX(6px);
+  box-shadow:
+    0 8px 24px rgba(var(--theme-accent-rgb, 241, 126, 8), 0.15),
+    0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.subtheme-button:hover::before {
+  transform: scaleY(1);
+}
+
+.subtheme-button:hover::after {
+  opacity: 1;
+}
+
+.subtheme-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  transition: all 0.3s ease;
+  display: block;
+  line-height: 1.5;
+  position: relative;
+  z-index: 1;
+}
+
+.subtheme-button:hover .subtheme-label {
+  color: var(--theme-accent, #f17e08);
+  transform: translateX(4px);
+}
+
+.subthemes-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.subtheme-section {
+  --glass-radius: 20px;
+  --glass-bg-alpha: 0.9;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.subtheme-section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 20px 0;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(var(--theme-accent-rgb, 241, 126, 8), 0.3);
+}
+
+.subtheme-section-content {
+  min-height: 280px;
+}
+
+.evolution-chart {
+  margin-top: 32px;
+  --glass-radius: 20px;
+  --glass-bg-alpha: 0.9;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 768px) {
+  .subthemes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subtheme-button {
+    padding: 18px 22px;
+  }
+}

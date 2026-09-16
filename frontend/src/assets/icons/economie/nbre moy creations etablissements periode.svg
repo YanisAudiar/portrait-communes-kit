@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #316d7b;
+        stroke-width: 1.6px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: MyriadPro-Bold, 'Myriad Pro';
+        font-size: 35px;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: #316d7b;
+        opacity: .7;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="Calque_1-2" data-name="Calque_1">
+        <g id="Calque_1-2">
+          <g>
+            <polyline class="cls-1" points="42.4 17.7 65.3 36 65.3 82.8 42.4 82.8 42.4 17.7"/>
+            <polyline class="cls-1" points="42.4 17.7 19.6 36 19.6 82.8 42.4 82.8 42.4 17.7"/>
+            <line class="cls-1" x1="49.6" y1="38.7" x2="59" y2="43.9"/>
+            <line class="cls-1" x1="49.6" y1="54.4" x2="59" y2="57.5"/>
+            <line class="cls-1" x1="49.6" y1="70.5" x2="59" y2="71.6"/>
+            <polyline class="cls-2" points="29.2 28.2 29.2 12.6 42.4 2 42.4 17.7"/>
+            <polyline class="cls-1" points="55.6 28.2 55.6 12.6 42.4 2"/>
+            <line class="cls-1" x1="82.8" y1="82.8" x2="2" y2="82.8"/>
+            <polyline class="cls-1" points="19.6 53.6 8.8 62.2 8.8 82.8"/>
+            <polyline class="cls-1" points="65.3 43.2 76 51.8 76 82.8"/>
+            <line class="cls-1" x1="35.2" y1="38.7" x2="25.9" y2="43.9"/>
+            <line class="cls-1" x1="35.2" y1="54.4" x2="25.9" y2="57.5"/>
+            <line class="cls-1" x1="35.2" y1="70.5" x2="25.9" y2="71.6"/>
+          </g>
+        </g>
+        <g id="Calque_1-3">
+          <g>
+            <g id="svg8">
+              <sodipodi:namedview id="base" bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" inkscape:current-layer="Calque_1_1_" inkscape:cx="161.17933" inkscape:cy="45.168348" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="1148" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="3.8351354" pagecolor="#ffffff" showgrid="false"/>
+              <g id="layer1" inkscape:groupmode="layer" inkscape:label="Calque 1">
+                <g id="g20380">
+                  <g id="g12436">
+                    <g id="Calque_1-9">
+                      <g id="layer1-5" inkscape:label="Calque 1">
+                        <g id="Calque_1-2-2" data-name="Calque_1-2">
+                          <g id="Calque_2-8">
+                            <g id="Calque_1-2-3">
+                              <g id="g31923">
+                                <g id="g32280">
+                                  <g id="Calque_1-2-2">
+                                    <circle id="circle31913" class="cls-5" cx="61.8" cy="62" r="22.7"/>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g class="cls-3">
+              <g class="cls-3">
+                <g class="cls-3">
+                  <text class="cls-4" transform="translate(52.5 73.4)"><tspan x="0" y="0">5</tspan></text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

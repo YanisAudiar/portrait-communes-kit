@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Content Security Policy : servie en EN-TÊTE par le backend (helmet, cf. backend/server.ts).
+         Elle n'est plus déclarée ici : en <meta>, la directive frame-ancestors est ignorée
+         par les navigateurs, et une CSP en balise ne couvre pas les réponses de l'API. -->
+    <link rel="icon" href="/favicon.ico">
+    <!-- Mobile-first : viewport adaptatif, safe area pour encoches -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Portrait de communes</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

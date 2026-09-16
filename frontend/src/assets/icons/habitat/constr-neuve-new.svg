@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 19.8;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #316d7b;
+        stroke-width: 1.6px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-18);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-21);
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath-24);
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-21 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-22 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-24 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-27 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-28 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-4 {
+        stroke-linejoin: round;
+      }
+
+      .cls-29 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <rect class="cls-1" x="-1003.6" y="-740.5" width="1667.4" height="1179"/>
+    </clipPath>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="svg8">
+      <sodipodi:namedview id="base" bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" inkscape:current-layer="Calque_1" inkscape:cx="175.04483" inkscape:cy="45.168348" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="1148" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="3.8351354" pagecolor="#ffffff" showgrid="false"/>
+      <g id="layer1" inkscape:groupmode="layer" inkscape:label="Calque 1">
+        <g id="g20380">
+          <g id="g12436">
+            <g id="Calque_1-9">
+              <g id="layer1-5" inkscape:label="Calque 1">
+                <g id="Calque_1">
+                  <g class="cls-29">
+                    <line id="line7815" class="cls-4" x1=".6" y1="82.8" x2="84.3" y2="82.8"/>
+                  </g>
+                  <g class="cls-20">
+                    <line id="line7817" class="cls-3" x1="51.7" y1="71.5" x2="51.7" y2="75.9"/>
+                  </g>
+                  <g class="cls-23">
+                    <line id="line7819" class="cls-3" x1="46" y1="75.9" x2="46" y2="71.5"/>
+                  </g>
+                  <g class="cls-21">
+                    <line id="line7821" class="cls-3" x1="70" y1="71.5" x2="70" y2="75.9"/>
+                  </g>
+                  <g class="cls-22">
+                    <line id="line7823" class="cls-3" x1="64.4" y1="75.9" x2="64.4" y2="71.5"/>
+                  </g>
+                  <g class="cls-28">
+                    <line id="line7825" class="cls-3" x1="70" y1="52.5" x2="70" y2="56.8"/>
+                  </g>
+                  <g class="cls-25">
+                    <line id="line7827" class="cls-3" x1="64.4" y1="56.8" x2="64.4" y2="52.5"/>
+                  </g>
+                  <g class="cls-24">
+                    <polyline id="polyline7829" class="cls-4" points="39.4 82.3 39.4 63.9 39.4 63.9 76.4 63.9"/>
+                  </g>
+                  <g class="cls-27">
+                    <polyline id="polyline7831" class="cls-4" points="76.4 82.4 76.4 44.9 58 44.9 58 44.9 58 82.8"/>
+                  </g>
+                  <g class="cls-26">
+                    <polyline id="polyline7835" class="cls-2" points="19 82.8 19 6.1 27.7 6.1 27.7 83.6"/>
+                  </g>
+                  <g class="cls-10">
+                    <line id="line7837" class="cls-4" x1=".6" y1="15.3" x2="81.5" y2="15.3"/>
+                  </g>
+                  <g class="cls-7">
+                    <rect id="rect7839" class="cls-2" x="59.9" y="23.2" width="14.6" height="9.4"/>
+                  </g>
+                  <g class="cls-14">
+                    <line id="line7841" class="cls-4" x1="27.6" y1="15.5" x2="19.2" y2="23.9"/>
+                  </g>
+                  <g class="cls-12">
+                    <line id="line7843" class="cls-4" x1="19.2" y1="23.9" x2="27.6" y2="32.3"/>
+                  </g>
+                  <g class="cls-13">
+                    <line id="line7845" class="cls-4" x1="19.2" y1="6.2" x2="27.6" y2="14.6"/>
+                  </g>
+                  <g class="cls-11">
+                    <line id="line7847" class="cls-4" x1="27.6" y1="32.3" x2="19.2" y2="40.8"/>
+                  </g>
+                  <g class="cls-8">
+                    <line id="line7849" class="cls-4" x1="19.2" y1="40.8" x2="27.6" y2="49.2"/>
+                  </g>
+                  <g class="cls-5">
+                    <line id="line7851" class="cls-4" x1="27.6" y1="49.2" x2="19.2" y2="57.6"/>
+                  </g>
+                  <g class="cls-9">
+                    <line id="line7853" class="cls-4" x1="19.2" y1="57.6" x2="27.6" y2="66"/>
+                  </g>
+                  <g class="cls-6">
+                    <line id="line7855" class="cls-4" x1="27.6" y1="66" x2="19.2" y2="74.4"/>
+                  </g>
+                  <g class="cls-15">
+                    <line id="line7857" class="cls-4" x1="19.2" y1="74.4" x2="27.6" y2="82.8"/>
+                  </g>
+                  <g class="cls-16">
+                    <line id="line7859" class="cls-4" x1="5.7" y1="15.5" x2="19" y2="6.9"/>
+                  </g>
+                  <g class="cls-17">
+                    <line id="line7861" class="cls-4" x1="27.7" y1="6.9" x2="74.5" y2="15.3"/>
+                  </g>
+                  <g class="cls-18">
+                    <line id="line7863" class="cls-2" x1="65.1" y1="16.1" x2="65.1" y2="23.1"/>
+                  </g>
+                  <g class="cls-19">
+                    <line id="line7865" class="cls-2" x1="69.3" y1="16.1" x2="69.3" y2="23.1"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

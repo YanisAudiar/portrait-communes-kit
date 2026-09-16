@@ -1,0 +1,31 @@
+{
+  "name": "portrait-communes",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",
+    "dev:backend": "cd backend && yarn dev",
+    "dev:frontend": "cd frontend && yarn dev",
+    "build": "yarn build:frontend && yarn build:backend",
+    "build:backend": "cd backend && yarn build",
+    "build:frontend": "cd frontend && yarn build",
+    "clean": "rimraf frontend/dist frontend/node_modules/.vite backend/dist",
+    "dev:clean": "yarn clean && yarn dev",
+    "install:all": "cd backend && yarn install && cd ../frontend && yarn install",
+    "deploy": "bash scripts/deploy.sh production",
+    "deploy:dev": "bash scripts/deploy.sh development"
+  },
+  "description": "Portraits de communes — carte, fiches et graphiques pour un territoire d’études",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/test-utils": "^2.4.6",
+    "concurrently": "^9.2.1",
+    "jsdom": "^27.2.0",
+    "rimraf": "^6.0.1",
+    "vitest": "^4.0.10"
+  },
+  "dependencies": {
+    "html-to-image": "^1.11.13",
+    "xlsx": "^0.18.5"
+  }
+}

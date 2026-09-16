@@ -1,0 +1,9 @@
+/**
+ * Styles UI Modernes - Portrait Communes V2
+ * Fichier shell : importe les partials par type (boutons, cartes, formulaires, animations, utilitaires)
+ */
+@import './modern-ui/buttons.css';
+@import './modern-ui/cards.css';
+@import './modern-ui/forms.css';
+@import './modern-ui/animations.css';
+@import './modern-ui/utilities.css';

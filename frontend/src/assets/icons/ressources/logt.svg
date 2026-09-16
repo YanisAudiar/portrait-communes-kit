@@ -1,0 +1,849 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" id="svg8" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="logt.svg">
+  <defs id="defs2" fill="#000000">
+    <rect id="SVGID_1_" width="841.89001" height="595.276" x="0" y="0" fill="#000000"/>
+    <rect id="rect862" width="841.89001" height="595.276" x="0" y="0" fill="#000000"/>
+    <clipPath id="SVGID_2_-7" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use7610" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16966" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16964" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16970" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16968" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16974" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16972" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16978" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16976" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16982" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16980" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16986" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16984" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16990" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16988" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16994" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16992" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16998" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use16996" fill="#000000"/>
+    </clipPath>
+    <clipPath id="SVGID_2_-2" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use5115-1" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17150" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17148" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17154" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17152" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17158" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17156" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17162" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17160" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17166" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17164" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17170" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17168" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17174" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17172" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17178" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17176" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17182" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17180" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17186" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17184" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17190" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17188" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17194" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17192" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17198" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use17196" style="overflow:visible" x="0" y="0" width="100%" height="100%" fill="#000000"/>
+    </clipPath>
+    <rect id="rect2020-7" width="841.89001" height="595.276" x="0" y="0" fill="#000000"/>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17489" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17491" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17493" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17495" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17497" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17499" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17501" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17503" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17505" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17507" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17509" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17511" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17513" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17515" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17517" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17519" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17521" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17523" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17525" fill="#000000">
+      <rect style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect17527" width="35.886604" height="39.292789" x="370.48679" y="113.10773"/>
+    </clipPath>
+    <clipPath id="SVGID_2_" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use7610-5" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18200" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18198" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18204" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18202" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18208" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18206" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18212" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18210" fill="#000000"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18255" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect18257" width="31.982302" height="45.367485" x="291.85037" y="108.0582"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18259" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect18261" width="31.982302" height="45.367485" x="291.85037" y="108.0582"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18263" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect18265" width="31.982302" height="45.367485" x="291.85037" y="108.0582"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18267" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect18269" width="31.982302" height="45.367485" x="291.85037" y="108.0582"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18271" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect18273" width="31.982302" height="45.367485" x="291.85037" y="108.0582"/>
+    </clipPath>
+    <clipPath id="SVGID_2_-73" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use7610-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18893" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18891" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18897" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18895" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18901" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18899" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18905" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18903" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18909" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18907" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18913" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18911" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18917" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18915" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18921" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18919" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18925" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18923" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18929" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18927" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18933" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use18931" fill="#000000"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19025" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19027" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19029" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19031" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19033" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19035" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19037" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19039" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19041" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19043" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19045" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19047" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19049" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19051" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19053" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19055" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19057" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19059" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19061" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19063" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19065" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19067" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19069" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.07612479;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19071" width="42.407124" height="43.880733" x="620.43335" y="110.51618"/>
+    </clipPath>
+    <clipPath id="SVGID_2_-9" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use7610-13" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19085" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19083" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19089" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19087" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19093" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19091" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19097" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19095" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19101" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19099" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19105" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19103" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19109" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19107" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19113" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19111" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19117" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19115" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19121" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19119" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19125" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19123" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19129" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19127" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19133" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19131" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19137" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19135" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19141" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19139" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19145" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19143" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19149" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19147" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19153" fill="#000000">
+      <use xlink:href="#SVGID_1_" overflow="visible" id="use19151" fill="#000000"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19412" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19414" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19416" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19418" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19420" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19422" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19424" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19426" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19428" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19430" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19432" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19434" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19436" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19438" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19440" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19442" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19444" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19446" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19448" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19450" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19452" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19454" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19456" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19458" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19460" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19462" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19464" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19466" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19468" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19470" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19472" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19474" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19476" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.9947862;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect19478" width="50.726646" height="52.924809" x="551.36682" y="101.01683"/>
+    </clipPath>
+    <clipPath id="SVGID_8_" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use11833" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19492" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19490" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19496" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19494" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19500" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19498" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19504" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19502" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19508" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19506" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19512" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19510" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19516" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19514" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19520" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19518" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19524" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19522" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19528" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19526" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19532" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19530" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19536" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19534" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19540" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19538" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19544" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19542" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19548" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19546" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19552" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19550" fill="#000000"/>
+    </clipPath>
+    <clipPath id="SVGID_8_-9" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use11833-7" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19689" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19687" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19693" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19691" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19697" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19695" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19701" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19699" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19705" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19703" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19709" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19707" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19713" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19711" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19717" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19715" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19721" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19719" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19725" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19723" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19729" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19727" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19733" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19731" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19737" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19735" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19741" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19739" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19745" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19743" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19749" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19747" fill="#000000"/>
+    </clipPath>
+    <clipPath id="SVGID_8_-2" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use11833-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19886" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19884" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19890" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19888" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19894" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19892" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19898" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19896" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19902" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19900" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19906" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19904" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19910" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19908" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19914" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19912" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19918" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19916" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19922" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19920" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19926" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19924" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19930" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19928" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19934" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19932" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19938" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19936" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19942" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19940" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath19946" fill="#000000">
+      <use xlink:href="#SVGID_7_" overflow="visible" id="use19944" fill="#000000"/>
+    </clipPath>
+    <rect y="0" x="0" height="595.276" width="841.89001" id="SVGID_3_" fill="#000000"/>
+    <rect y="0" x="0" height="595.276" width="841.89001" id="SVGID_7_" fill="#000000"/>
+    <rect y="0" x="0" height="595.276" width="841.89001" id="SVGID_1_-1" fill="#000000"/>
+    <rect y="0" x="0" height="595.276" width="841.89001" id="rect862-6" fill="#000000"/>
+    <clipPath id="SVGID_2_-7-7" fill="#000000">
+      <use id="use7610-8" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16966-3" fill="#000000">
+      <use id="use16964-9" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16970-9" fill="#000000">
+      <use id="use16968-6" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16974-3" fill="#000000">
+      <use id="use16972-9" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16978-2" fill="#000000">
+      <use id="use16976-0" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16982-6" fill="#000000">
+      <use id="use16980-3" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16986-7" fill="#000000">
+      <use id="use16984-1" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16990-2" fill="#000000">
+      <use id="use16988-8" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16994-2" fill="#000000">
+      <use id="use16992-7" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath16998-8" fill="#000000">
+      <use id="use16996-1" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="SVGID_2_-2-1" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use5115-1-9" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17150-2" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17148-9" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17154-0" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17152-2" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17158-5" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17156-8" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17162-2" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17160-7" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17166-6" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17164-6" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17170-7" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17168-4" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17174-0" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17172-4" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17178-8" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17176-7" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17182-8" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17180-3" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17186-7" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17184-4" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17190-4" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17188-3" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17194-6" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17192-9" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath17198-2" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use17196-6" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <rect y="0" x="0" height="595.276" width="841.89001" id="rect2020-7-7" fill="#000000"/>
+    <clipPath id="clipPath17489-7" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17491-9" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17493-0" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17495-2" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17497-8" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17499-0" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17501-2" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17503-9" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17505-8" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17507-2" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17509-8" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17511-0" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17513-3" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17515-5" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17517-7" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17519-5" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17521-1" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17523-5" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath17525-1" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="113.10773" x="370.48679" height="39.292789" width="35.886604" id="rect17527-9" style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.91696608;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="SVGID_2_-26" fill="#000000">
+      <use id="use7610-5-1" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18200-3" fill="#000000">
+      <use id="use18198-0" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18204-9" fill="#000000">
+      <use id="use18202-9" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18208-5" fill="#000000">
+      <use id="use18206-6" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18212-0" fill="#000000">
+      <use id="use18210-0" overflow="visible" xlink:href="#SVGID_1_-1" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath18255-0" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="108.0582" x="291.85037" height="45.367485" width="31.982302" id="rect18257-6" style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath18259-3" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="108.0582" x="291.85037" height="45.367485" width="31.982302" id="rect18261-3" style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath18263-5" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="108.0582" x="291.85037" height="45.367485" width="31.982302" id="rect18265-6" style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath18267-7" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="108.0582" x="291.85037" height="45.367485" width="31.982302" id="rect18269-5" style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <clipPath id="clipPath18271-4" clipPathUnits="userSpaceOnUse" fill="#000000">
+      <rect y="108.0582" x="291.85037" height="45.367485" width="31.982302" id="rect18273-9" style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:1.04663086;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    </clipPath>
+    <rect height="12.9" width="57.6" id="SVGID_1_-8" fill="#000000"/>
+    <clipPath id="SVGID_2_-6" fill="#000000">
+      <use xlink:href="#SVGID_1_" style="overflow:visible;" id="use1178" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21544" fill="#000000">
+      <use xlink:href="#SVGID_1_" style="overflow:visible;" id="use21542" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21548" fill="#000000">
+      <use xlink:href="#SVGID_1_" style="overflow:visible;" id="use21546" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21552" fill="#000000">
+      <use xlink:href="#SVGID_1_" style="overflow:visible;" id="use21550" fill="#000000"/>
+    </clipPath>
+    <clipPath id="SVGID_2_-4" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use1178-9" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21598" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21596" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21602" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21600" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21606" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21604" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21610" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21608" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21614" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21612" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21618" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21616" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21622" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21620" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21626" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21624" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21630" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21628" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21634" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21632" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21638" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21636" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21642" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21640" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21646" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" xlink:href="#SVGID_1_-3" style="overflow:visible" id="use21644" fill="#000000"/>
+    </clipPath>
+    <rect y="0" x="0" id="SVGID_1_-3" width="57.599998" height="12.9" fill="#000000"/>
+    <clipPath id="SVGID_8_-92-2" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use11833-2-1" overflow="visible" xlink:href="#SVGID_7_" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21829" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use21827" overflow="visible" xlink:href="#SVGID_7_" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21833" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use21831" overflow="visible" xlink:href="#SVGID_7_" fill="#000000"/>
+    </clipPath>
+    <clipPath id="clipPath21837" fill="#000000">
+      <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use21835" overflow="visible" xlink:href="#SVGID_7_" fill="#000000"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21873" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.86338419;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect21875" width="29.472383" height="20.619095" x="538.29358" y="238.5161"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21877" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.86338419;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect21879" width="29.472383" height="20.619095" x="538.29358" y="238.5161"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21881" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.86338419;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect21883" width="29.472383" height="20.619095" x="538.29358" y="238.5161"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21885" fill="#000000">
+      <rect style="opacity:1;fill:#5d4f9c;fill-opacity:1;fill-rule:evenodd;stroke:#5d4f9c;stroke-width:0.86338419;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect21887" width="29.472383" height="20.619095" x="538.29358" y="238.5161"/>
+    </clipPath>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="3.8351354" inkscape:cx="127.4585" inkscape:cy="45.168348" inkscape:document-units="mm" inkscape:current-layer="layer1" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1920" inkscape:window-height="1148" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" fill="#000000"/>
+  <metadata id="metadata5" fill="#000000">
+    <rdf:RDF fill="#000000">
+      <cc:Work rdf:about="" fill="#000000">
+        <dc:format fill="#000000">image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" fill="#000000"/>
+        <dc:title fill="#000000"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Calque 1" inkscape:groupmode="layer" id="layer1" transform="translate(113.53621,-70.017453)">
+    <path style="opacity:1;fill:#b4dff3;fill-opacity:1;stroke:none;stroke-width:0.49896699;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="path826" sodipodi:type="arc" sodipodi:cx="-98.457329" sodipodi:cy="81.165901" sodipodi:rx="11.192028" sodipodi:ry="11.192028" sodipodi:start="0" sodipodi:end="6.2664476" sodipodi:open="true" d="m -87.265301,81.165901 a 11.192028,11.192028 0 0 1 -11.145196,11.19193 11.192028,11.192028 0 0 1 -11.238463,-11.098266 11.192028,11.192028 0 0 1 11.051138,-11.28481 11.192028,11.192028 0 0 1 11.330954,11.003826"/>
+    <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.74643707px;line-height:1.25;font-family:Quatro-Regular, Quatro;-inkscape-font-specification:'Quatro-Regular, Quatro';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.21866092" x="-95.671257" y="95.186554" id="text17464"><tspan sodipodi:role="line" id="tspan17462" x="-95.671257" y="102.9251" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Quatro-Regular, Quatro;-inkscape-font-specification:'Quatro-Regular, Quatro';fill:#ffffff;stroke-width:0.21866092"/></text>
+    <g id="Calque_2" data-name="Calque 2" transform="matrix(0.401275,0,0,-0.401275,-99.590643,100.02123)">
+      <g id="Calque_1-2" data-name="Calque 1">
+        <g id="g17591"/>
+      </g>
+    </g>
+    <g id="g20380" transform="matrix(0.75688044,0,0,0.75688044,-112.34478,72.706377)">
+      <g transform="translate(-527.184,-244.103)" id="g11818">
+        <defs id="defs11585" fill="#000000">
+          <rect y="0" x="0" height="595.276" width="841.89001" id="rect20351" fill="#000000"/>
+        </defs>
+        <clipPath id="SVGID_4_" fill="#000000">
+          <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use11587" overflow="visible" xlink:href="#SVGID_3_" fill="#000000"/>
+        </clipPath>
+      </g>
+      <g transform="translate(-527.184,-244.103)" id="g12436">
+        <defs id="defs11831" fill="#000000">
+          <rect y="0" x="0" height="595.276" width="841.89001" id="rect20357" fill="#000000"/>
+        </defs>
+        <clipPath id="SVGID_8_-92" fill="#000000">
+          <use height="100%" width="100%" y="0" x="0" style="overflow:visible" id="use11833-2" overflow="visible" xlink:href="#SVGID_7_" fill="#000000"/>
+        </clipPath>
+        <g data-name="Calque 1" id="Calque_1" transform="matrix(0.58559645,0,0,0.58559645,525.22965,241.19601)" style="stroke:#5d4f9c;stroke-opacity:1">
+          <g id="g24691" style="stroke:#5d4f9c;stroke-opacity:1">
+            <g id="g24623" style="stroke:#45afe2;stroke-width:1.57932794;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+              <polyline id="polyline24619" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" points="4.58 65.47 4.58 44.68 18 35.41 31.13 44.68 31.13 65.47"/>
+              <rect id="rect24621" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="rotate(180,17.855,53.71)" height="10.32" width="10.32" y="48.549999" x="12.69"/>
+            </g>
+            <g id="g24683" style="stroke:#45afe2;stroke-width:1.57932794;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+              <polyline id="polyline24625" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" points="21.84 37.8 21.84 12.24 53.79 12.24 53.79 65.47"/>
+              <g id="g24635" style="stroke:#45afe2;stroke-width:1.57932794;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+                <line id="line24627" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="28.49" x2="46.130001" y1="25.92" x1="46.130001"/>
+                <line id="line24629" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="28.49" x2="40.470001" y1="25.92" x1="40.470001"/>
+                <line id="line24631" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="28.49" x2="34.799999" y1="25.92" x1="34.799999"/>
+                <line id="line24633" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="28.49" x2="29.139999" y1="25.92" x1="29.139999"/>
+              </g>
+              <g id="g24645" style="stroke:#45afe2;stroke-width:1.57932794;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+                <line id="line24637" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="36.09" x2="46.130001" y1="33.52" x1="46.130001"/>
+                <line id="line24639" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="36.09" x2="40.470001" y1="33.52" x1="40.470001"/>
+                <line id="line24641" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="36.09" x2="34.799999" y1="33.52" x1="34.799999"/>
+                <line id="line24643" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="36.09" x2="29.139999" y1="33.52" x1="29.139999"/>
+              </g>
+              <g id="g24655" style="stroke:#45afe2;stroke-width:1.57932794;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+                <line id="line24647" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="43.689999" x2="46.130001" y1="41.119999" x1="46.130001"/>
+                <line id="line24649" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="43.689999" x2="40.470001" y1="41.119999" x1="40.470001"/>
+                <line id="line24651" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="43.689999" x2="34.799999" y1="41.119999" x1="34.799999"/>
+                <line id="line24653" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="43.279999" x2="29.139999" y1="41.119999" x1="29.139999"/>
+              </g>
+              <g id="g24665" style="stroke:#45afe2;stroke-width:1.57932794;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+                <line id="line24657" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="20.889999" x2="46.130001" y1="18.32" x1="46.130001"/>
+                <line id="line24659" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="20.889999" x2="40.470001" y1="18.32" x1="40.470001"/>
+                <line id="line24661" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="20.889999" x2="34.799999" y1="18.32" x1="34.799999"/>
+                <line id="line24663" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="20.889999" x2="29.139999" y1="18.32" x1="29.139999"/>
+              </g>
+              <g id="g24673" style="stroke:#45afe2;stroke-width:1.57932794;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+                <line id="line24667" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="51.290001" x2="46.130001" y1="48.720001" x1="46.130001"/>
+                <line id="line24669" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="51.290001" x2="40.470001" y1="48.720001" x1="40.470001"/>
+                <line id="line24671" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="51.290001" x2="34.799999" y1="48.720001" x1="34.799999"/>
+              </g>
+              <g id="g24681" style="stroke:#45afe2;stroke-width:1.57932794;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+                <line id="line24675" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="58.889999" x2="46.130001" y1="56.32" x1="46.130001"/>
+                <line id="line24677" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="58.889999" x2="40.470001" y1="56.32" x1="40.470001"/>
+                <line id="line24679" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="58.889999" x2="34.799999" y1="56.32" x1="34.799999"/>
+              </g>
+            </g>
+            <line id="line24685" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="65.470001" x2="66.5" y1="65.470001" x1="1.41"/>
+            <circle id="circle24687" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" r="4.9400001" cy="54.380001" cx="62.529999"/>
+            <line id="line24689" style="fill:none;stroke:#45afe2;stroke-width:1.57932794;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" y2="65.349998" x2="62.529999" y1="59.32" x1="62.529999"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <style id="style1173" type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:none;stroke:#535251;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{clip-path:url(#SVGID_2_);fill:#535251;}
+	.st2{fill:#515150;}
+	.st3{fill:none;stroke:#535251;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#535251;}
+</style>
+  <style id="style22835" type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#FFFFFF;}
+	.st3{display:inline;opacity:0.647;}
+	.st4{opacity:0.15;fill:#5E509C;enable-background:new    ;}
+	.st5{display:inline;opacity:0.25;}
+	.st6{fill:#5E509C;}
+	.st7{fill:none;stroke:#5E509C;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#5E509C;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st9{opacity:0.25;}
+	.st10{fill:#ed712c;}
+	.st11{fill:none;stroke:#ed712c;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st12{opacity:0.702;}
+	.st13{opacity:0.15;fill:#ed712c;enable-background:new    ;}
+	.st14{fill:none;stroke:#ed712c;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{display:inline;opacity:0.112;fill:#896F56;enable-background:new    ;}
+	.st16{fill:none;}
+	.st17{fill:none;stroke:#896F56;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#896F56;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st19{display:inline;opacity:0.25;fill:#896F56;enable-background:new    ;}
+	.st20{display:inline;opacity:0.14;fill:#4297C4;enable-background:new    ;}
+	.st21{fill:none;stroke:#4297C4;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st22{fill:#E2EBEF;stroke:#4297C4;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st23{fill:none;stroke:#4297C4;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st24{fill:none;stroke:#4297C4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st25{display:inline;opacity:0.24;fill:#4297C4;enable-background:new    ;}
+	.st26{fill:#D2E6F1;stroke:#4297C4;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st27{fill:#DB82B4;}
+	.st28{display:inline;opacity:0.15;}
+	.st29{fill:none;stroke:#DC83B4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st30{fill:none;stroke:#DB82B4;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st31{display:inline;opacity:0.15;fill:#E7356E;enable-background:new    ;}
+	.st32{fill:none;stroke:#E7356E;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st33{display:inline;fill:none;stroke:#E7356E;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st34{display:inline;opacity:0.25;fill:#E7356E;enable-background:new    ;}
+	.st35{display:inline;opacity:0.448;}
+	.st36{fill:#C5C1D6;}
+	.st37{fill:none;stroke:#55638F;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st38{fill:none;stroke:#55638F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st39{display:inline;opacity:0.7;}
+	.st40{display:inline;opacity:0.542;}
+	.st41{fill:#F0DBD4;}
+	.st42{fill:none;stroke:#C17B6F;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st43{fill:none;stroke:#C17B6F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st44{display:inline;opacity:0.3;}
+	.st45{opacity:0.579;fill:#B94680;enable-background:new    ;}
+	.st46{fill:none;stroke:#B94680;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st47{fill:none;stroke:#B94680;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st48{display:inline;opacity:0.5;}
+	.st49{display:inline;opacity:0.153;}
+	.st50{fill:#4FAD37;}
+	.st51{fill:none;stroke:#4FAD37;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st52{display:inline;fill:none;stroke:#4FAD37;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st53{fill:none;stroke:#4FAD37;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st54{display:inline;opacity:0.35;}
+	.st55{opacity:0.197;}
+	.st56{fill:#2DA5DE;}
+	.st57{fill:none;stroke:#2DA5DE;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st58{fill:none;stroke:#2DA5DE;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+	.st59{opacity:0.4;}
+	.st60{opacity:0.2;}
+	.st61{fill:#1C7ABE;}
+	.st62{fill:none;stroke:#1C7ABE;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st63{fill:none;stroke:#1C7ABE;stroke-width:1.6;stroke-linejoin:round;stroke-dasharray:3.6,2;}
+	.st64{fill:none;stroke:#1C7ABE;stroke-width:1.6;stroke-miterlimit:10;}
+	.st65{fill:none;stroke:#1C7ABE;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,6;}
+</style>
+</svg>

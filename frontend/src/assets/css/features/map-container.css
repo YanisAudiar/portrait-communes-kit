@@ -1,0 +1,185 @@
+/**
+ * Styles pour le composant MapContainer
+ * Styles extraits du composant pour améliorer la maintenabilité
+ * Optimisé pour mobile et tactile
+ */
+
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+  /* Optimisation touch */
+  touch-action: pan-x pan-y;
+  -webkit-overflow-scrolling: touch;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Page d’accueil : carte purement décorative — bloque zoom/pan résiduels et gestes tactiles */
+.map-wrapper.map-layout-landing {
+  touch-action: none;
+}
+
+.map-wrapper.map-layout-landing .map-container {
+  pointer-events: none;
+}
+
+.modern-map {
+  position: relative;
+}
+
+.modern-map::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top right,
+    transparent 0%,
+    transparent 70%,
+    rgba(241, 126, 8, 0.02) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ============================================
+   RESPONSIVE MOBILE (< 768px)
+   ============================================ */
+
+@media (max-width: 767px) {
+  .map-wrapper {
+    height: 100%;
+    min-height: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0; /* Pas de border-radius sur mobile */
+  }
+
+  .map-container {
+    height: 100%;
+    min-height: 0;
+    flex: 1;
+  }
+
+  /* Masquer les contrôles MapLibre natifs sur mobile (on utilise nos propres contrôles) */
+  .map-wrapper .maplibregl-ctrl-group {
+    display: none;
+  }
+
+  /* Style du bouton d'attribution réduit */
+  .map-wrapper .maplibregl-ctrl-attrib {
+    font-size: 9px;
+    padding: 2px 6px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .map-wrapper .maplibregl-ctrl-attrib-button {
+    display: none;
+  }
+}
+
+/* ============================================
+   PETITS MOBILES (< 480px)
+   ============================================ */
+
+@media (max-width: 479px) {
+  .map-container {
+    min-height: 250px;
+  }
+
+  /* Attribution encore plus discrète */
+  .map-wrapper .maplibregl-ctrl-attrib {
+    font-size: 8px;
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* ============================================
+   PAYSAGE MOBILE
+   ============================================ */
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .map-wrapper {
+    border-radius: 0;
+  }
+
+  .map-container {
+    min-height: 200px;
+  }
+
+  /* Afficher les contrôles natifs en mode paysage */
+  .map-wrapper .maplibregl-ctrl-group {
+    display: block;
+  }
+}
+
+/* ============================================
+   TABLETTES (768px - 1023px)
+   ============================================ */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .map-wrapper {
+    border-radius: 16px;
+  }
+}
+
+/* ============================================
+   DESKTOP (>= 1024px)
+   ============================================ */
+
+@media (min-width: 1024px) {
+  .map-wrapper {
+    border-radius: 20px;
+  }
+}
+
+/* ============================================
+   FULLSCREEN MODE
+   ============================================ */
+
+.map-wrapper:fullscreen,
+.map-wrapper:-webkit-full-screen {
+  border-radius: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.map-wrapper:fullscreen .maplibregl-ctrl-group,
+.map-wrapper:-webkit-full-screen .maplibregl-ctrl-group {
+  display: block !important;
+}
+
+/* ============================================
+   OPTIMISATIONS TACTILES
+   ============================================ */
+
+@media (hover: none) and (pointer: coarse) {
+  /* Augmenter la zone de clic pour les marqueurs */
+  .map-wrapper .maplibregl-marker {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Popup plus grande pour le tactile */
+  .map-wrapper .maplibregl-popup-content {
+    min-width: 200px;
+    padding: 16px;
+  }
+
+  /* Bouton fermer popup plus grand */
+  .map-wrapper .maplibregl-popup-close-button {
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+  }
+}

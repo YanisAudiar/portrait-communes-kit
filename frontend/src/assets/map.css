@@ -1,0 +1,239 @@
+/* Styles spécifiques pour MapLibre GL */
+
+/* Conteneur principal de la carte */
+.maplibregl-map {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Contrôles de navigation */
+.maplibregl-ctrl-nav {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.maplibregl-ctrl-nav button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.maplibregl-ctrl-nav button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Contrôle plein écran */
+.maplibregl-ctrl-fullscreen {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Popups */
+.maplibregl-popup {
+  z-index: 1000;
+}
+
+.maplibregl-popup-content {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  font-family: inherit;
+  max-width: 300px;
+}
+
+.maplibregl-popup-content h3 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.maplibregl-popup-content p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.maplibregl-popup-content strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.maplibregl-popup-close-button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.maplibregl-popup-close-button:hover {
+  background: #c0392b;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: white;
+}
+
+/* Attribution */
+.maplibregl-ctrl-attrib {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  border-radius: 4px;
+  font-size: 11px;
+  padding: 4px 8px;
+}
+
+.maplibregl-ctrl-attrib a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.maplibregl-ctrl-attrib a:hover {
+  text-decoration: underline;
+}
+
+/* Marker personnalisé */
+.custom-marker {
+  background-color: #3498db;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-marker:hover {
+  transform: scale(1.2);
+  background-color: #e74c3c;
+}
+
+/* Styles pour les couches de communes */
+.commune-hover {
+  cursor: pointer;
+}
+
+/* Loading overlay pour la carte */
+.map-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(248, 249, 250, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.map-loading-content {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.map-loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.map-loading-text {
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Styles pour les légendes */
+.map-legend {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.legend-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  margin-right: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.legend-label {
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .maplibregl-popup-content {
+    max-width: 250px;
+    padding: 12px;
+  }
+  
+  .maplibregl-popup-content h3 {
+    font-size: 1.1rem;
+  }
+  
+  .maplibregl-popup-content p {
+    font-size: 0.85rem;
+  }
+  
+  .map-legend {
+    bottom: 10px;
+    left: 10px;
+    padding: 12px;
+  }
+  
+  .legend-title {
+    font-size: 13px;
+  }
+  
+  .legend-item {
+    font-size: 11px;
+  }
+}

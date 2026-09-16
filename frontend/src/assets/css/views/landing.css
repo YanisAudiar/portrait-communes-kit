@@ -1,0 +1,336 @@
+/* ============================================
+   LANDING - Page d'accueil Portraits de communes
+   Design fidèle à la maquette de référence
+   ============================================ */
+
+/* La page occupe exactement le viewport, pas de scroll global */
+.landing {
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* ============================================
+   HEADER : Bandeau bleu eucalyptus
+   Titre en bas à gauche, logo en haut à droite
+   ============================================ */
+
+.landing-header {
+  background: #ebf5f6;
+  padding: 1.25rem 2.5rem 1rem;
+  flex-shrink: 0;
+}
+
+.landing-header-inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-height: 55px;
+}
+
+/* Titre en bas à gauche du header */
+.landing-title {
+  font-family: var(--font-body, 'Montserrat', sans-serif);
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: var(--bleu-eucalyptus, #316D7B);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.landing-title strong {
+  font-weight: 700;
+}
+
+/* Logo en haut à droite du header */
+.landing-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.landing-logo-img {
+  height: 52px;
+  width: auto;
+}
+
+.landing-logo-fallback {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--bleu-eucalyptus, #316D7B);
+}
+
+/* ============================================
+   MAIN : Prend tout l'espace entre header et footer
+   Aucun padding, aucun espace perdu
+   ============================================ */
+
+.landing-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.landing-container {
+  width: 100%;
+  flex: 1;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Layout : carte gauche | panneau droit */
+.landing-layout {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Smartphone : carte non montée (Landing.vue) — le panneau occupe toute la largeur */
+.landing-layout--no-map .landing-panel {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+}
+
+/* Carte : partie gauche (~32%), taille réduite */
+.landing-map {
+  flex: 0 0 32%;
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Overlay transparent qui bloque tous les clics sur la carte */
+.landing-map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  cursor: default;
+}
+
+.landing-map .map-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 0;
+}
+
+.landing-map .map-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Panneau droit : sélecteur + texte descriptif, scroll interne */
+.landing-panel {
+  flex: 1;
+  min-width: 280px;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+/* ============================================
+   FOOTER : Bandeau bleu eucalyptus
+   2 colonnes centrées
+   ============================================ */
+
+.landing-footer {
+  flex-shrink: 0;
+  padding: 1.25rem 2.5rem;
+  background: #ebf5f6;
+  color: var(--bleu-eucalyptus, #316D7B);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+/* Footer : même grille que le layout (32% | 2.5rem | 1fr) pour alignement parfait */
+.landing-footer-grid {
+  display: grid;
+  grid-template-columns: 32% 2.5rem 1fr;
+  margin: 0 -2.5rem; /* déborde du padding pour avoir la même largeur que le layout */
+  width: calc(100% + 5rem);
+  max-width: 100vw;
+}
+
+/* Colonne gauche : tout à gauche comme précédemment */
+.footer-left {
+  grid-column: 1;
+  padding-left: 2.5rem; /* replace le padding du footer */
+  min-width: 0;
+  text-align: left;
+}
+
+/* AUDIAR : colonne 3, aligné sur "Choisir un territoire" (même début que le panneau) */
+.footer-right {
+  grid-column: 3;
+  min-width: 0;
+  text-align: left;
+}
+
+.footer-dev {
+  margin: 0 0 0.4rem;
+  font-size: 0.8125rem;
+  color: var(--bleu-eucalyptus, #316D7B);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.footer-links a {
+  color: var(--bleu-eucalyptus, #316D7B);
+  text-decoration: none;
+  font-size: 0.8125rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #1e2972;
+  text-decoration: underline;
+}
+
+
+.footer-audiar-title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin: 0 0 0.2rem;
+  color: var(--bleu-eucalyptus, #316D7B);
+}
+
+.footer-right p {
+  margin: 0;
+  color: var(--bleu-eucalyptus, #316D7B);
+  font-size: 0.8125rem;
+}
+
+.footer-right a {
+  color: var(--bleu-eucalyptus, #316D7B);
+  text-decoration: none;
+  font-size: 0.8125rem;
+  transition: color 0.2s;
+}
+
+.footer-right a:hover {
+  color: #1e2972;
+  text-decoration: underline;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1100px) {
+  .landing-title {
+    font-size: 1.75rem;
+  }
+
+  .landing-header {
+    padding: 1rem 1.5rem 0.75rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .landing-title {
+    font-size: 1.4rem;
+  }
+
+  .landing-map {
+    flex: 0 0 30%;
+  }
+
+  .landing-footer-grid {
+    grid-template-columns: 30% 2.5rem 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .landing-header {
+    padding: 0.75rem 1rem 0.5rem;
+  }
+
+  .landing-header-inner {
+    align-items: center;
+    min-height: auto;
+  }
+
+  .landing-logo {
+    align-self: center;
+  }
+
+  .landing-title {
+    font-size: 1.1rem;
+  }
+
+  .landing-logo-img {
+    height: 36px;
+  }
+
+  .landing-layout {
+    flex-direction: column;
+  }
+
+  .landing-map {
+    flex: 0 0 30%;
+    min-height: 0;
+  }
+
+  .landing-panel {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+    overflow-y: auto;
+  }
+
+  .landing-footer {
+    padding: 1rem;
+  }
+
+  .landing-footer-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin: 0;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .footer-left {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 0;
+  }
+
+  .footer-right {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .landing-title {
+    font-size: 0.95rem;
+  }
+
+  .landing-map {
+    flex: 0 0 28%;
+  }
+}

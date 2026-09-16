@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #316d7b;
+      }
+
+      .cls-2 {
+        fill: #556490;
+        font-family: MyriadPro-Semibold, 'Myriad Pro';
+        font-size: 34px;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #316d7b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.6px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="Calque_1-2" data-name="Calque_1">
+        <g id="Calque_1-2">
+          <g id="Calque_2">
+            <g>
+              <path class="cls-4" d="M29.3,71.6c.6-.6,1.3-1.6,3.3-1.6h23.2c1.8,0,15.3-10.2,16.5-11.6,1.2-1.4,6.7-9.7,8.3-13.3-1-1.3-2.8-1.8-5.9-1.1-2.9.7-4.5,3.8-6.4,7.7l-10.9,4.8"/>
+              <path class="cls-4" d="M39.2,60.1h13.2c6.6,0,6.6-8.3,0-8.3h-8.7c-1.4,0-4-1.3-6.1-1.7-3.1-.5-6.9-.2-8.3,0-2.2.3-5,1.8-6.6,3.3-2.5,2.5-6.6,5-6.6,5"/>
+              <rect class="cls-4" x="12.8" y="55.1" width="11.7" height="28.1" transform="translate(-43.5 33.4) rotate(-45)"/>
+            </g>
+            <g id="text18297" class="cls-1">
+              <g class="cls-1">
+                <text class="cls-2" transform="translate(104.5 39)"><tspan x="0" y="0">rsa</tspan></text>
+              </g>
+            </g>
+            <g id="text18297-2" class="cls-1">
+              <g class="cls-1">
+                <path class="cls-3" d="M21.3,27.8c0-2.2,0-3.8-.1-5.3h3.6v3.2h.3c.8-2.3,2.8-3.5,4.5-3.5s.6,0,1,.1v3.9c-.3,0-.7-.1-1.2-.1-2,0-3.4,1.3-3.7,3.2,0,.4-.1.8-.1,1.3v8.6h-4.2v-11.4Z"/>
+                <path class="cls-3" d="M33.2,35.1c1,.6,2.8,1.2,4.2,1.2s2.7-.7,2.7-1.8-.7-1.7-2.7-2.4c-3.2-1.1-4.6-2.9-4.6-4.8,0-2.9,2.4-5.2,6.3-5.2s3.4.5,4.4,1l-.8,3c-.7-.4-2-1-3.5-1s-2.3.7-2.3,1.7.8,1.6,2.9,2.3c3,1.1,4.4,2.6,4.4,5.1s-2.3,5.2-6.7,5.2-3.8-.5-5-1.2l.8-3h-.1Z"/>
+                <path class="cls-3" d="M56.9,39l-.3-1.8h0c-1,1.3-2.8,2.2-4.9,2.2-3.3,0-5.2-2.4-5.2-4.9,0-4.2,3.7-6.3,9.8-6.3v-.3c0-1.1-.4-2.9-3.4-2.9s-3.3.5-4.5,1.2l-.8-2.7c1.2-.7,3.4-1.5,6-1.5,5.3,0,6.8,3.4,6.8,7v6c0,1.5,0,3,.2,4h-3.8.2ZM56.4,30.9c-3,0-5.8.6-5.8,3.1s1.1,2.4,2.4,2.4,2.9-1.1,3.3-2.3c0-.3,0-.6,0-.9v-2.3Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

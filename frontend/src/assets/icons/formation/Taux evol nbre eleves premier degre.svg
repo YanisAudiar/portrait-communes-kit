@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #316d7b;
+        font-family: MyriadPro-It, 'Myriad Pro';
+        font-size: 33px;
+        font-style: italic;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #346e7c;
+        opacity: .7;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+        stroke-width: 1.4px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: #316d7b;
+        stroke-linejoin: round;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke-width: 1.6px;
+      }
+
+      .cls-7 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="Calque_1-2" data-name="Calque_1">
+        <g id="Calque_1-2">
+          <line id="line8489-0" class="cls-6" x1="43.6" y1="69.4" x2="43.6" y2="83.3"/>
+          <ellipse id="ellipse8493-2" class="cls-6" cx="39.7" cy="59.8" rx="2.6" ry="2.8"/>
+          <line id="line8495-8" class="cls-6" x1="40" y1="83.3" x2="40" y2="78.2"/>
+          <path id="path8499-5" class="cls-6" d="M41.8,64.6" inkscape:connector-curvature="0"/>
+          <path id="path8499-5-2" class="cls-6" d="M41.2,62" inkscape:connector-curvature="0"/>
+          <path id="path8507-2" class="cls-6" d="M48.5,54.2l-1.5,6.1s-1.5,4.2-3.8,4.2h-6c-1.7.3-2,.9-2.3,1.2-.9,1-1.6,10.6-1.6,10.6" inkscape:connector-curvature="0"/>
+          <line id="line8509-6" class="cls-6" x1="36.2" y1="83.3" x2="36.2" y2="71.2"/>
+          <polygon class="cls-5" points="76.6 44.4 31.7 44.4 33.4 54.5 23.2 44.4 8.5 44.4 8.5 7.5 76.6 7.5 76.6 44.4"/>
+          <g class="cls-3">
+            <g class="cls-3">
+              <text class="cls-1" transform="translate(18.3 35.9)"><tspan x="0" y="0">abc</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g id="Calque_1-2-2" data-name="Calque_1-2">
+          <g id="svg8">
+            <g id="layer1">
+              <g id="layer1-5">
+                <g id="g20380">
+                  <g id="g12436">
+                    <g id="layer1-3">
+                      <g id="Calque_2-9">
+                        <g id="Calque_1-2-2">
+                          <g id="g18299">
+                            <circle id="circle18295" class="cls-2" cx="61.1" cy="61.6" r="22.7"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <polyline class="cls-7" points="47.9 74.3 56.1 58.5 63.9 69 70.6 55.2"/>
+        <polygon class="cls-4" points="72.7 59.3 66 56.1 73.1 49.8 72.7 59.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

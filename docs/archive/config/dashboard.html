@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+      <title>Portrait de commune</title>
+      <link rel="stylesheet" href="/lib/bootstrap/4.3.1/bootstrap.min.css">
+      <link rel="stylesheet" href="/lib/bootstrap-select/1.13.9/bootstrap-select.min.css">
+      <link rel="stylesheet" href="/css/main.css?v=0.0.3">
+      <link rel="stylesheet" href="/lib/openlayers/5.3.0/ol.css">
+      <link rel="stylesheet" href="https://use.typekit.net/gwy5biv.css" crossorigin="anonymous">
+      <link rel="stylesheet" href="/lib/fontawesome/css/all.css">
+
+        <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://matomo.example.org/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '0']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src='https://cdn.matomo.cloud/matomo.example.org/matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+   </head>
+   <body>
+      <div class="modal fade" id="loading-modal" tabindex="-1" role="dialog" aria-labelledby="loading-modal" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <div class="spinner-border text-secondary spinner-border-sm" role="status"></div>
+                  <span class="text-muted ml-2">Chargement en cours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="float-buttons">
+         <a class="btn btn-light small-icon" id="scroll-to-top"><i class="fas fa-angle-up fa-xs"></i></a>
+      </div>
+      <div class="small-navbrand">
+         <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+            <div class="navbar-brand mr-4 pt-0"><img class="img-responsive mr-2" src="/icons/header.svg"/></div>
+            <button class="navbar-toggler m-3" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse px-3" id="navbarToggler">
+               <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pt-3 pt-lg-0">
+                  <li class="nav-item"><a href=""><img class="img-responsive obs-identity mr-2" src="/icons/title.svg"/></a></li>
+               </ul>
+               <div class="mt-4 mt-lg-0 pb-3 pb-lg-0">
+                  <ul class="nav navbar-nav flex-row justify-content-start flex-nowrap align-items-center">
+                     <li class="nav-item"><a href="https://www.audiar.org/" target="_blank"><img class="audiar-icon ml-3 mr-2" src="/icons/logo-audiar-blanc.svg"/></a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div class="container mt-4">
+         <div class="row">
+            <div class="col-12">
+               <div class="mt-3 mb-2 pb-3">
+                  <div class="title commune-name mr-1" style="font-size: 30px;">
+                     Commune de
+                  </div>
+                  <div class="helpers">
+                  </div>
+               </div>
+               <button class="classic-button mb-3" type="button" data-toggle="collapse" data-target="#territoire-form" aria-expanded="false" aria-controls="terirtoire-form">
+               Changer de commune
+               </button>
+               <form class="collapse form" id="territoire-form" action="dashboard" method="GET">
+                  <div class="form-group index">
+                     <select class="form-control select-commune territoire-choice mb-3" name="territoire" data-live-search="true" required>
+                        <option value="">Commune</option>
+                     </select>
+                     <br>
+                     <button class="classic-button submit-territoire mt-3" type="submit">Explorer</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-12 mt-4">
+               <button class="classic-button goto theme demo">
+               Démographie
+               </button>
+               <button class="classic-button goto theme habitat">
+               Habitat
+               </button>
+               <button class="classic-button goto theme eco">
+               Économie
+               </button>
+               <button class="classic-button goto theme formation">
+               Formation
+               </button>
+               <button class="classic-button goto theme solidarite">
+               Solidarité
+               </button>
+            </div>
+         </div>
+         <div id="dashboard-content">
+            <div class="demo">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="thematique-header demo">
+                        <div class="title demo">Démographie</div>
+                        <div class="sous-thematique mt-3">
+                           <button class="classic-button demo goto sous-theme evol-pop">
+                           1.1 Évolution de la population
+                           </button>
+                           <button class="classic-button demo goto sous-theme solde-naturel">
+                           1.2 Solde naturel
+                           </button>
+                           <button class="classic-button demo goto sous-theme age-pop">
+                           1.3 Âge de la population
+                           </button>
+                           <button class="classic-button demo goto sous-theme menages">
+                           1.4 Ménages
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section evol-pop">
+                  <div class="col-12">
+                     <div class="title small demo">
+                        <div class="level">1.1</div>
+                        Évolution de la population
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind population">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind tx-evol-pop">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind gain-annuel-pop">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-1">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-1"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-2">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-2"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section solde-naturel">
+                  <div class="col-12">
+                     <div class="title small demo">
+                        <div class="level">1.2</div>
+                        Solde naturel
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind gain-population">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind gain-solde-naturel">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind gain-solde-migratoire">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-3">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-3"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-4">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-4"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section age-pop">
+                  <div class="col-12">
+                     <div class="title small demo">
+                        <div class="level">1.3</div>
+                        Âge de la population
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind part-m20ans">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind part-p60ans">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind indice-jeunesse">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-5">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-5"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-6">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-6"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section menages">
+                  <div class="col-12">
+                     <div class="title small demo">
+                        <div class="level">1.4</div>
+                        Ménages
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-menages">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind taille-moy-menages">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind part-personnes-seules">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/habitants.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-7">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-7"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-8">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-8"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="habitat">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="thematique-header habitat">
+                        <div class="title habitat">Habitat</div>
+                        <div class="sous-thematique mt-3">
+                           <button class="classic-button habitat goto sous-theme parc-log">
+                           2.1 Parc de logements
+                           </button>
+                           <button class="classic-button habitat goto sous-theme marche-hab">
+                           2.2 Marché de l'habitat
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section parc-log">
+                  <div class="col-12">
+                     <div class="title small habitat">
+                        <div class="level">2.1</div>
+                        Parc de logements
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-log">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/logt.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind tx-prop-occup">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/logt.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind tx-maison-ind">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/logt.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-habitat-1">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-habitat-1"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-habitat-2">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-habitat-2"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section marche-hab">
+                  <div class="col-12">
+                     <div class="title small habitat">
+                        <div class="level">2.2</div>
+                        Marché de l'habitat
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-log-neuf-commences">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/logt.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-transactions-m4">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/logt.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-log-occasion-vendus">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/logt.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-habitat-3">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-habitat-3"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-habitat-4">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-habitat-4"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="eco">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="thematique-header eco">
+                        <div class="title eco">Economie-Emploi</div>
+                        <div class="sous-thematique mt-3">
+                           <button class="classic-button eco goto sous-theme tissu-eco">
+                           3.1 Tissu économique
+                           </button>
+                           <button class="classic-button eco goto sous-theme emplois">
+                           3.2 Emploi
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section tissu-eco">
+                  <div class="col-12">
+                  <div class="title small eco">
+                        <div class="level">3.1</div>
+                        Tissu économique
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-etab">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/etab.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind tx-crea-etab">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/etab.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind surf-loc-aut">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/etab.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-eco-1">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-eco-1"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-eco-2">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-eco-2"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section emplois">
+                  <div class="col-12">
+                     <div class="title small eco">
+                        <div class="level">3.2</div>
+                        Emploi
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-emplois">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/etab.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind evol-emplois">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/etab.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind part-actifs-residant-commune">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/etab.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-emploi-1">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-emploi-1"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-emploi-2">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-emploi-2"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="formation">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="thematique-header">
+                        <div class="title formation">Formation</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section formation">
+                  <div class="col-12">
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-eleves-premier-degre">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/eleve.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind evol-nb-eleves">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/eleve.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind nb-eleves-second-degre">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/eleve.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-formation-1">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-formation-1"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-formation-2">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-formation-2"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="solidarite">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="thematique-header">
+                        <div class="title solidarite">Solidarité</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row section solidarite">
+                  <div class="col-12">
+                     <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind revenu-dispo-median-uc">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/revenu.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind part-men-fisc-impose">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/revenu.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                           <div class="bloc-ind tx-pauvrete-60">
+                              <div class="row">
+                                 <div class="col-lg-3 m-auto col-icon-cc">
+                                    <img class="icon-cc" src="/icons/revenu.svg">
+                                 </div>
+                                 <div class="col-lg-9 col-desc-cc">
+                                    <div class="cc-value"></div>
+                                    <div class="cc-info"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-solidarite-1">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-solidarite-1"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="bloc-stat" id="bloc-chart-solidarite-2">
+                              <div class="row stat-header">
+                                 <div class="col-lg-7">
+                                    <div class="stat-title"></div>
+                                 </div>
+                                 <div class="col-lg-5">
+                                    <button class="btn control-data download-data">
+                                    <img class="icons-control-stat download-icon" src="/icons/computing-cloud.svg" alt="Télécharger">
+                                    </button>
+                                    <button class="btn control-data print-data">
+                                    <img class="icons-control-stat print-icon" src="/icons/photo-camera.svg" alt="Imprimer">
+                                    </button>
+                                 </div>
+                              </div>
+                              <hr />
+                              <div class="chart">
+                                 <canvas id="chart-solidarite-2"></canvas>
+                              </div>
+                              <div class="footer-chart">
+                                 <div class="source-data"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container">
+            <footer class="my-md-3 pt-5" style="border-top: 1px solid #d6d6d6;">
+               <div class="row">
+                  <div class="col-12 col-md">
+                     <img class="mb-2" src="/icons/audiar-logo.svg" alt="" width="40" height="40"/>
+                     <div class="content"> <small class="d-block mt-3 text-muted">D&eacute;velopp&eacute; par l&apos;Audiar   </small></div>
+                     <div class="social-networks mt-3 mb-3"><a href="https://twitter.com/audiar_infos?lang=fr" target="_blank"><i class="fab fa-twitter"></i></a><a href="https://fr.linkedin.com/company/audiar" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+                  </div>
+                  <div class="col-6 col-md">
+                     <div class="title-b mb-3" style="color: #585858;">RESSOURCES</div>
+                     <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" target="_blank" data-toggle="collapse" href="#credits" role="button" aria-expanded="false" aria-controls="credits">Cr&eacute;dits</a></li>
+                        <div class="collapse mt-2 mb-2" id="credits">
+                           <div class="card card-body" style="display: inline-block;">
+                              <div class="lexique-title pb-2" style="border-bottom: 1px solid #f3f3f3;">Charte graphique et r&eacute;alisation technique</div>
+                              <div class="source-data mt-3 mb-3" style="background-color: white; padding: 0px;">Audiar<br/><a class="classic-link" target="_blank" href="https://www.audiar.org/">audiar.org</a></div>
+                              <div class="lexique-title pb-2" style="border-bottom: 1px solid #f3f3f3;">Ic&ocirc;nes Freepik</div>
+                              <div class="source-data mt-3 mb-3" style="background-color: white; padding: 0px;">Icons made by Freepik<br/><a class="classic-link" target="_blank" href="https://www.flaticon.com/authors/freepik" title="Freepik">freepik.com</a>, <a class="classic-link" target="_blank" href="https://www.flaticon.com/" title="Flaticon">flaticon.com</a></div>
+                           </div>
+                        </div>
+                        <li><a class="text-muted" target="_blank" href="https://www.audiar.org/">Audiar</a></li>
+                        <li><a class="text-muted" target="_blank" href="https://metropole.rennes.fr/">Rennes M&eacute;tropole</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-6 col-md">
+                     <div class="title-b mb-3" style="color: #585858;">CONTACT</div>
+                     <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" target="_blank" href="https://www.google.com/maps/place/Audiar/@48.0925924,-1.6760129,15z/data=!4m5!3m4!1s0x0:0x18136fb06bbfdd2c!8m2!3d48.0925924!4d-1.6760129">3 rue Genevi&egrave;ve de Gaulle Anthonioz CS 40716 - 35207 Rennes Cedex 2</a></li>
+                        <li><span class="text-muted">T. 02 99 01 86 40</span></li>
+                        <li><a class="text-muted" target="_blank" href="https://www.audiar.org/agence/nous-contacter">Contactez-nous</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </footer>
+         </div>
+      </div>
+      <script src="/lib/jquery/jquery-3.4.1.min.js"></script>
+      <script src="/lib/popper/1.14.7/popper.min.js"></script>
+      <script src="/lib/bootstrap/4.3.1/bootstrap.min.js"></script>
+      <script src="/lib/bootstrap-select/1.13.9/bootstrap-select.min.js"></script>
+      <script src="/lib/openlayers/5.3.0/ol.js"></script>
+      <script src="/lib/chart/2.8.0/chart.min.js"></script>
+      <script src="/lib/chartjs-plugin-datalabels/0.7.0/chartjs-plugin-datalabels.min.js"></script>
+      <script src="/lib/chartjs-chart-treemap/0.2.2/chartjs-chart-treemap.min.js"></script>
+      <script src="/lib/html2canvas/1.0.0/html2canvas.min.js"></script>
+      <script src="/lib/dom-to-image/dom-to-image.min.js"></script>
+      <script src="/lib/jspdf/1.5.3/jspdf.min.js"></script>
+      <script src="/lib/canvas-to-blob/canvas-to-blob.min.js"></script>
+      <script src="/lib/alasql/0.5.1/alasql.min.js"></script>
+      <script src="/lib/filesaver/FileSaver.min.js"></script>
+      <script type="module" src="/js/dashboard.js?v=0.0.3"></script>
+   </body>
+</html> 

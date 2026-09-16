@@ -1,0 +1,254 @@
+/**
+ * Section graphiques : grille, cartes, dataviz, évolution
+ */
+
+.charts-main-section {
+  margin: 0;
+  padding-top: 32px;
+}
+
+.charts-section-header {
+  margin-bottom: 32px;
+}
+
+.charts-section-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #323F4B;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.01em;
+}
+
+.charts-section-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+  font-weight: 400;
+}
+
+.charts-section {
+  width: 100%;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 8px;
+  border: none;
+  box-shadow: none;
+  padding: 24px;
+  transition: none;
+  margin-bottom: 24px;
+  min-width: 0; /* Permet au contenu (graphique) de rétrécir dans la grille */
+  overflow: visible; /* Tooltips et légendes visibles, pas de coupure */
+  /* Le graphique doit se contraindre à la largeur de la carte */
+  max-width: 100%;
+}
+
+.chart-card:hover {
+  box-shadow: none;
+}
+
+.chart-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+
+.chart-card-title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #323F4B;
+  margin: 0;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.chart-card-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.chart-action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  border-radius: 8px;
+  color: #7B8794;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.chart-action-btn:hover {
+  background: #F7F9FC;
+  border-color: #CBD2D9;
+  color: #323F4B;
+}
+
+.chart-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(229, 231, 235, 0.6);
+}
+
+.chart-source {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #9AA5B1;
+  font-weight: 400;
+}
+
+.chart-compare-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #323F4B;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.chart-compare-btn:hover {
+  background: #F7F9FC;
+  border-color: #CBD2D9;
+}
+
+.chart-compare-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.left-column {
+  background: white;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 10px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  height: calc(100vh - 250px);
+  max-height: calc(100vh - 250px);
+  min-height: 600px;
+  position: sticky;
+  top: 72px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 600px;
+}
+
+.dataviz-content {
+  padding: 24px;
+  height: 100%;
+}
+
+.dataviz-header {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(229, 231, 235, 0.6);
+}
+
+.dataviz-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.02em;
+}
+
+.dataviz-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.subtheme-charts {
+  background: white;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 10px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 24px;
+}
+
+.subtheme-charts:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08), 0 16px 40px rgba(10, 61, 98, 0.12);
+}
+
+.subtheme-title {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #323F4B;
+  margin: 0 0 20px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(229, 231, 235, 0.8);
+  letter-spacing: -0.01em;
+}
+
+.evolution-section {
+  margin-top: 32px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.06),
+    0 8px 32px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.evolution-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 20px 0;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(241, 126, 8, 0.2);
+}
+
+.content-container {
+  min-height: 400px;
+  animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}

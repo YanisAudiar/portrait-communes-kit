@@ -1,0 +1,42 @@
+/**
+ * Inputs et selects modernes - design system
+ */
+
+.input-modern {
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: white;
+}
+
+.input-modern:focus {
+  outline: none;
+  border-color: #f17e08;
+  box-shadow: 0 0 0 4px rgba(241, 126, 8, 0.1);
+  transform: translateY(-1px);
+}
+
+.select-modern {
+  padding: 12px 40px 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: white;
+  cursor: pointer;
+  appearance: none;
+}
+
+.select-modern:hover {
+  border-color: #cbd5e1;
+}
+
+.select-modern:focus {
+  outline: none;
+  border-color: #f17e08;
+  box-shadow: 0 0 0 4px rgba(241, 126, 8, 0.1);
+}

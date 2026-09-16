@@ -1,0 +1,108 @@
+/* ============================================
+   PANEL GAUCHE - Indicateurs en cartes
+   ============================================ */
+
+.modern-indicators-panel {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--grey-200);
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--grey-300) transparent;
+}
+
+.modern-indicators-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modern-indicators-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modern-indicators-panel::-webkit-scrollbar-thumb {
+  background: var(--grey-300);
+  border-radius: 3px;
+}
+
+.modern-indicators-panel::-webkit-scrollbar-thumb:hover {
+  background: var(--grey-400);
+}
+
+.modern-indicator-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--grey-50);
+  border: 1px solid var(--grey-200);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-md);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  position: relative;
+}
+
+.modern-indicator-card:hover {
+  background: white;
+  border-color: var(--primary-blue);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.modern-indicator-card.active {
+  background: rgba(10, 61, 98, 0.05);
+  border-color: var(--primary-blue);
+  box-shadow: var(--shadow-sm);
+}
+
+.modern-indicator-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  color: var(--primary-blue);
+}
+
+.modern-indicator-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.modern-indicator-label {
+  font-size: 15px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--grey-900);
+  margin: 0 0 var(--spacing-xs) 0;
+  line-height: 1.4;
+}
+
+.modern-indicator-value {
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-blue);
+  margin: var(--spacing-xs) 0;
+  line-height: 1.2;
+}
+
+.modern-indicator-description {
+  font-size: 13px;
+  color: var(--grey-600);
+  margin: var(--spacing-xs) 0 0 0;
+  line-height: 1.5;
+}
+
+.modern-indicator-unit {
+  font-size: 12px;
+  color: var(--grey-500);
+  font-weight: var(--font-weight-medium);
+  margin-left: var(--spacing-xs);
+}
+

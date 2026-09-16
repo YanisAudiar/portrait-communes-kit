@@ -1,0 +1,81 @@
+/* ============================================
+   VARIABLES CSS - Charte Observatoire + Audiar
+   Mobile-first : base = mobile, min-width pour tablette/desktop
+   ============================================ */
+
+/* Polices : main.css importe Montserrat + Source Serif 4 */
+
+/* Breakpoints + charte Observatoire (un seul :root) */
+:root {
+  /* Breakpoints mobile-first (base = mobile, min-width pour tablette/desktop) */
+  --bp-xs: 320px;
+  --bp-sm: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+  --bp-2xl: 1400px;
+
+  /* Observatoire - Couleurs principales */
+  --bg-soft: #f5f5f7;
+  --primary-blue: #1e2972;
+  --primary-blue-dark: #09124e;
+  --secondary-blue: #316d7b;
+  --accent-orange: #e36411;
+  
+  /* Nuances de gris */
+  --grey-50: #FAFBFC;
+  --grey-100: #F5F7FA;
+  --grey-200: #E4E7EB;
+  --grey-300: #CBD2D9;
+  --grey-400: #9AA5B1;
+  --grey-500: #7B8794;
+  --grey-600: #616E7C;
+  --grey-700: #52606D;
+  --grey-800: #3E4C59;
+  --grey-900: #323F4B;
+  
+  /* Typographie Observatoire (Montserrat = corps, Source Serif 4 = titres) */
+  --font-primary: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-title: 'Source Serif 4', Georgia, serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Espacements généreux */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+  
+  /* Bordures arrondies */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 18px;
+  
+  /* Ombres douces */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.05), 0 10px 15px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.06), 0 20px 40px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.08), 0 40px 80px rgba(0, 0, 0, 0.1);
+  
+  /* Transitions fluides */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Safe area (encoches, barre d’accueil) — utiliser avec viewport-fit=cover */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+
+  /* Cible tactile minimale (accessibilité mobile) */
+  --touch-min: 44px;
+}
+

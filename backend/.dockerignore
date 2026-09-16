@@ -1,0 +1,7 @@
+# Build
+node_modules
+dist
+.env
+*.log
+coverage
+__tests__

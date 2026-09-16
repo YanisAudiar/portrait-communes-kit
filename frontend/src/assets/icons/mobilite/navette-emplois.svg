@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bâtiment/Entreprise -->
+  <rect x="20" y="30" width="25" height="35" fill="#8f235e" stroke="#8f235e" stroke-width="2"/>
+  <rect x="22" y="35" width="4" height="4" fill="white"/>
+  <rect x="28" y="35" width="4" height="4" fill="white"/>
+  <rect x="34" y="35" width="4" height="4" fill="white"/>
+  <rect x="22" y="42" width="4" height="4" fill="white"/>
+  <rect x="28" y="42" width="4" height="4" fill="white"/>
+  <rect x="34" y="42" width="4" height="4" fill="white"/>
+  <rect x="22" y="49" width="4" height="4" fill="white"/>
+  <rect x="28" y="49" width="4" height="4" fill="white"/>
+  <rect x="34" y="49" width="4" height="4" fill="white"/>
+  
+  <!-- Maison/Résidence -->
+  <polygon points="55,35 70,25 85,35 85,60 55,60" fill="#8f235e" stroke="#8f235e" stroke-width="2"/>
+  <rect x="60" y="45" width="8" height="12" fill="white"/>
+  <rect x="75" y="40" width="6" height="6" fill="white"/>
+  
+  <!-- Flèche bidirectionnelle -->
+  <path d="M 47 50 L 53 50" stroke="#8f235e" stroke-width="3" fill="none"/>
+  <polygon points="45,50 50,47 50,53" fill="#8f235e"/>
+  <polygon points="55,50 50,47 50,53" fill="#8f235e"/>
+  
+  <!-- Personne -->
+  <circle cx="32" cy="75" r="4" fill="#8f235e"/>
+  <rect x="28" y="80" width="8" height="12" fill="#8f235e"/>
+</svg> 

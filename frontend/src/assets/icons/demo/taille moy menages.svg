@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #94b0b7;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+        stroke-width: 1.6px;
+      }
+
+      .cls-3 {
+        stroke: #316d7b;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-543.6" y="-376.8" width="1295.1" height="915.7"/>
+    </clipPath>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.5, SVG Export Plug-In . SVG Version: 1.2.0 Build 176)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="Calque_1-2" data-name="Calque_1">
+        <g class="cls-4">
+          <polyline id="polyline8281" class="cls-3" points="83.6 35.4 43.6 2.6 3.4 35.4"/>
+        </g>
+        <g id="Calque_2">
+          <g id="personnages">
+            <g>
+              <g>
+                <ellipse class="cls-3" cx="42.8" cy="35.6" rx="4.4" ry="4.6"/>
+                <line class="cls-3" x1="42.6" y1="82.8" x2="42.6" y2="63"/>
+                <line class="cls-3" x1="37.4" y1="82.8" x2="37.4" y2="54.6"/>
+              </g>
+              <path class="cls-3" d="M32,62.2l3-14.8c1.8-4.4,4.9-4.4,4.9-4.4h5.9s2.9,0,4.9,4.4l3.8,14.6"/>
+              <line class="cls-3" x1="47.9" y1="82.8" x2="47.9" y2="54.6"/>
+            </g>
+            <g>
+              <path class="cls-3" d="M54.3,43.8"/>
+              <path class="cls-3" d="M32,44"/>
+            </g>
+            <g>
+              <g>
+                <ellipse class="cls-3" cx="23.3" cy="31.4" rx="4.4" ry="4.6"/>
+                <line class="cls-3" x1="23.2" y1="78.6" x2="23.2" y2="58.7"/>
+                <line class="cls-3" x1="17.9" y1="78.6" x2="17.9" y2="50.3"/>
+              </g>
+              <path class="cls-3" d="M34.8,57.8"/>
+              <path class="cls-3" d="M12.5,58l3-14.8c1.8-4.4,4.9-4.4,4.9-4.4h5.9s2.9,0,4.9,4.4c0,0,.2.7.4,1.7"/>
+              <line class="cls-3" x1="28.4" y1="78.6" x2="28.4" y2="50.3"/>
+            </g>
+            <g>
+              <g>
+                <ellipse class="cls-2" cx="62.1" cy="30.6" rx="4.4" ry="4.6"/>
+                <line class="cls-2" x1="62" y1="77.8" x2="62" y2="57.9"/>
+                <line class="cls-2" x1="56.8" y1="77.8" x2="56.8" y2="49.6"/>
+              </g>
+              <path class="cls-2" d="M53.8,44.8c.3-1.4.5-2.4.5-2.4,1.8-4.4,4.9-4.4,4.9-4.4h5.9s2.9,0,4.9,4.4l3.8,14.6"/>
+              <path class="cls-3" d="M51.4,57.2"/>
+              <line class="cls-2" x1="67.2" y1="77.8" x2="67.2" y2="49.6"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

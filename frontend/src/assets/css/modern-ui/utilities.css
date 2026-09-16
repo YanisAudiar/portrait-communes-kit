@@ -1,0 +1,185 @@
+/**
+ * Utilitaires modern-ui : gradients, ombres, badges, scrollbar, tooltip, chip, progress, etc.
+ */
+
+.gradient-primary {
+  background: linear-gradient(135deg, #1e2972 0%, #316d7b 100%);
+}
+.gradient-accent {
+  background: linear-gradient(135deg, #f17e08 0%, #e36411 100%);
+}
+.gradient-light {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+.gradient-overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 100%);
+}
+
+.shadow-sm { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); }
+.shadow-md {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+.shadow-lg {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+.shadow-xl {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1), 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.badge-modern {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+.badge-primary {
+  background: linear-gradient(135deg, rgba(241, 126, 8, 0.15), rgba(227, 100, 17, 0.15));
+  color: #f17e08;
+  border: 1px solid rgba(241, 126, 8, 0.3);
+}
+.badge-info {
+  background: linear-gradient(135deg, rgba(49, 109, 123, 0.15), rgba(74, 154, 178, 0.15));
+  color: #316d7b;
+  border: 1px solid rgba(49, 109, 123, 0.3);
+}
+.badge-success {
+  background: linear-gradient(135deg, rgba(128, 177, 135, 0.15), rgba(128, 177, 135, 0.15));
+  color: #50a05f;
+  border: 1px solid rgba(128, 177, 135, 0.3);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f3f5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #cbd5e1, #94a3b8);
+  border-radius: 10px;
+  border: 2px solid #f1f3f5;
+  transition: background 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #f17e08, #e36411);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f3f5;
+}
+
+.divider-modern {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #e5e7eb 50%, transparent 100%);
+  margin: 24px 0;
+}
+
+.tooltip-modern {
+  position: relative;
+}
+.tooltip-modern::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+  padding: 8px 12px;
+  background: rgba(30, 41, 114, 0.95);
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(8px);
+}
+.tooltip-modern:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-12px);
+}
+
+.chip-modern {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: rgba(49, 109, 123, 0.1);
+  border: 1px solid rgba(49, 109, 123, 0.2);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #316d7b;
+  transition: all 0.3s ease;
+}
+.chip-modern:hover {
+  background: rgba(49, 109, 123, 0.15);
+  transform: translateY(-2px);
+}
+
+.progress-modern {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.progress-bar-modern {
+  height: 100%;
+  background: linear-gradient(90deg, #f17e08, #e36411);
+  border-radius: 20px;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+.progress-bar-modern::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+  animation: shimmer 2s linear infinite;
+}
+
+.backdrop-blur-sm {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.backdrop-blur-md {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.backdrop-blur-lg {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.rounded-modern { border-radius: 16px; }
+.rounded-full { border-radius: 9999px; }
+
+.border-gradient {
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+.border-gradient::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(135deg, #f17e08, #e36411);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}

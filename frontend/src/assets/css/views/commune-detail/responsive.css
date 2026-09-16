@@ -1,0 +1,648 @@
+/**
+ * Responsive commune-detail : breakpoints mobile → desktop
+ * Les @keyframes (fadeIn, fadeInUp, slideInLeft) sont dans layout.css
+ */
+
+/* ============================================
+   BASE MOBILE (< 480px)
+   ============================================ */
+
+@media (max-width: 479px) {
+  .commune-detail {
+    padding-bottom: 80px;
+  }
+
+  .commune-main {
+    padding: 12px;
+  }
+
+  .kpi-section {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .kpi-section-4-cols {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .theme-header-section {
+    margin: 16px 0 12px 0;
+  }
+
+  .theme-main-title {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .theme-main-subtitle {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .subthemes-buttons-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 8px;
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .subthemes-tab-panel {
+    gap: 0;
+    margin: 0 -12px 0;
+    padding: 0 12px;
+    overflow-x: auto;
+  }
+
+  .subthemes-buttons-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .subtheme-button {
+    flex-shrink: 0;
+    padding: 6px 10px;
+    font-size: 11px;
+    border-radius: 16px;
+    gap: 4px;
+  }
+
+  .subthemes-tab-panel .subtheme-tab {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+
+  .subthemes-tab-panel .subtheme-tab.tab-first,
+  .subthemes-tab-panel .subtheme-tab.tab-last,
+  .subthemes-tab-panel .subtheme-tab:not(.tab-first):not(.tab-last) {
+    border-radius: 0 0 6px 6px;
+  }
+
+  .subtheme-count {
+    font-size: 9px;
+    padding: 0 4px;
+    min-width: 16px;
+    height: 16px;
+    border-radius: 8px;
+  }
+
+  .section-divider {
+    margin: 16px 0;
+  }
+
+  .charts-main-section {
+    padding-top: 20px;
+  }
+
+  .charts-section-header {
+    margin-bottom: 16px;
+  }
+
+  .charts-section-title {
+    font-size: 18px;
+  }
+
+  .charts-section-subtitle {
+    font-size: 12px;
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .chart-card {
+    padding: 16px;
+    margin-bottom: 0;
+    border-radius: 12px;
+  }
+
+  .chart-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  /* Zone de tap minimum 44×44px pour les boutons d'action (accessibilité mobile) */
+  .chart-action-btn {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .chart-card-title {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .chart-card-footer {
+    margin-top: 16px;
+    padding-top: 12px;
+  }
+
+  .chart-source {
+    font-size: 10px;
+  }
+
+  .loading-state,
+  .error-state {
+    min-height: 250px;
+    padding: 16px;
+  }
+
+  .loading-content,
+  .error-content {
+    max-width: 280px;
+  }
+
+  .spinner {
+    width: 28px;
+    height: 28px;
+    border-width: 2px;
+  }
+
+  .left-column {
+    max-height: 300px;
+  }
+
+  .right-column {
+    min-height: 300px;
+  }
+
+  .dataviz-content {
+    padding: 12px;
+  }
+
+  .dataviz-header {
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+  }
+
+  .dataviz-title {
+    font-size: 17px;
+  }
+
+  .charts-container {
+    gap: 16px;
+  }
+
+  .subtheme-charts {
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .subtheme-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .evolution-section {
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .evolution-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+}
+
+/* ============================================
+   MOBILE STANDARD (480px - 767px)
+   ============================================ */
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .commune-detail {
+    padding-bottom: 80px;
+  }
+
+  .commune-main {
+    padding: 16px;
+  }
+
+  .kpi-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .kpi-section-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .theme-main-title {
+    font-size: 22px;
+  }
+
+  .theme-main-subtitle {
+    font-size: 13px;
+  }
+
+  .subthemes-buttons-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .subthemes-tab-panel {
+    gap: 0;
+  }
+
+  .subthemes-buttons-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .subtheme-button {
+    flex-shrink: 0;
+    padding: 6px 12px;
+    font-size: 12px;
+    gap: 5px;
+    border-radius: 18px;
+  }
+
+  .subtheme-count {
+    font-size: 9px;
+    min-width: 17px;
+    height: 17px;
+    padding: 0 4px;
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .chart-card {
+    padding: 20px;
+    margin-bottom: 0;
+  }
+
+  .chart-card-header {
+    gap: 12px;
+  }
+
+  /* Zone de tap minimum 44×44px pour les boutons d'action */
+  .chart-action-btn {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .chart-card-title {
+    font-size: 16px;
+  }
+
+  .charts-section-title {
+    font-size: 20px;
+  }
+
+  .left-column {
+    max-height: 350px;
+  }
+
+  .right-column {
+    min-height: 350px;
+  }
+
+  .dataviz-content {
+    padding: 16px;
+  }
+
+  .dataviz-title {
+    font-size: 18px;
+  }
+
+  .subtheme-charts {
+    padding: 16px;
+  }
+
+  .subtheme-title {
+    font-size: 15px;
+  }
+
+  .evolution-section {
+    padding: 16px;
+  }
+
+  .evolution-title {
+    font-size: 15px;
+  }
+
+  .loading-state,
+  .error-state {
+    min-height: 280px;
+    padding: 20px;
+  }
+}
+
+/* ============================================
+   TABLETTES (768px - 1023px)
+   ============================================ */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .commune-main {
+    padding: 20px;
+  }
+
+  .kpi-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .kpi-section-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .theme-main-title {
+    font-size: 24px;
+  }
+
+  .theme-main-subtitle {
+    font-size: 14px;
+  }
+
+  .subthemes-buttons-container {
+    overflow-x: auto;
+    padding-bottom: 12px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .subthemes-tab-panel {
+    gap: 0;
+  }
+
+  .subthemes-buttons-container::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .subthemes-buttons-container::-webkit-scrollbar-track {
+    background: rgba(229, 231, 235, 0.3);
+    border-radius: 2px;
+  }
+
+  .subthemes-buttons-container::-webkit-scrollbar-thumb {
+    background: rgba(10, 61, 98, 0.3);
+    border-radius: 2px;
+  }
+
+  .subtheme-button {
+    padding: 8px 14px;
+    font-size: 12px;
+    border-radius: 20px;
+  }
+
+
+  .subtheme-count {
+    min-width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .chart-card {
+    padding: 24px;
+  }
+
+  .chart-card-title {
+    font-size: 17px;
+  }
+
+  .charts-section-title {
+    font-size: 22px;
+  }
+
+  .layout-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .left-column {
+    max-height: 450px;
+    position: relative;
+    top: 0;
+  }
+
+  .right-column {
+    min-height: 450px;
+  }
+
+  .dataviz-content {
+    padding: 20px;
+  }
+
+  .dataviz-title {
+    font-size: 20px;
+  }
+
+  .charts-container {
+    gap: 28px;
+  }
+
+  .subtheme-charts {
+    padding: 20px;
+  }
+
+  .subtheme-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .evolution-section {
+    margin-top: 28px;
+    padding: 20px;
+  }
+
+  .evolution-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .loading-state,
+  .error-state {
+    min-height: 350px;
+    padding: 24px;
+  }
+
+  .loading-content,
+  .error-content {
+    max-width: 350px;
+  }
+}
+
+/* ============================================
+   DESKTOP SMALL (1024px - 1199px)
+   ============================================ */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .commune-main {
+    padding: 24px;
+  }
+
+  .kpi-section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .kpi-section-4-cols {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+  }
+
+  .charts-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    align-items: start;
+  }
+
+  .layout-container {
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+  }
+
+  .left-column {
+    max-height: calc(100vh - 260px);
+  }
+}
+
+/* ============================================
+   DESKTOP MEDIUM (1200px - 1399px)
+   ============================================ */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .commune-main {
+    padding: 24px;
+  }
+
+  .layout-container {
+    grid-template-columns: 340px 1fr;
+    gap: 24px;
+  }
+
+  .left-column {
+    max-height: calc(100vh - 260px);
+  }
+}
+
+/* ============================================
+   DESKTOP LARGE (>= 1400px)
+   ============================================ */
+
+@media (min-width: 1400px) {
+  .layout-container {
+    grid-template-columns: 380px 1fr;
+    gap: 28px;
+  }
+}
+
+/* ============================================
+   ORIENTATION PAYSAGE MOBILE
+   ============================================ */
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .commune-detail {
+    padding-bottom: 60px;
+  }
+
+  .commune-main {
+    padding: 12px 16px;
+  }
+
+  .kpi-section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .kpi-section-4-cols {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .theme-header-section {
+    margin: 12px 0 10px 0;
+  }
+
+  .theme-main-title {
+    font-size: 18px;
+  }
+
+  .charts-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    align-items: start;
+  }
+
+  .chart-card {
+    padding: 14px;
+  }
+
+  .chart-card-title {
+    font-size: 14px;
+  }
+}
+
+/* Très petits écrans (< 360px) : graphiques plus compacts */
+@media (max-width: 359px) {
+  .chart-card {
+    padding: 10px;
+  }
+
+  .chart-card-title {
+    font-size: 13px;
+  }
+
+  .chart-card-header {
+    margin-bottom: 8px;
+    gap: 6px;
+  }
+
+  .chart-card-footer {
+    margin-top: 10px;
+    padding-top: 8px;
+  }
+
+  .charts-section-title {
+    font-size: 16px;
+  }
+
+  .charts-section-subtitle {
+    font-size: 11px;
+  }
+}
+
+/* Préférence de mouvement réduit */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Safe areas (iPhone X+, etc.) */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  @media (max-width: 767px) {
+    .commune-detail {
+      padding-bottom: calc(80px + env(safe-area-inset-bottom));
+    }
+  }
+}

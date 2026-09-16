@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="104.20782mm"
+   height="113.16091mm"
+   viewBox="0 0 104.20782 113.16091"
+   version="1.1"
+   id="svg106603"
+   sodipodi:docname="calendar.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs106597">
+    <clipPath
+       id="SVGID_6_">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use47406"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath107196">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107194"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath107200">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107198"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath107204">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107202"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath107208">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107206"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath107212">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107210"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <rect
+       y="0"
+       x="0"
+       height="595.276"
+       width="841.89001"
+       id="SVGID_5_" />
+    <clipPath
+       id="SVGID_6_-4">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use47406-2" />
+    </clipPath>
+    <clipPath
+       id="clipPath107323">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107321" />
+    </clipPath>
+    <clipPath
+       id="clipPath107327">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107325" />
+    </clipPath>
+    <clipPath
+       id="clipPath107331">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107329" />
+    </clipPath>
+    <clipPath
+       id="clipPath107335">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107333" />
+    </clipPath>
+    <clipPath
+       id="clipPath107339">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107337" />
+    </clipPath>
+    <clipPath
+       id="clipPath107343">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107341" />
+    </clipPath>
+    <clipPath
+       id="clipPath107347">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107345" />
+    </clipPath>
+    <clipPath
+       id="clipPath107351">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107349" />
+    </clipPath>
+    <clipPath
+       id="clipPath107355">
+      <use
+         xlink:href="#SVGID_5_"
+         overflow="visible"
+         id="use107353" />
+    </clipPath>
+    <rect
+       y="0"
+       x="0"
+       height="595.276"
+       width="841.89001"
+       id="SVGID_1_" />
+    <rect
+       y="0"
+       x="0"
+       height="595.276"
+       width="841.89001"
+       id="rect862" />
+    <rect
+       y="0"
+       x="0"
+       height="595.276"
+       width="841.89001"
+       id="SVGID_1_-90" />
+    <clipPath
+       id="SVGID_2_-6">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use3600"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath4460">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use4458"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="SVGID_2_-2">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5115-1"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10427">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10425"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10431">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10429"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10435">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10433"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10439">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10437"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10443">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10441"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10447">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10445"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10451">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10449"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10455">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10453"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10459">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10457"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10463">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10461"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10467">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10465"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10471">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10469"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10475">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10473"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10479">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10477"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10483">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10481"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10487">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10485"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10491">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10489"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10495">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10493"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10499">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10497"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10503">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10501"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10507">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10505"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10511">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10509"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10515">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10513"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10519">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10517"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10523">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10521"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <clipPath
+       id="clipPath10527">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use10525"
+         overflow="visible"
+         xlink:href="#SVGID_1_-9" />
+    </clipPath>
+    <rect
+       y="0"
+       x="0"
+       height="595.276"
+       width="841.89001"
+       id="SVGID_1_-9" />
+    <rect
+       id="SVGID_1_-7"
+       width="841.89001"
+       height="595.276"
+       x="0"
+       y="0" />
+    <rect
+       id="rect862-9"
+       width="841.89001"
+       height="595.276"
+       x="0"
+       y="0" />
+    <clipPath
+       id="SVGID_2_-7">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5115-6"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5451">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5449"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5455">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5453"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5459">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5457"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5463">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5461"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5467">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5465"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5471">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5469"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5475">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5473"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5479">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5477"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5483">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5481"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5487">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5485"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5491">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5489"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5495">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5493"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <clipPath
+       id="clipPath5499">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         id="use5497"
+         overflow="visible"
+         xlink:href="#SVGID_1_-90" />
+    </clipPath>
+    <rect
+       y="0"
+       x="0"
+       height="595.276"
+       width="841.89001"
+       id="rect862-0" />
+    <clipPath
+       id="SVGID_2_-0">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use3600-9"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath19010">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use19008"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath19014">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use19012"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath19018">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use19016"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath19022">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use19020"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath19026">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use19024"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath19030">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use19028"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath19034">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use19032"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath19038">
+      <use
+         xlink:href="#SVGID_1_-90"
+         overflow="visible"
+         id="use19036"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.55548171"
+     inkscape:cx="-737.18191"
+     inkscape:cy="180.87083"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1148"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     objecttolerance="1"
+     gridtolerance="10000"
+     guidetolerance="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3529" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata106600">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(405.54099,-125.18643)">
+    <g
+       transform="matrix(2.8836089,0,0,2.8836089,-1611.9997,-1337.7179)"
+       id="g48015"
+       style="fill:#f0f2ff;fill-opacity:1">
+      <defs
+         id="defs47404">
+        <rect
+           y="0"
+           x="0"
+           height="595.276"
+           width="841.89001"
+           id="rect107295" />
+      </defs>
+      <clipPath
+         id="SVGID_6_-6">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           style="overflow:visible"
+           id="use47406-1"
+           overflow="visible"
+           xlink:href="#SVGID_5_" />
+      </clipPath>
+      <circle
+         style="opacity:1;fill:#f0f2ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.58953905;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path107309"
+         cx="439.49268"
+         cy="520.90497"
+         r="13.587789" />
+    </g>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#1e2972;stroke-width:2.64583333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3527"
+       width="82.37513"
+       height="71.898697"
+       x="-393.29874"
+       y="158.81602"
+       ry="3.5818403" />
+    <path
+       style="fill:none;stroke:#1e2972;stroke-width:2.64583333;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -376.43682,149.71192 v 14.55209"
+       id="path3531"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#1e2972;stroke-width:2.64583333;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -328.81182,149.71192 v 14.55209"
+       id="path3531-7"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#1e2972;stroke-width:2.64583333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -392.31182,174.84734 h 80.69791"
+       id="path3548"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550"
+       cx="-366.58987"
+       cy="192.19078"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-4"
+       cx="-352.67264"
+       cy="192.19078"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-2"
+       cx="-339.04678"
+       cy="192.19078"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-7"
+       cx="-324.56064"
+       cy="192.19078"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-3"
+       cx="-324.56064"
+       cy="204.90349"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-6"
+       cx="-339.04678"
+       cy="204.90349"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-9"
+       cx="-352.67264"
+       cy="204.90349"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-31"
+       cx="-366.58987"
+       cy="204.90349"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-40"
+       cx="-380.21765"
+       cy="204.90349"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-70"
+       cx="-380.21765"
+       cy="216.91573"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-1"
+       cx="-366.58987"
+       cy="216.91573"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-319"
+       cx="-352.67264"
+       cy="216.91573"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-65"
+       cx="-339.04678"
+       cy="216.91573"
+       r="2.6458333" />
+    <circle
+       style="opacity:1;fill:#1e2972;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3550-98"
+       cx="-324.56064"
+       cy="216.91573"
+       r="2.6458333" />
+  </g>
+</svg>
