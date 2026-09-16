@@ -6,6 +6,18 @@ Elle s’adresse aux **agences d’urbanisme** (et observatoires qui travaillent
 
 Instance de référence : Pays de Rennes, maintenue par [Audiar](https://www.audiar.org). Licence [MIT](LICENSE).
 
+## Dépôts
+
+Portrait Communes n’est **pas** un dépôt unique. Trois dépôts, trois rôles :
+
+| Dépôt | Rôle | Public |
+|-------|------|--------|
+| **[portrait-communes-kit](https://github.com/YanisAudiar/portrait-communes-kit)** | **Celui-ci.** Kit pour les agences : Docker, `site.ts`, contrat SQL. À forker pour un autre territoire. | Oui |
+| [portrait-commune](https://github.com/YanisAudiar/portrait-commune) | Instance Audiar **en production** (serveur Perceval). Ne pas s’en servir comme base d’un fork agence. | Selon le compte |
+| GitLab interne (`portrait-commune-v2`) | Développement et CI Audiar. Pas le dépôt à cloner pour une autre agence. | Non |
+
+Un fork = une instance. Les PR vers le kit concernent le **code générique**, pas les données Rennes.
+
 ## Pourquoi cet outil
 
 Les portraits de communes servent aux élus, aux services et aux partenaires : « que sait-on de cette commune, sur la population, l’habitat, l’emploi, l’école, l’agriculture ? »

@@ -26,7 +26,9 @@ Passer à l’EUPL exigerait l’accord d’Audiar (et des contributeurs déjà 
 
 ## Dépôt GitHub sous organisation
 
-Le compte perso n’est pas le bon véhicule FNAU. Checklist mainteneur :
+Le kit public est [portrait-communes-kit](https://github.com/YanisAudiar/portrait-communes-kit). L’instance Audiar en production est un dépôt distinct ([portrait-commune](https://github.com/YanisAudiar/portrait-commune), serveur Perceval). GitLab interne reste le CI / développement Audiar.
+
+Le compte perso n’est pas le bon véhicule FNAU à terme. Checklist mainteneur :
 
 1. Créer une organisation GitHub (Audiar, ou FNAU si mandat)
 2. Transférer le dépôt (Settings → Transfer)
